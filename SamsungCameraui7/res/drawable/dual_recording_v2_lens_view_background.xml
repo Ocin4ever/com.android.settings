@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dual_recording_v2_lens_select_view_lens_view_radius" />
+    <solid android:color="@color/dual_recording_v2_lens_select_view_shadow_color" />
+</androidx.appcompat.util.SeslShapeDrawable>

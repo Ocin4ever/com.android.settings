@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ripple_effect_dark_mode_value"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/dual_recording_v2_lens_select_view_lens_ok_button_bg_radius" />
+            <solid android:color="@color/dual_recording_v2_lens_select_view_ok_button_background_color" />
+        </shape>
+    </item>
+</ripple>

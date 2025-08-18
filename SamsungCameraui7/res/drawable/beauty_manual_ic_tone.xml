@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M20,20m-7.05,0a7.05,7.05 0,1 1,14.1 0a7.05,7.05 0,1 1,-14.1 0" android:strokeColor="@color/beauty_manual_beauty_item_color_selector" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="@color/beauty_manual_beauty_item_color_selector" android:pathData="M14.697,14.697C17.626,11.768 22.374,11.768 25.303,14.697L25.302,14.697L14.696,25.303C11.825,22.431 11.769,17.811 14.528,14.871Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

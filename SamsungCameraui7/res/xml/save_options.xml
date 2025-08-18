@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/Title_SaveOptions"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="" android:key="@string/dep_save_options">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Heif" android:key="@string/key_heif" android:summary="@string/heif_format_summary" android:dependency="@string/dep_save_options" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Raw_File" android:key="@string/key_picture_format" android:summary="@string/picture_format_summary" android:dependency="@string/dep_save_options" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_picture_format" android:key="@string/key_picture_format" android:dependency="@string/dep_save_options" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_motion_photo_capture_mode">
+        <com.sec.android.app.camera.setting.SpinnerPreference android:persistent="false" android:entries="@array/motion_photo_entries" android:title="@string/Title_motion_photo" android:key="@string/key_motion_photo_shutter" android:dependency="@string/dep_motion_photo_capture_mode" android:entryValues="@array/motion_photo_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_empty" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.layer.keyscreen.zoom.widget.ZoomLensImageButton android:id="@id/zoom_lens_image_button_main" android:tag="layout/zoom_lens_image_button_0" android:clipChildren="false" android:layout_width="@dimen/overlay_layout_zoom_group_lens_image_button_size" android:layout_height="@dimen/overlay_layout_zoom_group_lens_group_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/zoom_button" android:layout_width="@dimen/overlay_layout_zoom_group_lens_image_button_size" android:layout_height="@dimen/overlay_layout_zoom_group_lens_image_button_size" android:layout_centerInParent="true">
+        <com.sec.android.app.camera.widget.DynamicBackgroundView android:id="@id/zoom_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="@animator/zoom_image_animator" app:bottomBackground="@drawable/camera_toggle_lens_ic_bg_dark" app:topBackground="@drawable/camera_toggle_lens_ic_bg_light" />
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</com.sec.android.app.camera.layer.keyscreen.zoom.widget.ZoomLensImageButton>

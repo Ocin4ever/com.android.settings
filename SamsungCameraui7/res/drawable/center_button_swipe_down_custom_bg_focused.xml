@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/default_focused_background_color" />
+    </item>
+    <item>
+        <inset android:inset="@dimen/base_menu_center_button_inset_size"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape android:shape="oval" />
+        </inset>
+    </item>
+</layer-list>

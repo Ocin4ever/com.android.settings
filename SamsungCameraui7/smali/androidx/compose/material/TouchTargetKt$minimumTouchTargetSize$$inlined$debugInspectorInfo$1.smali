@@ -1,0 +1,97 @@
+.class public final Landroidx/compose/material/TouchTargetKt$minimumTouchTargetSize$$inlined$debugInspectorInfo$1;
+.super Lkotlin/jvm/internal/o;
+.source "SourceFile"
+
+# interfaces
+.implements LE3/k;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/compose/material/TouchTargetKt;->minimumTouchTargetSize(Landroidx/compose/ui/Modifier;)Landroidx/compose/ui/Modifier;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/o;",
+        "LE3/k;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0005\u001a\u00020\u0001*\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
+    }
+    d2 = {
+        "Landroidx/compose/ui/platform/InspectorInfo;",
+        "Lq3/n;",
+        "invoke",
+        "(Landroidx/compose/ui/platform/InspectorInfo;)V",
+        "androidx/compose/ui/platform/InspectableValueKt$debugInspectorInfo$1",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/o;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroidx/compose/ui/platform/InspectorInfo;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/material/TouchTargetKt$minimumTouchTargetSize$$inlined$debugInspectorInfo$1;->invoke(Landroidx/compose/ui/platform/InspectorInfo;)V
+
+    sget-object p0, Lq3/n;->a:Lq3/n;
+
+    return-object p0
+.end method
+
+.method public final invoke(Landroidx/compose/ui/platform/InspectorInfo;)V
+    .locals 1
+
+    const-string p0, "$this$null"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    const-string p0, "minimumTouchTargetSize"
+
+    invoke-virtual {p1, p0}, Landroidx/compose/ui/platform/InspectorInfo;->setName(Ljava/lang/String;)V
+
+    .line 3
+    invoke-virtual {p1}, Landroidx/compose/ui/platform/InspectorInfo;->getProperties()Landroidx/compose/ui/platform/ValueElementSequence;
+
+    move-result-object p0
+
+    const-string p1, "README"
+
+    const-string v0, "Adds outer padding to measure at least 48.dp (default) in size to disambiguate touch interactions if the element would measure smaller"
+
+    invoke-virtual {p0, p1, v0}, Landroidx/compose/ui/platform/ValueElementSequence;->set(Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method

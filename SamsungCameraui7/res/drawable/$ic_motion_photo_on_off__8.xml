@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_motion_photo_on_off__9" android:duration="300" android:valueFrom="M -6.257 -6.257 C -6.257 -6.257 -6.048 -6.048 -6.048 -6.048 " android:valueTo="M -6.257 -6.257 C -6.257 -6.257 6.257 6.257 6.257 6.257 " android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="1" android:startOffset="15" android:valueFrom="M -6.257 -6.257 C -6.257 -6.257 6.257 6.257 6.257 6.257 " android:valueTo="M -6.257 -6.257 C -6.257 -6.257 6.257 6.257 6.257 6.257 " android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

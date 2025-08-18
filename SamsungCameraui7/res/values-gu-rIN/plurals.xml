@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d ચહેરા</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ચહેરો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધારે અક્ષરો દાખલ કરી શકાતા નથી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">%d કરતાં વધુ કસ્ટમ ફિલ્ટરો બનાવી શકાય નહીં.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કરતાં વધુ કસ્ટમ ફિલ્ટર બનાવી શકાય નહીં.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">નિદ્રાનો સમય: %d કલાક</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">નિદ્રાનો સમય: %d કલાક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">નિદ્રાનો સમય: %d મિનિટ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">નિદ્રાનો સમય: %d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d મિનિટ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">વધુ ગરમ થવાનું ટાળવા માટે, %d મિનિટથી વધારે લાંબો 8K વિડિયો રેકૉર્ડ ન કરો.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">વધુ ગરમ થવાનું ટાળવા માટે, %d મિનિટથી વધારે લાંબો 8K વિડિયો રેકૉર્ડ ન કરો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">વધુ ગરમ થવાનું ટાળવા માટે, %1$d મિનિટથી વધારે લાંબો %2$s રેકૉર્ડ ન કરો.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">વધુ ગરમ થવાનું ટાળવા માટે, %1$d મિનિટથી વધારે લાંબો %2$s રેકૉર્ડ ન કરો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d મિનિટ્સ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d મેગાપિક્સેલ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મેગાપિક્સેલ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d કલાક</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d કલાક એક મિનિટ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક એક મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d કલાક એક મિનિટ એક સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક એક મિનિટ એક સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d કલાક એક સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક એક સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d મિનિટ એક સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મિનિટ એક સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d સેકન્ડ્સ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સેકન્ડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">એક કલાક %d મિનિટ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">એક કલાક %d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">એક કલાક %d મિનિટ એક સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">એક કલાક %d મિનિટ એક સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">એક કલાક %d સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">એક કલાક %d સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">એક કલાક એક મિનિટ %d સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">એક કલાક એક મિનિટ %d સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">એક મિનિટ %d સેકંડ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">એક મિનિટ %d સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

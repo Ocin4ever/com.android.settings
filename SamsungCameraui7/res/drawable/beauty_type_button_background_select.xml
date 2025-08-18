@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/beauty_type_button_background_radius" />
+            <solid android:color="@color/beauty_type_button_border_color" />
+        </shape>
+    </item>
+    <item android:left="@dimen/beauty_type_button_background_border_thickness" android:top="@dimen/beauty_type_button_background_border_thickness" android:right="@dimen/beauty_type_button_background_border_thickness" android:bottom="@dimen/beauty_type_button_background_border_thickness">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/beauty_type_button_background_radius" />
+            <solid android:color="@color/beauty_manual_beauty_item_selected_color" />
+        </shape>
+    </item>
+</layer-list>

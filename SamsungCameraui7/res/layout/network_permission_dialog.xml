@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/network_permission_dialog_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/winset_dialog_text_margin_top" android:paddingBottom="@dimen/winset_dialog_text_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/winset_dialog_text_size" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_dialog_text_combined_gap" android:lineSpacingExtra="@dimen/winset_dialog_text_line_spacing" android:layout_marginStart="@dimen/winset_dialog_text_margin_side" android:layout_marginEnd="@dimen/winset_dialog_text_margin_side" style="@style/SecRegular" />
+        <TextView android:textSize="@dimen/winset_dialog_button_size" android:textColor="@color/gps_dialog_learn_more_color" android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_more_message" android:lineSpacingExtra="@dimen/winset_dialog_text_line_spacing" android:textAlignment="textStart" android:layout_marginStart="@dimen/winset_dialog_text_margin_side" android:layout_marginEnd="@dimen/winset_dialog_text_margin_side" style="@style/SecSemiBold" />
+        <TextView android:textSize="@dimen/winset_dialog_text_size" android:id="@id/permission_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/winset_dialog_text_combined_gap" android:lineSpacingExtra="@dimen/winset_dialog_text_line_spacing" android:layout_marginStart="@dimen/winset_dialog_text_margin_side" android:layout_marginEnd="@dimen/winset_dialog_text_margin_side" style="@style/SecRegular" />
+    </LinearLayout>
+</ScrollView>

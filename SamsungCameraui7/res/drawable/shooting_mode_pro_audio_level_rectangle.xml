@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/pro_audio_volume_gauge_group_height" android:width="@dimen/pro_audio_volume_gauge_width" />
+    <solid android:color="#fffcfcfc" />
+</shape>

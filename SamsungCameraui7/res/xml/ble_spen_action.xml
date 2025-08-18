@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions version="1.2">
+    <action id="shutter" label="@string/ble_spen_shutter" priority="1" trigger_key="BUTTON_L1">
+        <preference name="gesture" value="click" />
+        <preference name="button_only" value="true" />
+    </action>
+    <action id="switch_camera" label="@string/ble_spen_switch_camera" priority="2" trigger_key="BUTTON_R1">
+        <preference name="gesture" value="double_click|swipe_up|swipe_down" />
+    </action>
+    <action id="next_mode" label="@string/ble_spen_next_mode" priority="3" trigger_key="BUTTON_L2">
+        <preference name="gesture" value="swipe_left" />
+        <preference name="motion_only" value="true" />
+    </action>
+    <action id="previous_mode" label="@string/ble_spen_previous_mode" priority="4" trigger_key="BUTTON_R2">
+        <preference name="gesture" value="swipe_right" />
+        <preference name="motion_only" value="true" />
+    </action>
+    <action id="narrower_angle" label="@string/ble_spen_narrower_angle_of_view" priority="5" repeatable="true" repeatable_interval="50" trigger_key="BUTTON_Y">
+        <preference name="gesture" value="circle_cw" />
+        <preference name="motion_only" value="true" />
+    </action>
+    <action id="wider_angle" label="@string/ble_spen_wider_angle_of_view" priority="6" repeatable="true" repeatable_interval="50" trigger_key="BUTTON_X">
+        <preference name="gesture" value="circle_ccw" />
+        <preference name="motion_only" value="true" />
+    </action>
+    <action hide="true" id="burst_shot" label="@string/Title_BurstShot" trigger_key="BUTTON_Z">
+        <preference name="gesture" value="long_press" />
+        <preference name="button_only" value="true" />
+    </action>
+</remote-actions>

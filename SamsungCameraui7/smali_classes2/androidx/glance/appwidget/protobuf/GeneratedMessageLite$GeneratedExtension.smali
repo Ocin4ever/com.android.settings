@@ -1,0 +1,369 @@
+.class public Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;
+.super Landroidx/glance/appwidget/protobuf/ExtensionLite;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/glance/appwidget/protobuf/GeneratedMessageLite;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "GeneratedExtension"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<ContainingType::",
+        "Landroidx/glance/appwidget/protobuf/MessageLite;",
+        "Type:",
+        "Ljava/lang/Object;",
+        ">",
+        "Landroidx/glance/appwidget/protobuf/ExtensionLite<",
+        "TContainingType;TType;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field final containingTypeDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TContainingType;"
+        }
+    .end annotation
+.end field
+
+.field final defaultValue:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TType;"
+        }
+    .end annotation
+.end field
+
+.field final descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+.field final messageDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/glance/appwidget/protobuf/MessageLite;Ljava/lang/Object;Landroidx/glance/appwidget/protobuf/MessageLite;Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;Ljava/lang/Class;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TContainingType;TType;",
+            "Landroidx/glance/appwidget/protobuf/MessageLite;",
+            "Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;",
+            "Ljava/lang/Class;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Landroidx/glance/appwidget/protobuf/ExtensionLite;-><init>()V
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p4}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteType()Landroidx/glance/appwidget/protobuf/WireFormat$FieldType;
+
+    move-result-object p5
+
+    sget-object v0, Landroidx/glance/appwidget/protobuf/WireFormat$FieldType;->MESSAGE:Landroidx/glance/appwidget/protobuf/WireFormat$FieldType;
+
+    if-ne p5, v0, :cond_1
+
+    if-eqz p3, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "Null messageDefaultInstance"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    :goto_0
+    iput-object p1, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->containingTypeDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+
+    iput-object p2, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->defaultValue:Ljava/lang/Object;
+
+    iput-object p3, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->messageDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+
+    iput-object p4, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    return-void
+
+    :cond_2
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "Null containingTypeDefaultInstance"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public fromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {v0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isRepeated()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {v0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteJavaType()Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    move-result-object v0
+
+    sget-object v1, Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;->ENUM:Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    if-ne v0, v1, :cond_1
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    check-cast p1, Ljava/util/List;
+
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v1}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->singularFromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_0
+    return-object v0
+
+    :cond_1
+    return-object p1
+
+    :cond_2
+    invoke-virtual {p0, p1}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->singularFromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getContainingTypeDefaultInstance()Landroidx/glance/appwidget/protobuf/MessageLite;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TContainingType;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->containingTypeDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+
+    return-object p0
+.end method
+
+.method public getDefaultValue()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TType;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->defaultValue:Ljava/lang/Object;
+
+    return-object p0
+.end method
+
+.method public getLiteType()Landroidx/glance/appwidget/protobuf/WireFormat$FieldType;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {p0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteType()Landroidx/glance/appwidget/protobuf/WireFormat$FieldType;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getMessageDefaultInstance()Landroidx/glance/appwidget/protobuf/MessageLite;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->messageDefaultInstance:Landroidx/glance/appwidget/protobuf/MessageLite;
+
+    return-object p0
+.end method
+
+.method public getNumber()I
+    .locals 0
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {p0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getNumber()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public isRepeated()Z
+    .locals 0
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    iget-boolean p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isRepeated:Z
+
+    return p0
+.end method
+
+.method public singularFromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {v0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteJavaType()Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    move-result-object v0
+
+    sget-object v1, Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;->ENUM:Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    if-ne v0, v1, :cond_0
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->enumTypeMap:Landroidx/glance/appwidget/protobuf/Internal$EnumLiteMap;
+
+    check-cast p1, Ljava/lang/Integer;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    invoke-interface {p0, p1}, Landroidx/glance/appwidget/protobuf/Internal$EnumLiteMap;->findValueByNumber(I)Landroidx/glance/appwidget/protobuf/Internal$EnumLite;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    return-object p1
+.end method
+
+.method public singularToFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget-object p0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {p0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteJavaType()Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    move-result-object p0
+
+    sget-object v0, Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;->ENUM:Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    if-ne p0, v0, :cond_0
+
+    check-cast p1, Landroidx/glance/appwidget/protobuf/Internal$EnumLite;
+
+    invoke-interface {p1}, Landroidx/glance/appwidget/protobuf/Internal$EnumLite;->getNumber()I
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    return-object p1
+.end method
+
+.method public toFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {v0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isRepeated()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+
+    invoke-virtual {v0}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getLiteJavaType()Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    move-result-object v0
+
+    sget-object v1, Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;->ENUM:Landroidx/glance/appwidget/protobuf/WireFormat$JavaType;
+
+    if-ne v0, v1, :cond_1
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    check-cast p1, Ljava/util/List;
+
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v1}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->singularToFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_0
+    return-object v0
+
+    :cond_1
+    return-object p1
+
+    :cond_2
+    invoke-virtual {p0, p1}, Landroidx/glance/appwidget/protobuf/GeneratedMessageLite$GeneratedExtension;->singularToFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

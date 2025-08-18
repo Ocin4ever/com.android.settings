@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/beauty_list_item_layout" android:tag="layout/menu_effects_beauty_manual_beauty_list_item_0" android:layout_width="wrap_content" android:layout_height="@dimen/manual_beauty_item_group_height" android:minHeight="@dimen/manual_beauty_item_size" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.widget.DynamicBackgroundView android:layout_gravity="center" android:id="@id/beauty_list_item_background" android:layout_width="@dimen/manual_beauty_item_size" android:layout_height="@dimen/manual_beauty_item_size" android:contentDescription="@null" app:bottomBackground="@drawable/beauty_manual_beauty_item_background_selector_dark" app:topBackground="@drawable/beauty_manual_beauty_item_background_selector_light" />
+    <ImageButton android:layout_gravity="center" android:id="@id/beauty_list_item_button" android:background="@android:color/transparent" android:layout_width="@dimen/manual_beauty_item_size" android:layout_height="@dimen/manual_beauty_item_size" android:contentDescription="@null" android:stateListAnimator="@null" />
+</FrameLayout>

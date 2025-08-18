@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$indicator_360rec_off_on__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="s8m1" android:animation="@drawable/$indicator_360rec_off_on__1" />
+    <target android:name="s7m1" android:animation="@drawable/$indicator_360rec_off_on__3" />
+    <target android:name="s6m1" android:animation="@drawable/$indicator_360rec_off_on__5" />
+    <target android:name="s6pg1p300" android:animation="@drawable/$indicator_360rec_off_on__7" />
+    <target android:name="s5m1" android:animation="@drawable/$indicator_360rec_off_on__8" />
+    <target android:name="s5pg1p300" android:animation="@drawable/$indicator_360rec_off_on__10" />
+    <target android:name="s4pg1p10" android:animation="@drawable/$indicator_360rec_off_on__11" />
+    <target android:name="s3m1" android:animation="@drawable/$indicator_360rec_off_on__12" />
+    <target android:name="s3pg1p300" android:animation="@drawable/$indicator_360rec_off_on__14" />
+    <target android:name="s2pg2p10" android:animation="@drawable/$indicator_360rec_off_on__15" />
+    <target android:name="s2pg2p10" android:animation="@drawable/$indicator_360rec_off_on__16" />
+    <target android:name="s2pg1p10" android:animation="@drawable/$indicator_360rec_off_on__18" />
+    <target android:name="s2pg1p10" android:animation="@drawable/$indicator_360rec_off_on__19" />
+</animated-vector>

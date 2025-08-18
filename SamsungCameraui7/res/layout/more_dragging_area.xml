@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/drag_area_layout" android:tag="layout/more_dragging_area_0" android:layout_width="@dimen/more_drag_area_size" android:layout_height="@dimen/more_drag_area_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.shootingmode.more.dragdrop.MoreDragBoxBackground android:id="@id/drag_area_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/drag_area_icon" android:visibility="gone" android:layout_width="@dimen/more_grid_list_icon_size" android:layout_height="@dimen/more_grid_list_icon_size" android:src="@drawable/pro" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/MoreGridListText" android:id="@id/drag_area_grid_text" android:visibility="gone" android:layout_width="@dimen/more_menu_item_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_drag_area_grid_text_top_padding" android:layout_centerHorizontal="true" android:textAllCaps="true" android:textAlignment="center" />
+    <TextView android:textAppearance="@style/MoreLinearListText" android:id="@id/drag_area_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="true" />
+</RelativeLayout>

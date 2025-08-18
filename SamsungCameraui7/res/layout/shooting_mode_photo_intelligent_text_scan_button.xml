@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/text_scan_button" android:tag="layout/shooting_mode_photo_intelligent_text_scan_button_0" android:background="@drawable/smart_scan_capture_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_scan_text_t" android:scaleType="center" android:contentDescription="@string/Title_document_scan_and_text" />
+</merge>

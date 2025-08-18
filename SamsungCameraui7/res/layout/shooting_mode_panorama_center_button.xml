@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/shooting_mode_panorama_center_button_0" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/base_menu_center_button_area_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/center_button" android:background="@drawable/camera_main_btn_00_auto" android:visibility="invisible" android:layout_width="@dimen/base_menu_center_button_area_size" android:layout_height="@dimen/base_menu_center_button_area_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/stop_button" android:background="@drawable/camera_main_btn_00_stop_selector_light" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:contentDescription="@string/done" app:layout_constraintBottom_toBottomOf="@id/center_button" app:layout_constraintEnd_toEndOf="@id/center_button" app:layout_constraintStart_toStartOf="@id/center_button" app:layout_constraintTop_toTopOf="@id/center_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

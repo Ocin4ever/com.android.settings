@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$indicator_ai_filter_off_on__39" android:duration="166" android:valueFrom="1" android:valueTo="0.6" android:propertyName="fillAlpha" />
+        <objectAnimator android:duration="166" android:valueFrom="0.6" android:valueTo="0.6" android:propertyName="fillAlpha" />
+        <objectAnimator android:interpolator="@drawable/$indicator_ai_filter_off_on__40" android:duration="166" android:valueFrom="0.6" android:valueTo="0.8" android:propertyName="fillAlpha" />
+        <objectAnimator android:interpolator="@drawable/$indicator_ai_filter_off_on__41" android:duration="166" android:valueFrom="0.8" android:valueTo="0.98" android:propertyName="fillAlpha" />
+        <objectAnimator android:interpolator="@drawable/$indicator_ai_filter_off_on__42" android:duration="166" android:valueFrom="0.98" android:valueTo="0.8" android:propertyName="fillAlpha" />
+        <objectAnimator android:duration="166" android:valueFrom="0.8" android:valueTo="0.8" android:propertyName="fillAlpha" />
+        <objectAnimator android:interpolator="@drawable/$indicator_ai_filter_off_on__43" android:duration="166" android:valueFrom="0.8" android:valueTo="1" android:propertyName="fillAlpha" />
+        <objectAnimator android:duration="16" android:valueFrom="1" android:valueTo="1" android:propertyName="fillAlpha" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="833" android:valueFrom="#fffcfcfc" android:valueTo="#fffcfcfc" android:propertyName="fillColor" />
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="333" android:valueFrom="#fffcfcfc" android:valueTo="#ffffcb0c" android:propertyName="fillColor" />
+        <objectAnimator android:duration="1" android:startOffset="15" android:valueFrom="#ffffcb0c" android:valueTo="#ffffcb0c" android:propertyName="fillColor" />
+    </set>
+</set>

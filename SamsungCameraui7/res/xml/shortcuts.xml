@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/camera_shortcut_photo" android:enabled="true" android:shortcutId="photo" android:shortcutShortLabel="@string/take_selfie" android:shortcutLongLabel="@string/take_selfie">
+        <intent android:targetPackage="com.sec.android.app.camera" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.camera.Camera">
+            <extra android:name="activity_name" android:value="com.sec.android.app.camera.shootingmode.photo" />
+            <extra android:name="camerafacing" android:value="front" />
+            <extra android:name="from_shortcut" android:value="true" />
+            <categories android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/camera_shortcut_video" android:enabled="true" android:shortcutId="video" android:shortcutShortLabel="@string/record_video" android:shortcutLongLabel="@string/record_video">
+        <intent android:targetPackage="com.sec.android.app.camera" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.camera.Camera">
+            <extra android:name="activity_name" android:value="com.sec.android.app.camera.shootingmode.video" />
+            <extra android:name="camerafacing" android:value="back" />
+            <extra android:name="from_shortcut" android:value="true" />
+            <categories android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/camera_shortcut_portrait" android:enabled="true" android:shortcutId="portrait" android:shortcutShortLabel="@string/take_portrait" android:shortcutLongLabel="@string/take_portrait">
+        <intent android:targetPackage="com.sec.android.app.camera" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.camera.Camera">
+            <extra android:name="activity_name" android:value="com.sec.android.app.camera.shootingmode.livefocus" />
+            <extra android:name="camerafacing" android:value="back" />
+            <extra android:name="from_shortcut" android:value="true" />
+            <categories android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </shortcut>
+</shortcuts>

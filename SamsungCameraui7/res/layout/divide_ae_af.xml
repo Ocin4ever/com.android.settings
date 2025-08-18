@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ae_af_sub_view_group" android:tag="layout/divide_ae_af_0" android:layout_width="@dimen/ae_af_group_size" android:layout_height="@dimen/ae_af_group_size">
+        <TextView android:textSize="@dimen/ae_af_lock_text_size" android:textColor="@color/divide_aeaf_lock_color" android:layout_gravity="center_horizontal" android:id="@id/divide_ae_af_lock_text" android:layout_width="wrap_content" android:layout_height="@dimen/ae_af_lock_text_height" android:layout_marginTop="@dimen/ae_af_text_top_margin" android:text="@string/ae" style="@style/SecRegular" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ae_af_circle_group" android:tag="layout/divide_ae_af_1" android:layout_width="@dimen/ae_af_group_size" android:layout_height="@dimen/ae_af_group_size">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/divide_ae_af_lock_btn" android:background="@drawable/afae_ev_btn_lock" android:layout_width="@dimen/ae_af_lock_btn_size" android:layout_height="@dimen/ae_af_lock_btn_size" android:layout_marginTop="@dimen/ae_af_top_margin" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/divide_ae_af_lock_circle" android:background="@drawable/afae_circle_lock" android:layout_width="@dimen/ae_af_circle_size" android:layout_height="@dimen/ae_af_circle_size" android:layout_marginTop="@dimen/ae_af_top_margin" android:contentDescription="@null" />
+    </FrameLayout>
+</merge>

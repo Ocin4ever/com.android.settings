@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/layer_shooting_mode_overlay_floating_shutter_button_0" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/floating_shutter_button" android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="@dimen/base_menu_center_button_area_size" android:layout_height="@dimen/base_menu_center_button_area_size" android:scaleType="centerCrop" android:contentDescription="@string/floating_shutter" />
+    <ImageButton android:id="@id/hide_button" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_mode_manage_deleted_ic_normal" android:contentDescription="@string/floating_shutter_button_remove" />
+</LinearLayout>

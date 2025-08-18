@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d nägu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nägu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Ei saa luua üle %d kohandatud filtri.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa luua üle %d kohandatud filtri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Uneaeg: %d tundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uneaeg: %d tund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Uneaeg: %d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uneaeg: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Ülekuumenemise vältimiseks ärge salvestage üle %d minuti 8K videot.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ülekuumenemise vältimiseks ärge salvestage üle %d minuti 8K videot.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Ülekuumenemise vältimiseks ärge salvestage üle %1$d minuti režiimis %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ülekuumenemise vältimiseks ärge salvestage üle %1$d minuti režiimis %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapikslit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapiksel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d tundi üks minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund üks minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d tundi, üks minut ja üks sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund, üks minut ja üks sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d tundi üks sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund üks sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minut ja üks sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut ja üks sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Üks tund %d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Üks tund %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Üks tund, %d minutit ja üks sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Üks tund, %d minut ja üks sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Üks tund %d sekundit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Üks tund %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Üks tund, üks minut ja %d sekundit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Üks tund, üks minut ja %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Üks minut ja %d sekundit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Üks minut ja %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

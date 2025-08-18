@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_exposure_assist_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_zebra_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_indicator_falsecolor_on" android:maxLevel="2" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_exposure_assist" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_zebra" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_indicator_falsecolor" android:maxLevel="2" />
+        </level-list>
+    </item>
+</selector>

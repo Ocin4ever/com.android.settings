@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:tag="layout/shooting_mode_common_zoom_rocker_button_0" android:background="@drawable/zoom_rocker_slider_button_ripple" android:layout_width="@dimen/zoom_rocker_slider_button_size" android:layout_height="@dimen/zoom_rocker_slider_button_size" android:layout_centerInParent="true" android:stateListAnimator="?seslSmallTouchAnimator">
+        <RelativeLayout android:id="@id/background" android:background="@drawable/zoom_rocker_slide_btn_bg_light" android:layout_width="@dimen/zoom_rocker_slider_button_background_size" android:layout_height="@dimen/zoom_rocker_slider_button_background_size" android:layout_centerInParent="true">
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/zoom_rocker_slider_button_icon_size" android:layout_height="@dimen/zoom_rocker_slider_button_icon_size" android:src="@drawable/zoom_rocker_slider_plus" android:layout_centerInParent="true" android:contentDescription="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

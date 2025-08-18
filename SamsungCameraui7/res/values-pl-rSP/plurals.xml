@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d gymbōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gymba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d gymby</item>
+        <item quantity="many">%d gymbōw</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie podać wiyncyj jak %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="many">Niy idzie podać wiyncyj jak %d znakōw.</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Idzie zônaczyć co nojwyżyj %d filtrōw włŏsnych.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Idzie zônaczyć co nojwyżyj %d filter włŏsny.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Idzie zônaczyć co nojwyżyj %d filtry włŏsne.</item>
+        <item quantity="many">Idzie zônaczyć co nojwyżyj %d filtrōw włŏsnych.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Czŏs spaniŏ: %d godziny</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czŏs spaniŏ: %d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czŏs spaniŏ: %d godziny</item>
+        <item quantity="many">Czŏs spaniŏ: %d godzin</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Czŏs spaniŏ: %d minuty</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czŏs spaniŏ: %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czŏs spaniŏ: %d minuty</item>
+        <item quantity="many">Czŏs spaniŏ: %d minut</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %d minut materyje FHD 8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %d minuta materyje 8K.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %d minuty materyje UHD (60 kl./s).</item>
+        <item quantity="many">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %d minuty materyje 8K.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %1$d minut materyje %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %d minuty materyje UHD ze załōnczōnõ blyndōm.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %1$d minut materyje %2$s.</item>
+        <item quantity="many">Coby niy dozwolić do przegrzŏniŏ, niy nagrŏwej wiyncyj jak %1$d minut materyje %2$s.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapiksela</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapiksel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d megapiksele</item>
+        <item quantity="many">%d megapikseli</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d godziny jedna minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d godzina jedna minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d godziny jedna minuta</item>
+        <item quantity="many">%d godzin jedna minuta</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d godziny jedna minuta jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d godzina jedna minuta jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d godziny jedna minuta jedna sekunda</item>
+        <item quantity="many">%d godzin jedna minuta jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d godziny jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d godzina jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d godziny jedna sekunda</item>
+        <item quantity="many">%d godzin jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minuty jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty jedna sekunda</item>
+        <item quantity="many">%d minut jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Jedna godzina %d minuty</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna godzina %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna godzina %d minuty</item>
+        <item quantity="many">Jedna godzina %d minut</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Jedna godzina %d minuty jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna godzina %d minuta jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna godzina %d minuty jedna sekunda</item>
+        <item quantity="many">Jedna godzina %d minut jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Jedna godzina %d sekundy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna godzina %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna godzina %d sekundy</item>
+        <item quantity="many">Jedna godzina %d sekund</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Jedna godzina jedna minuta %d sekundy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna godzina jedna minuta %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna godzina jedna minuta %d sekundy</item>
+        <item quantity="many">Jedna godzina jedna minuta %d sekund</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Jedna minuta %d sekundy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna minuta %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna minuta %d sekundy</item>
+        <item quantity="many">Jedna minuta %d sekund</item>
+    </plurals>
+</resources>

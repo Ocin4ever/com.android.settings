@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatSpinner android:id="@id/spinner" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/radio_layout" android:background="?android:selectableItemBackground" android:padding="0.0dip" android:layout_width="@dimen/winset_radio_width" android:layout_height="fill_parent" android:minHeight="?listPreferredItemHeightSmall" android:layout_marginStart="@dimen/winset_list_item_margin">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/spinner_layout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:layout_marginStart="@dimen/winset_list_item_margin" android:layout_marginEnd="@dimen/winset_list_item_end_padding">
+        <FrameLayout android:gravity="start|center" android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" android:paddingEnd="@dimen/sesl_list_image_end_padding">
+            <androidx.preference.internal.PreferenceImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxHeight="@dimen/sesl_preference_item_icon_size" app:maxWidth="@dimen/sesl_preference_item_icon_size" />
+        </FrameLayout>
+        <RelativeLayout android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:layout_weight="1.0">
+            <TextView android:textAppearance="?textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:singleLine="true" android:textAlignment="viewStart" android:paddingEnd="@dimen/setting_text_view_padding_end" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:paddingEnd="@dimen/setting_text_view_padding_end" android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="32.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$indicator_motion_photo_on_off__13" android:duration="300" android:valueFrom="M -6.01 -6.01 C -5.893 -6.127 -5.704 -6.127 -5.587 -6.01 C -5.587 -6.01 -5.622 -6.046 -5.622 -6.046 C -5.505 -5.929 -5.505 -5.739 -5.622 -5.622 C -5.739 -5.505 -5.929 -5.505 -6.046 -5.622 C -6.046 -5.622 -6.01 -5.587 -6.01 -5.587 C -6.127 -5.704 -6.127 -5.893 -6.01 -6.01 Z" android:valueTo="M -6.01 -6.01 C -5.893 -6.127 -5.704 -6.127 -5.587 -6.01 C -5.587 -6.01 6.01 5.587 6.01 5.587 C 6.127 5.704 6.127 5.893 6.01 6.01 C 5.893 6.127 5.704 6.127 5.587 6.01 C 5.587 6.01 -6.01 -5.587 -6.01 -5.587 C -6.127 -5.704 -6.127 -5.893 -6.01 -6.01 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="1" android:startOffset="15" android:valueFrom="M -6.01 -6.01 C -5.893 -6.127 -5.704 -6.127 -5.587 -6.01 C -5.587 -6.01 6.01 5.587 6.01 5.587 C 6.127 5.704 6.127 5.893 6.01 6.01 C 5.893 6.127 5.704 6.127 5.587 6.01 C 5.587 6.01 -6.01 -5.587 -6.01 -5.587 C -6.127 -5.704 -6.127 -5.893 -6.01 -6.01 Z" android:valueTo="M -6.01 -6.01 C -5.893 -6.127 -5.704 -6.127 -5.587 -6.01 C -5.587 -6.01 6.01 5.587 6.01 5.587 C 6.127 5.704 6.127 5.893 6.01 6.01 C 5.893 6.127 5.704 6.127 5.587 6.01 C 5.587 6.01 -6.01 -5.587 -6.01 -5.587 C -6.127 -5.704 -6.127 -5.893 -6.01 -6.01 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

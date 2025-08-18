@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/video_resolution_item_layout" android:tag="layout/video_resolution_item_0" android:layout_width="@dimen/video_resolution_chooser_item_width" android:layout_height="@dimen/video_resolution_chooser_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/video_resolution_chooser_item_font_size" android:textColor="@color/default_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/video_resolution_list_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" style="@style/SecSemiBold" />
+</LinearLayout>

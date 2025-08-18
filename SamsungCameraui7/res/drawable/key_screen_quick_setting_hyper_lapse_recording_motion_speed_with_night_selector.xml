@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_auto_on" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x5_on" android:maxLevel="11" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x10_on" android:maxLevel="12" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x15_on" android:maxLevel="13" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x30_on" android:maxLevel="14" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x60_on" android:maxLevel="15" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_15_on" android:maxLevel="99" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_45_on" android:maxLevel="100" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_300_on" android:maxLevel="101" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_auto" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x5" android:maxLevel="11" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x10" android:maxLevel="12" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x15" android:maxLevel="13" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x30" android:maxLevel="14" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x60" android:maxLevel="15" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_15" android:maxLevel="99" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_45" android:maxLevel="100" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_night_300" android:maxLevel="101" />
+        </level-list>
+    </item>
+</selector>

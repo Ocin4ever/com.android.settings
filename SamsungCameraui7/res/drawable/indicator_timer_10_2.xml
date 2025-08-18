@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$indicator_timer_10_2__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="s3pg1" android:animation="@drawable/$indicator_timer_10_2__1" />
+    <target android:name="s2pg1pg4p10" android:animation="@drawable/$indicator_timer_10_2__3" />
+    <target android:name="s2pg1pg3p300" android:animation="@drawable/$indicator_timer_10_2__4" />
+    <target android:name="s2pg1pg2p10" android:animation="@drawable/$indicator_timer_10_2__5" />
+    <target android:name="s2pg1pg1p300" android:animation="@drawable/$indicator_timer_10_2__6" />
+    <target android:name="s1pg1pg2p10" android:animation="@drawable/$indicator_timer_10_2__7" />
+    <target android:name="s1pg1pg1p10" android:animation="@drawable/$indicator_timer_10_2__8" />
+</animated-vector>

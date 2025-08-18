@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" style="@style/CollapsingToolbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AppCompat.AppbarTheme" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/listview" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sub_setting_activity_bottom_padding">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/swipe_shutter_button_to_animation" android:background="@drawable/swipe_shutter_button_to_animation_bg" android:paddingTop="@dimen/swipe_shutter_button_to_animation_top_padding" android:paddingBottom="@dimen/swipe_shutter_button_to_animation_bottom_padding" android:layout_width="fill_parent" android:layout_height="@dimen/swipe_shutter_button_to_animation_layout_height" android:layout_marginBottom="@dimen/swipe_shutter_button_to_description_line_padding" android:scaleType="fitCenter" android:contentDescription="@string/tts_swipe_shutter_button_to_animation" android:paddingStart="@dimen/swipe_shutter_button_to_animation_side_padding" android:paddingEnd="@dimen/swipe_shutter_button_to_animation_side_padding" android:layout_marginHorizontal="@dimen/recycler_view_padding_horizontal" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/lottie_setting_burstshot_guide_light" />
+                <include android:id="@id/sub_description_layout" layout="@layout/sub_page_description" />
+                <com.sec.android.app.camera.setting.SettingListView android:id="@id/dragList" android:background="@color/theme_list_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d وجه</item>
+        <item quantity="zero">%d وجه</item>
+        <item quantity="one">وجه واحد</item>
+        <item quantity="two">وجهان</item>
+        <item quantity="few">%d وجوه</item>
+        <item quantity="many">%d وجهاً</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفاً.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">يتعذر إنشاء أكثر من %d فلتر مخصص.</item>
+        <item quantity="zero">يتعذر إنشاء أكثر من %d فلتر مخصص.</item>
+        <item quantity="one">يتعذر إنشاء أكثر من فلتر واحد مخصص.</item>
+        <item quantity="two">يتعذر إنشاء أكثر من فلترَين مخصصَين.</item>
+        <item quantity="few">يتعذر إنشاء أكثر من %d فلاتر مخصصة.</item>
+        <item quantity="many">يتعذر إنشاء أكثر من %d فلتراً مخصصاً.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">وقت النوم: %d ساعة</item>
+        <item quantity="zero">وقت النوم: %d ساعة</item>
+        <item quantity="one">وقت النوم: ساعة واحدة</item>
+        <item quantity="two">وقت النوم: ساعتان</item>
+        <item quantity="few">وقت النوم: %d ساعات</item>
+        <item quantity="many">وقت النوم: %d ساعةً</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">وقت النوم: %d دقيقة</item>
+        <item quantity="zero">وقت النوم: %d دقيقة</item>
+        <item quantity="one">وقت النوم: دقيقة واحدة</item>
+        <item quantity="two">وقت النوم: دقيقتان</item>
+        <item quantity="few">وقت النوم: %d دقائق</item>
+        <item quantity="many">وقت النوم: %d دقيقةً</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d دقيقة</item>
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من %d دقيقة من فيديو بدقة 8K.</item>
+        <item quantity="zero">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من %d دقيقة من فيديو بدقة 8K.</item>
+        <item quantity="one">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من دقيقة واحدة من فيديو بدقة 8K.</item>
+        <item quantity="two">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من دقيقتَين من فيديو بدقة 8K.</item>
+        <item quantity="few">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من %d دقائق من فيديو بدقة 8K.</item>
+        <item quantity="many">لتجنب ارتفاع درجة الحرارة، لا تسجّل أكثر من %d دقيقة من فيديو بدقة 8K.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من %1$d دقيقة من %2$s.</item>
+        <item quantity="zero">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من %1$d دقيقة من %2$s.</item>
+        <item quantity="one">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من دقيقة واحدة من %2$s.</item>
+        <item quantity="two">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من دقيقتَين من %2$s.</item>
+        <item quantity="few">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من %1$d دقائق من %2$s.</item>
+        <item quantity="many">لتجنب ارتفاع درجة حرارة الجهاز، لا تسجّل أكثر من %1$d دقيقة من %2$s.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d دقيقة</item>
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d ميجابكسل</item>
+        <item quantity="zero">%d ميجابكسل</item>
+        <item quantity="one">ميجابكسل واحد</item>
+        <item quantity="two">اثنان ميجابكسل</item>
+        <item quantity="few">%d ميجابكسل</item>
+        <item quantity="many">%d ميجابكسل</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d ساعة</item>
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d ساعة ودقيقة واحدة</item>
+        <item quantity="zero">%d ساعة ودقيقة واحدة</item>
+        <item quantity="one">ساعة واحدة ودقيقة واحدة</item>
+        <item quantity="two">ساعتان ودقيقة واحدة</item>
+        <item quantity="few">%d ساعات ودقيقة واحدة</item>
+        <item quantity="many">%d ساعةً ودقيقة واحدة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d ساعة ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="zero">%d ساعة ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="one">ساعة واحدة ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="two">ساعتان ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="few">%d ساعات ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="many">%d ساعةً ودقيقة واحدة وثانية واحدة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d ساعة وثانية واحدة</item>
+        <item quantity="zero">%d ساعة وثانية واحدة</item>
+        <item quantity="one">ساعة واحدة وثانية واحدة</item>
+        <item quantity="two">ساعتان وثانية واحدة</item>
+        <item quantity="few">%d ساعات وثانية واحدة</item>
+        <item quantity="many">%d ساعةً وثانية واحدة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d دقيقة وثانية واحدة</item>
+        <item quantity="zero">%d دقيقة وثانية واحدة</item>
+        <item quantity="one">دقيقة واحدة وثانية واحدة</item>
+        <item quantity="two">دقيقتان وثانية واحدة</item>
+        <item quantity="few">%d دقائق وثانية واحدة</item>
+        <item quantity="many">%d دقيقةً وثانية واحدة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d ثانية</item>
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">ساعة واحدة و%d دقيقة</item>
+        <item quantity="zero">ساعة واحدة و%d دقيقة</item>
+        <item quantity="one">ساعة واحدة ودقيقة واحدة</item>
+        <item quantity="two">ساعة واحدة ودقيقتان</item>
+        <item quantity="few">ساعة واحدة و%d دقائق</item>
+        <item quantity="many">ساعة واحدة و%d دقيقةً</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">ساعة واحدة و%d دقيقة وثانية واحدة</item>
+        <item quantity="zero">ساعة واحدة و%d دقيقة وثانية واحدة</item>
+        <item quantity="one">ساعة واحدة ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="two">ساعة واحدة ودقيقتان وثانية واحدة</item>
+        <item quantity="few">ساعة واحدة و%d دقائق وثانية واحدة</item>
+        <item quantity="many">ساعة واحدة و%d دقيقةً وثانية واحدة</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">ساعة واحدة و%d ثانية</item>
+        <item quantity="zero">ساعة واحدة و%d ثانية</item>
+        <item quantity="one">ساعة واحدة وثانية واحدة</item>
+        <item quantity="two">ساعة واحدة وثانيتان</item>
+        <item quantity="few">ساعة واحدة و%d ثوانٍ</item>
+        <item quantity="many">ساعة واحدة و%d ثانيةً</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">ساعة واحدة ودقيقة واحدة و%d ثانية</item>
+        <item quantity="zero">ساعة واحدة ودقيقة واحدة و%d ثانية</item>
+        <item quantity="one">ساعة واحدة ودقيقة واحدة وثانية واحدة</item>
+        <item quantity="two">ساعة واحدة ودقيقة واحدة وثانيتان</item>
+        <item quantity="few">ساعة واحدة ودقيقة واحدة و%d ثوانٍ</item>
+        <item quantity="many">ساعة واحدة ودقيقة واحدة و%d ثانيةً</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">دقيقة واحدة و%d ثانية</item>
+        <item quantity="zero">دقيقة واحدة و%d ثانية</item>
+        <item quantity="one">دقيقة واحدة وثانية واحدة</item>
+        <item quantity="two">دقيقة واحدة وثانيتان</item>
+        <item quantity="few">دقيقة واحدة و%d ثوانٍ</item>
+        <item quantity="many">دقيقة واحدة و%d ثانيةً</item>
+    </plurals>
+</resources>

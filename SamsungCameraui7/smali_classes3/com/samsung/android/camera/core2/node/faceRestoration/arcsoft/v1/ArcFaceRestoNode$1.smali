@@ -1,0 +1,22 @@
+.class Lcom/samsung/android/camera/core2/node/faceRestoration/arcsoft/v1/ArcFaceRestoNode$1;
+.super Lcom/samsung/android/camera/core2/node/NativeNode$Command;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/camera/core2/node/faceRestoration/arcsoft/v1/ArcFaceRestoNode;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/samsung/android/camera/core2/node/NativeNode$Command<",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation

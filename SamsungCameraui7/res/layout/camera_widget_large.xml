@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_image" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_sample_image_large" android:scaleType="fitXY" android:clipToOutline="true" />
+    <ImageView android:id="@id/widget_dim_image" android:background="@drawable/widget_medium_large_dim_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/widget_large_text_side_margin" android:layout_marginVertical="@dimen/widget_large_title_text_top_margin">
+        <TextView android:textSize="18.0sp" android:textColor="@color/widget_text_white_color" android:ellipsize="end" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_sample_title" android:maxLines="2" style="@style/Template.Preview.TextBlockText.Single.Title.Large" />
+        <TextView android:textColor="@color/widget_text_white_color" android:ellipsize="end" android:id="@id/widget_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_large_mode_text_top_margin" android:text="@string/SM_PHOTO" android:maxLines="2" style="@style/Template.Preview.TextBlockText.Single.Body.Large" />
+    </LinearLayout>
+</FrameLayout>

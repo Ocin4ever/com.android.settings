@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/zoom_button_background_interpolator" android:duration="@integer/animation_duration_zoom_lens_button_background_scale" android:valueFrom="0" android:valueTo="1" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/zoom_button_background_interpolator" android:duration="@integer/animation_duration_zoom_lens_button_background_scale" android:valueFrom="0" android:valueTo="1" android:propertyName="scaleY" />
+            <objectAnimator android:duration="@integer/animation_duration_zoom_lens_button_background_alpha" android:valueTo="1" android:propertyName="alpha" />
+        </set>
+    </item>
+</selector>

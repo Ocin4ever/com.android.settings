@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d ముఖాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ముఖం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">%d కంటే ఎక్కువ ఫిల్టర్‌లను సృష్టించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ ఫిల్టర్ సృష్టించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">నిద్ర సమయం: %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">నిద్ర సమయం: %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">అధిక వేడిని నివారించడానికి, 8K వీడియోను %d నిమిషాల కంటే ఎక్కువ రికార్డ్ చేయవద్దు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">అధిక వేడిని నివారించడానికి, 8K వీడియోను %d నిమిషం కంటే ఎక్కువ రికార్డ్ చేయవద్దు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">అధిక వేడిని నివారించడానికి, %2$sలో %1$d నిమిషాల కంటే ఎక్కువ రికార్డ్ చేయవద్దు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">అధిక వేడిని నివారించడానికి, %2$sలో %1$d నిమిషం కంటే ఎక్కువ రికార్డ్ చేయవద్దు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d మెగాపిక్సెల్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d మెగాపిక్సెల్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d గంటల ఒక నిమిషం</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట ఒక నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d గంటల ఒక నిమిషం ఒక సెకను</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట ఒక నిమిషం ఒక సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d గంటల ఒక సెకను</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట ఒక సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d నిమిషాల ఒక సెకను</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం ఒక సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">ఒక గంట %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒక గంట %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">ఒక గంట %d నిమిషాల ఒక సెకను</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒక గంట %d నిమిషం ఒక సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">ఒక గంట %d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒక గంట %d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">ఒక గంట ఒక నిమిషం %d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒక గంట ఒక నిమిషం %d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">ఒక నిమిషం %d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒక నిమిషం %d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

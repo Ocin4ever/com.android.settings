@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.layer.LayerManagerView android:id="@id/layer_manager_main" android:tag="layout/layer_main_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.layer.previewanimation.PreviewAnimationLayerView android:id="@id/preview_animation_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/touch_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/preview_overlay_layer_stub" android:layout="@layout/layer_preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/shooting_mode_layer_stub" android:layout="@layout/layer_shooting_mode" android:inflatedId="@id/shooting_mode_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.sec.android.app.camera.layer.keyscreen.KeyScreenLayerView android:id="@id/key_screen_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/menu_layer_stub" android:layout="@layout/layer_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/shooting_mode_overlay_layer_stub" android:layout="@layout/layer_shooting_mode_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/popup_layer_stub" android:layout="@layout/layer_popup" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/dim_screen_layer_stub" android:layout="@layout/layer_dim_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.sec.android.app.camera.layer.LayerManagerView>

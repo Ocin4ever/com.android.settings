@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d твараў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d твар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d твары</item>
+        <item quantity="many">%d твараў</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="many">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Немагчыма стварыць больш %d адмысловых фільтраў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма стварыць больш %d адмысловага фільтра.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма стварыць больш %d адмысловых фільтраў.</item>
+        <item quantity="many">Немагчыма стварыць больш %d адмысловых фільтраў.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Час сну: %d гадзін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d гадзіны</item>
+        <item quantity="many">Час сну: %d гадзін</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Час сну: %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвіліны</item>
+        <item quantity="many">Час сну: %d хвілін</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Каб пазбегнуць перагрэву, не запісвайце больш за %d хвілін відэа 8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб пазбегнуць перагрэву, не запісвайце больш за %d хвіліну відэа 8K.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб пазбегнуць перагрэву, не запісвайце больш за %d хвіліны відэа 8K.</item>
+        <item quantity="many">Каб пазбегнуць перагрэву, не запісвайце больш за %d хвілін відэа 8K.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Каб пазбегнуць перагрэву, не запісвайце больш за %1$d хвілін %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб пазбегнуць перагрэву, не запісвайце больш за %1$d хвіліну %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб пазбегнуць перагрэву, не запісвайце больш за %1$d хвіліны %2$s.</item>
+        <item quantity="many">Каб пазбегнуць перагрэву, не запісвайце больш за %1$d хвілін %2$s.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d хвілін(ы)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвілін(ы)</item>
+        <item quantity="many">%d хвілін(ы)</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d мегапікселяў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мегапіксель</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d мегапікселі</item>
+        <item quantity="many">%d мегапікселяў</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d гадзін(ы)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзін(ы)</item>
+        <item quantity="many">%d гадзін(ы)</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d гадзін адна хвіліна</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна адна хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны адна хвіліна</item>
+        <item quantity="many">%d гадзін адна хвіліна</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d гадзін адна хвіліна адна секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна адна хвіліна адна секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны адна хвіліна адна секунда</item>
+        <item quantity="many">%d гадзін адна хвіліна адна секунда</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d гадзін адна секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна адна секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны адна секунда</item>
+        <item quantity="many">%d гадзін адна секунда</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d хвілін адна секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна адна секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны адна секунда</item>
+        <item quantity="many">%d хвілін адна секунда</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d секунд(-ы)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунд(-ы)</item>
+        <item quantity="many">%d секунд(-ы)</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Адна гадзіна %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адна гадзіна %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адна гадзіна %d хвіліны</item>
+        <item quantity="many">Адна гадзіна %d хвілін</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Адна гадзіна %d хвілін адна секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адна гадзіна %d хвіліна адна секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адна гадзіна %d хвіліны адна секунда</item>
+        <item quantity="many">Адна гадзіна %d хвілін адна секунда</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Адна гадзіна %d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адна гадзіна %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адна гадзіна %d секунды</item>
+        <item quantity="many">Адна гадзіна %d секунд</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Адна гадзіна адна хвіліна %d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адна гадзіна адна хвіліна %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адна гадзіна адна хвіліна %d секунды</item>
+        <item quantity="many">Адна гадзіна адна хвіліна %d секунд</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Адна хвіліна %d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адна хвіліна %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адна хвіліна %d секунды</item>
+        <item quantity="many">Адна хвіліна %d секунд</item>
+    </plurals>
+</resources>

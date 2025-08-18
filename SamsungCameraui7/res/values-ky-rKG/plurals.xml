@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d жүз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d жүз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">%d тамгадан көп киргизилбеши керек.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тамгадан көп киргизилбеши керек.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">%d ашык жеке чыпка түзө албайсыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ашык жеке чыпка түзө албайсыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Уйку убактысы: %d саат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уйку убактысы: %d саат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Уйку убактысы: %d мүнөт</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уйку убактысы: %d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d мүнөт</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Түзмөктү ысытып албоо үчүн, 8K видеолорду %d мүнөттөн ашуун жаздырбаңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Түзмөктү ысытып албоо үчүн, 8K видеолорду %d мүнөттөн ашуун жаздырбаңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Ысып кетүүсүн болтурбоо үчүн, %2$s дегендин %1$d мүнөттөн көптү жаздырбаңыз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ысып кетүүсүн болтурбоо үчүн, %2$s дегендин %1$d мүнөттөн көптү жаздырбаңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d мүнөт</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d мегапиксель</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мегапиксель</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d саат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d саат мурун</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d саат бир мүнөт</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d саат бир мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d саат бир мүнөт бир секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d саат бир мүнөт бир секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d саат бир секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d саат бир секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d мүнөт бир секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мүнөт бир секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Бир саат %d мүнөт</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бир саат %d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Бир саат %d мүнөт бир секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бир саат %d мүнөт бир секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Бир саат %d секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бир саат %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Бир саат бир мүнөт %d секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бир саат бир мүнөт %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Бир мүнөт %d секунда</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бир мүнөт %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/widget_stability_indicator_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/complete_animation" android:background="@drawable/stability_point_dot" android:visibility="invisible" android:layout_width="@dimen/stability_indicator_target_size" android:layout_height="@dimen/stability_indicator_target_size" android:layout_centerInParent="true" />
+    <View android:id="@id/target_composition" android:background="@drawable/stability_point" android:visibility="visible" android:layout_width="@dimen/stability_indicator_target_size" android:layout_height="@dimen/stability_indicator_target_size" android:layout_centerInParent="true" />
+    <View android:id="@id/current_composition" android:background="@drawable/stability_point_dot" android:visibility="invisible" android:layout_width="@dimen/stability_indicator_target_size" android:layout_height="@dimen/stability_indicator_target_size" android:layout_centerInParent="true" />
+</RelativeLayout>

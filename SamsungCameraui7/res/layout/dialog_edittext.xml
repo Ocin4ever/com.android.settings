@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:gravity="center" android:orientation="vertical" android:id="@id/input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/winset_list_item_start_padding">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/custom_text_input" android:paddingTop="@dimen/watermark_dialog_vertical_margin" android:paddingBottom="@dimen/winset_dialog_text_combined_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="28" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

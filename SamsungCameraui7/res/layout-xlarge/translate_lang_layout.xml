@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/lang_outer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/lang_source_button" />
+    <include android:layout_gravity="center" android:layout_width="@dimen/lang_change_layout_width" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dip" layout="@layout/lang_change_layout" />
+</FrameLayout>

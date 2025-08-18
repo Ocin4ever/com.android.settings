@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="160.0dip" android:width="160.0dip" android:viewportWidth="160.0" android:viewportHeight="160.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s3" android:pivotX="20.0" android:pivotY="20.0" android:scaleX="4.0" android:scaleY="4.0" android:translateX="60.0" android:translateY="60.0" aapt:layer_name="singletake_pre_recording_off Outlines">
+        <group android:name="s3pg2" android:translateX="20.0" android:translateY="20.0" aapt:layer_name="Group 4">
+            <path android:name="s3pg2p10" android:fillColor="#ffffcb0c" android:pathData="M 0 -9.01 C 0.331 -9.01 0.6 -8.742 0.6 -8.411 C 0.6 -8.08 0.331 -7.811 0 -7.811 C -4.314 -7.811 -7.81 -4.314 -7.81 -0.001 C -7.81 4.313 -4.314 7.811 0 7.811 C 4.314 7.811 7.81 4.313 7.81 -0.001 C 7.81 -0.332 8.079 -0.6 8.41 -0.6 C 8.742 -0.6 9.01 -0.332 9.01 -0.001 C 9.01 4.976 4.976 9.01 0 9.01 C -4.976 9.01 -9.01 4.976 -9.01 -0.001 C -9.01 -4.977 -4.976 -9.01 0 -9.01 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+        <group android:name="s3pg1" android:translateX="25.093" android:translateY="14.973" aapt:layer_name="Group 2">
+            <path android:name="s3pg1p10" android:fillColor="#ffffcb0c" android:pathData="M -3.071 -3.794 C -3.071 -3.794 -2.975 -3.779 -2.975 -3.779 C -2.747 -3.724 -2.562 -3.659 -2.222 -3.525 C -2.047 -3.456 -2.02 -3.447 -1.95 -3.421 C 0.548 -2.491 2.518 -0.488 3.406 2.025 C 3.526 2.366 3.626 2.715 3.704 3.07 C 3.776 3.393 3.572 3.714 3.248 3.785 C 2.925 3.857 2.604 3.653 2.533 3.329 C 2.465 3.023 2.378 2.721 2.274 2.426 C 1.505 0.248 -0.204 -1.491 -2.368 -2.296 C -2.449 -2.326 -2.477 -2.337 -2.662 -2.41 C -2.951 -2.524 -3.098 -2.575 -3.256 -2.613 C -3.578 -2.691 -3.776 -3.015 -3.698 -3.337 C -3.621 -3.659 -3.297 -3.856 -2.975 -3.779 C -2.975 -3.779 -3.071 -3.794 -3.071 -3.794 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s2" android:pivotX="20.0" android:pivotY="20.0" android:scaleX="4.0" android:scaleY="4.0" android:translateX="60.0" android:translateY="60.0" aapt:layer_name="Stroke">
+        <group android:name="s2pg1" android:translateX="20.04" android:translateY="20.008" aapt:layer_name="Group 3">
+            <path android:name="s2pg1p10" android:pathData="M -5.54 -5.508 C -5.54 -5.508 -5.523 -5.492 -5.523 -5.492 " android:strokeColor="#ffffcb0c" android:strokeWidth="0.6" android:strokeLineCap="round" android:strokeLineJoin="miter" android:strokeMiterLimit="4.0" android:strokeAlpha="0.0" aapt:layer_name="Path 1" aapt:style_name="Stroke 1" />
+        </group>
+    </group>
+    <group android:name="s1" android:pivotX="20.0" android:pivotY="20.0" android:scaleX="4.0" android:scaleY="4.0" android:translateX="60.0" android:translateY="60.0" aapt:layer_name="play">
+        <clip-path android:name="s1m1" android:pathData="M -160 -160 H 640 V 640 H -640 V -640M 13.716 13.56 C 13.325 13.951 13.325 14.583 13.716 14.974 C 13.716 14.974 13.731 14.993 13.731 14.993 C 14.122 15.384 14.754 15.384 15.145 14.993 C 15.536 14.602 15.536 13.97 15.145 13.579 C 15.145 13.579 15.13 13.56 15.13 13.56 C 14.739 13.169 14.107 13.169 13.716 13.56 Z" />
+        <group android:name="s1pg1" android:translateX="20.71" android:translateY="20.053" aapt:layer_name="Group 3">
+            <path android:name="s1pg1p10" android:fillColor="#ffffcb0c" android:pathData="M 1.898 0.607 C 1.898 0.607 -1.154 2.577 -1.154 2.577 C -1.519 2.813 -2.006 2.709 -2.242 2.344 C -2.325 2.217 -2.368 2.068 -2.368 1.917 C -2.368 1.917 -2.368 -2.025 -2.368 -2.025 C -2.368 -2.46 -2.016 -2.814 -1.581 -2.814 C -1.429 -2.814 -1.281 -2.77 -1.154 -2.688 C -1.154 -2.688 1.898 -0.717 1.898 -0.717 C 2.263 -0.481 2.368 0.007 2.132 0.372 C 2.072 0.466 1.992 0.546 1.898 0.607 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+</vector>

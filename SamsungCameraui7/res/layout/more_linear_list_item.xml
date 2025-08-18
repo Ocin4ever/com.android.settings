@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.shootingmode.more.itemview.LinearListItemView android:id="@id/linear_item_layout" android:tag="layout/more_linear_list_item_0" android:layout_width="wrap_content" android:layout_height="@dimen/more_shooting_mode_shortcut_list_height" android:layout_marginTop="@dimen/more_shooting_mode_shortcut_list_margin_top" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/linear_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/MoreLinearListText" android:id="@id/linear_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textAllCaps="true" android:elegantTextHeight="false" />
+</com.sec.android.app.camera.shootingmode.more.itemview.LinearListItemView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_metering_01" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_metering_03" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_indicator_metering_02" android:maxLevel="2" />
+        </level-list>
+    </item>
+</selector>

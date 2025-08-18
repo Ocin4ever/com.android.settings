@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">මුහුණු %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුහුණු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">අභිමත පෙරහන් %dකට වඩා සෑදිය නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අභිමත පෙරහන් %dකට වඩා සෑදිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">නිදන වේලාව: පැය %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නිදන වේලාව: පැය %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">නිදන වේලාව: විනාඩි %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නිදන වේලාව: විනාඩි %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">විනාඩි %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">විනාඩි %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">අධිකව රත් වීම වැළැක්වීමට, 8K වීඩියෝ විනාඩි %dකට වඩා පටිගත නොකරන්න.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අධිකව රත් වීම වැළැක්වීමට, 8K වීඩියෝ විනාඩි %dකට වඩා පටිගත නොකරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">අධිකව රත් වීම වැළැක්වීමට, %2$s විනාඩි %1$dකට වඩා පටිගත නොකරන්න.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අධිකව රත් වීම වැළැක්වීමට, %2$s විනාඩි %1$dකට වඩා පටිගත නොකරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">විනාඩි %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">විනාඩි %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">මෙගාපික්සල් %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d මෙගාපික්සලයක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">පැය %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">පැය %dයි විනාඩි එකක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dයි විනාඩි එකක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">පැය %dයි විනාඩි එකයි තත්පර එකක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dයි විනාඩි එකයි තත්පර එකක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">පැය %dයි තත්පර එකක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dයි තත්පර එකක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">විනාඩි %dයි තත්පර එකක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">විනාඩි %dයි තත්පර එකක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">තත්පර %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තත්පර %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">පැය එකයි විනාඩි %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය එකයි විනාඩි %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">පැය එකයි විනාඩි %dයි තත්පර එකක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය එකයි විනාඩි %dයි තත්පර එකක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">පැය එකයි තත්පර %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය එකයි තත්පර %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">පැය එකයි විනාඩි එකයි තත්පර %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය එකයි විනාඩි එකයි තත්පර %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">විනාඩි එකයි තත්පර %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">විනාඩි එකයි තත්පර %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

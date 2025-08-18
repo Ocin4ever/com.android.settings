@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d ansigter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ansigt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Der kan ikke indtastes mere end %d tegn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Der kan ikke indtastes mere end %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Der kan ikke oprettes mere end %d tilpassede filtre.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Der kan ikke oprettes mere end %d tilpasset filter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Søvnperiode: %d timer</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Søvnperiode: %d time</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Søvnperiode: %d minutter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Søvnperiode: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">For at undgå overophedning må du ikke optage mere end %d minutters 8K-video.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">For at undgå overophedning må du ikke optage mere end %d minuts 8K-video.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">For at undgå overophedning må du ikke optage mere end %1$d minutter af %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">For at undgå overophedning må du ikke optage mere end %1$d minut af %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d time</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d timer og et minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d time og et minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d timer, et minut og et sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d time, et minut og et sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d timer og et sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d time og et sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minutter og et sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut og et sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">En time og %d minutter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En time og %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">En time, %d minutter og et sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En time, %d minut og et sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">En time og %d sekunder</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En time og %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">En time, et minut og %d sekunder</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En time, et minut og %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Et minut og %d sekunder</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Et minut og %d sekund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

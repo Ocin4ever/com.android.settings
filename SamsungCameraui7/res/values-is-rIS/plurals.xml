@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d andlit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d andlit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Ekki er hægt að slá inn fleiri en %d stafi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að slá inn fleiri en %d staf.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Ekki er hægt að búa til fleiri en %d sérsniðnar síur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að búa til fleiri en %d sérsniðna síu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Svefntími: %d klukkustundir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Svefntími: %d klukkustund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Svefntími: %d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Svefntími: %d mínúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mínúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Til að forðast ofhitnun skal ekki taka upp meira en %d mínútur af 8K-myndskeiði.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Til að forðast ofhitnun skal ekki taka upp meira en %d mínútu af 8K-myndskeiði.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Til að forðast ofhitnun skal ekki taka upp meira en %1$d mínútur af %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Til að forðast ofhitnun skal ekki taka upp meira en %1$d mínútu af %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mínúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixlar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixill</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d klukkustundir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klukkustund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d klukkustundir og ein mínúta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klukkustund og ein mínúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d klukkustundir, ein mínúta og ein sekúnda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klukkustund, ein mínúta og ein sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d klukkustundir og ein sekúnda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klukkustund og ein sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d mínútur og ein sekúnda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mínúta og ein sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekúndur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Ein klukkustund og %d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ein klukkustund og %d mínúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Ein klukkustund, %d mínútur og ein sekúnda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ein klukkustund, %d mínúta og ein sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Ein klukkustund og %d sekúndur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ein klukkustund og %d sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Ein klukkustund, ein mínúta og %d sekúndur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ein klukkustund, ein mínúta og %d sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Ein mínúta og %d sekúndur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ein mínúta og %d sekúnda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

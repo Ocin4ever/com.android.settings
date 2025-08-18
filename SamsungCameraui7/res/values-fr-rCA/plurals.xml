@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d visages</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d visage</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Impossible de saisir plus de %d caractères.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossible de saisir plus de %d caractère.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Impossible de créer plus de %d filtres personnalisés.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossible de créer plus de %d filtre personnalisé.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Durée de sommeil : %d heures</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durée de sommeil : %d heure</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Durée de sommeil : %d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durée de sommeil : %d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">"Pour éviter toute surchauffe, n'enregistrez pas plus de %d minutes de vidéo 8K."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Pour éviter toute surchauffe, n'enregistrez pas plus de %d minute de vidéo 8K."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">"Pour éviter toute surchauffe, n'enregistrez pas plus de %1$d minutes de %2$s."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Pour éviter toute surchauffe, n'enregistrez pas plus de %1$d minute de %2$s."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d mégapixels</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mégapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heure</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d heures une minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heure une minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d heures une minute une seconde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heure une minute une seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d heures une seconde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heure une seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minutes une seconde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minute une seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d secondes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Une heure %d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Une heure %d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Une heure %d minutes une seconde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Une heure %d minute une seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Une heure %d secondes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Une heure %d seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Une heure une minute %d secondes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Une heure une minute %d seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Une minute %d secondes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Une minute %d seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

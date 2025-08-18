@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d sejas</item>
+        <item quantity="zero">%d sejas</item>
+        <item quantity="one">%d seja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmju.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Var izveidot ne vairāk kā %d pielāgotos filtrus.</item>
+        <item quantity="zero">Var izveidot ne vairāk kā %d pielāgotos filtrus.</item>
+        <item quantity="one">Var izveidot ne vairāk kā %d pielāgoto filtru.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Miega ilgums: %d stundas</item>
+        <item quantity="zero">Miega ilgums: %d stundas</item>
+        <item quantity="one">Miega ilgums: %d stunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Miega ilgums: %d minūtes</item>
+        <item quantity="zero">Miega ilgums: %d minūtes</item>
+        <item quantity="one">Miega ilgums: %d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Lai izvairītos no pārkaršanas, 8K video ierakstiet ne ilgāk par %d minūtēm.</item>
+        <item quantity="zero">Lai izvairītos no pārkaršanas, 8K video ierakstiet ne ilgāk par %d minūtēm.</item>
+        <item quantity="one">Lai izvairītos no pārkaršanas, 8K video ierakstiet ne ilgāk par %d minūti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Lai izvairītos no pārkaršanas, režīmā %2$s ierakstiet ne ilgāk par %1$d minūtēm.</item>
+        <item quantity="zero">Lai izvairītos no pārkaršanas, režīmā %2$s ierakstiet ne ilgāk par %1$d minūtēm.</item>
+        <item quantity="one">Lai izvairītos no pārkaršanas, režīmā %2$s ierakstiet ne ilgāk par %1$d minūti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapikseļi</item>
+        <item quantity="zero">%d megapikseļi</item>
+        <item quantity="one">%d megapikselis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d stundas, viena minūte</item>
+        <item quantity="zero">%d stundas, viena minūte</item>
+        <item quantity="one">%d stunda, viena minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d stundas, viena minūte, viena sekunde</item>
+        <item quantity="zero">%d stundas, viena minūte, viena sekunde</item>
+        <item quantity="one">%d stunda, viena minūte, viena sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d stundas, viena sekunde</item>
+        <item quantity="zero">%d stundas, viena sekunde</item>
+        <item quantity="one">%d minūte, viena sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minūtes, viena sekunde</item>
+        <item quantity="zero">%d minūtes, viena sekunde</item>
+        <item quantity="one">%d minūte, viena sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Viena stunda, %d minūtes</item>
+        <item quantity="zero">Viena stunda, %d minūtes</item>
+        <item quantity="one">Viena stunda, %d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Viena stunda, %d minūtes, viena sekunde</item>
+        <item quantity="zero">Viena stunda, %d minūtes, viena sekunde</item>
+        <item quantity="one">Viena stunda, %d minūte, viena sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Viena stunda, %d sekundes</item>
+        <item quantity="zero">Viena stunda, %d sekundes</item>
+        <item quantity="one">Viena stunda, %d sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Viena stunda, viena minūte, %d sekundes</item>
+        <item quantity="zero">Viena stunda, viena minūte, %d sekundes</item>
+        <item quantity="one">Viena stunda, viena minūte, %d sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Viena minūte, %d sekundes</item>
+        <item quantity="zero">Viena minūte, %d sekundes</item>
+        <item quantity="one">Viena minūte, %d sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_take_hands_free_selfies" android:key="@string/key_take_hands_free_selfies" android:summary="@string/take_hands_free_selfies_description" />
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_keep_the_shutter_button" android:key="@string/key_keep_the_shutter_button" android:summary="@string/keep_the_shutter_button_description" />
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_do_more_while_recording" android:key="@string/key_do_more_while_recording" android:summary="@string/do_more_while_recording_description" />
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_photograph_your_world" android:key="@string/key_photograph_your_world" android:summary="@string/photograph_your_world_description" />
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_scan_qr_codes" android:key="@string/key_scan_qr_codes" android:summary="@string/scan_qr_codes_description" />
+    <com.sec.android.app.camera.setting.SettingPreference android:persistent="false" android:title="@string/Title_capture_more_with_wider_lens" android:key="@string/key_capture_more_with_wider_lens" android:summary="@string/capture_more_with_wider_lens_description" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/filter_detail_bottom_view_original_height" />
+    <corners android:radius="@dimen/filter_list_text_view_background_radius" />
+    <solid android:color="@color/filter_detail_view_original_fill_color" />
+    <stroke android:width="@dimen/filter_detail_bottom_view_original_bg_stroke" android:color="@color/filter_detail_view_original_stroke_color" />
+</shape>

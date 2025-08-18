@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/time_indicator_layout" android:tag="layout/shooting_mode_night_time_indicator_0" android:visibility="invisible" android:layout_width="@dimen/super_night_ppp_time_indicator_width" android:layout_height="@dimen/super_night_ppp_time_indicator_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/super_night_ppp_time_indicator_text_size" android:textColor="@color/super_night_unselect_time_indicator_color" android:gravity="center" android:id="@id/time_indicator_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="10s" style="@style/SecSemiBold" />
+</RelativeLayout>

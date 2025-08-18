@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar android:orientation="horizontal" android:id="@id/seek_bar_main" android:tag="layout/ev_slider_0" android:layout_width="@dimen/touch_ev_slider_width" android:layout_height="@dimen/touch_ev_control_icon_size" android:max="@integer/touch_ev_max_step" android:progress="@integer/touch_ev_default_step" android:progressDrawable="@drawable/ev_bar_selector" android:thumb="@drawable/ev_bar_control_selector" android:thumbOffset="0.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:splitTrack="true" android:min="@integer/touch_ev_min_step"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

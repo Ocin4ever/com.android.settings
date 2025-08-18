@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_infinite" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_10" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_30" android:maxLevel="30" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_60" android:maxLevel="60" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_120" android:maxLevel="120" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_180" android:maxLevel="180" />
+            <item android:drawable="@drawable/camera_indicator_hyper_duration_300" android:maxLevel="300" />
+        </level-list>
+    </item>
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_shutter_ico_hyperlapse_to_stop_light__10" android:duration="200" android:valueFrom="M 40 0 C 40 22.091 40 -22.091 40 0 C 40 22.091 22.091 40 0 40 C -22.091 40 22.091 40 0 40 C -22.091 40 -40 22.091 -40 0 C -40 -22.091 -40 22.091 -40 0 C -40 -22.091 -22.091 -40 0 -40 C 22.091 -40 -22.091 -40 0 -40 C 22.091 -40 40 -22.091 40 0 Z" android:valueTo="M 34 -20 C 34 -12.268 34 12.268 34 20 C 34 27.732 27.732 34 20 34 C 12.268 34 -12.268 34 -20 34 C -27.732 34 -34 27.732 -34 20 C -34 12.268 -34 -12.268 -34 -20 C -34 -27.732 -27.732 -34 -20 -34 C -12.268 -34 12.268 -34 20 -34 C 27.732 -34 34 -27.732 34 -20 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="1" android:startOffset="15" android:valueFrom="M 34 -20 C 34 -12.268 34 12.268 34 20 C 34 27.732 27.732 34 20 34 C 12.268 34 -12.268 34 -20 34 C -27.732 34 -34 27.732 -34 20 C -34 12.268 -34 -12.268 -34 -20 C -34 -27.732 -27.732 -34 -20 -34 C -12.268 -34 12.268 -34 20 -34 C 27.732 -34 34 -27.732 34 -20 Z" android:valueTo="M 34 -20 C 34 -12.268 34 12.268 34 20 C 34 27.732 27.732 34 20 34 C 12.268 34 -12.268 34 -20 34 C -27.732 34 -34 27.732 -34 20 C -34 12.268 -34 -12.268 -34 -20 C -34 -27.732 -27.732 -34 -20 -34 C -12.268 -34 12.268 -34 20 -34 C 27.732 -34 34 -27.732 34 -20 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

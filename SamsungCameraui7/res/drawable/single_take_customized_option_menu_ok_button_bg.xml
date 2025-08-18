@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/single_take_customized_option_menu_ok_button_height" />
+    <solid android:color="@color/single_take_customized_option_ok_button_background_color" />
+</shape>

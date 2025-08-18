@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$indicator_hdr_10_off_on__27" android:duration="250" android:valueFrom="M 0.75 -10.75 C 0.75 -10.75 0.75 10.75 0.75 10.75 C 0.75 11.164 0.414 11.5 0 11.5 C -0.414 11.5 -0.75 11.164 -0.75 10.75 C -0.75 10.75 -0.75 -10.75 -0.75 -10.75 C -0.75 -11.164 -0.414 -11.5 0 -11.5 C 0.414 -11.5 0.75 -11.164 0.75 -10.75 Z" android:valueTo="M 0.75 -12.286 C 0.75 -12.286 0.753 -12.264 0.753 -12.264 C 0.753 -11.85 0.417 -11.514 0.003 -11.514 C -0.411 -11.514 -0.747 -11.85 -0.747 -12.264 C -0.747 -12.264 -0.75 -12.286 -0.75 -12.286 C -0.75 -12.7 -0.414 -13.036 0 -13.036 C 0.414 -13.036 0.75 -12.7 0.75 -12.286 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="266" android:valueFrom="M 0.75 -12.286 C 0.75 -12.286 0.753 -12.264 0.753 -12.264 C 0.753 -11.85 0.417 -11.514 0.003 -11.514 C -0.411 -11.514 -0.747 -11.85 -0.747 -12.264 C -0.747 -12.264 -0.75 -12.286 -0.75 -12.286 C -0.75 -12.7 -0.414 -13.036 0 -13.036 C 0.414 -13.036 0.75 -12.7 0.75 -12.286 Z" android:valueTo="M 0.75 -12.286 C 0.75 -12.286 0.753 -12.264 0.753 -12.264 C 0.753 -11.85 0.417 -11.514 0.003 -11.514 C -0.411 -11.514 -0.747 -11.85 -0.747 -12.264 C -0.747 -12.264 -0.75 -12.286 -0.75 -12.286 C -0.75 -12.7 -0.414 -13.036 0 -13.036 C 0.414 -13.036 0.75 -12.7 0.75 -12.286 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

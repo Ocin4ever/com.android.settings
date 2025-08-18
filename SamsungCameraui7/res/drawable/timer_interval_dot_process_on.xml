@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/timer_interval_progress_dot_radius" />
+    <solid android:color="@color/timer_interval_progress_dot_on_color" />
+</shape>

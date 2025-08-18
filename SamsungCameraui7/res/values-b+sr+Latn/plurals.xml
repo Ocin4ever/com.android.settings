@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d lica</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lice</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d lica</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obaveštenja</item>
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Možete da napravite najviše %d prilagođenih filtera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da napravite najviše %d prilagođeni filter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da napravite najviše %d prilagođena filtera.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Vreme spavanja: %d sati</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vreme spavanja: %d sat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vreme spavanja: %d sata</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Vreme spavanja: %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vreme spavanja: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vreme spavanja: %d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Da biste izbegli pregrevanje, nemojte snimati 8K video zapis duže od %d minuta.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste izbegli pregrevanje, nemojte snimati 8K video zapis duže od %d minuta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste izbegli pregrevanje, nemojte snimati 8K video zapis duže od %d minuta.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Da biste izbegli pregrevanje, nemojte snimati duže od %1$d minuta %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste izbegli pregrevanje, nemojte snimati duže od %1$d minuta %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste izbegli pregrevanje, nemojte snimati duže od %1$d minuta %2$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapiksela</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapiksel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d megapiksela</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d sati</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sata</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d sati i jedan minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sat i jedan minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sata i jedan minut</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d sati, jedan minut i jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sat, jedan minut i jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sata, jedan minut i jedna sekunda</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d sati i jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sat i jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sata i jedna sekunda</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minuta i jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut i jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuta i jedna sekunda</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Jedan sat i %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedan sat i %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedan sat i %d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Jedan sat, %d minuta i jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedan sat, %d minut i jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedan sat, %d minuta i jedna sekunda</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Jedan sat i %d sekundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedan sat i %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedan sat i %d sekunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Jedan sat, jedan minut i %d sekundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedan sat, jedan minut i %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedan sat, jedan minut i %d sekunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Jedan minut i %d sekundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedan minut i %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedan minut i %d sekunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="custom_camera_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/widget_setting_custom_camera_shape" android:key="@string/dep_widget_camera_shape">
+        <com.sec.android.app.camera.setting.WidgetShapeListPreference android:title="@string/widget_setting_custom_camera_shape" android:key="@string/key_widget_settings_custom_camera_shape" android:dependency="@string/dep_widget_camera_shape" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/dep_widget_custom_camera">
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_title" android:key="@string/key_widget_settings_custom_camera_title" android:dependency="@string/dep_widget_custom_camera" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_starting_mode" android:key="@string/key_widget_settings_custom_camera_starting_mode" android:dependency="@string/dep_widget_custom_camera" />
+        <com.sec.android.app.camera.setting.SwitchListPreference android:persistent="false" android:title="@string/Title_Watermark" android:key="@string/key_widget_settings_custom_camera_watermark" android:dependency="@string/dep_widget_custom_camera" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_save_to" android:key="@string/key_widget_settings_custom_camera_save_to" android:dependency="@string/dep_widget_custom_camera" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_background" android:key="@string/key_widget_settings_custom_camera_background" android:dependency="@string/dep_widget_custom_camera" />
+    </PreferenceCategory>
+</PreferenceScreen>

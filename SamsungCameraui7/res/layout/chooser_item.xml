@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chooser_item_layout" android:tag="layout/chooser_item_0" android:focusable="true" android:clickable="true" android:layout_width="@dimen/video_resolution_chooser_item_width" android:layout_height="@dimen/video_resolution_chooser_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/chooser_image" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/chooser_sub_image" android:background="@null" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/video_resolution_chooser_item_font_size" android:textColor="@color/default_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/chooser_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" style="@style/SecSemiBold" />
+    </LinearLayout>
+</LinearLayout>

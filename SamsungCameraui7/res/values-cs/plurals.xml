@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d obličejů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d obličej</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d obličeje</item>
+        <item quantity="many">%d obličejů</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Nelze vytvořit více než %d vlastních filtrů.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze vytvořit více než %d vlastní filtr.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze vytvořit více než %d vlastní filtry.</item>
+        <item quantity="many">Nelze vytvořit více než %d vlastních filtrů.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Doba spánku: %d hodin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d hodiny</item>
+        <item quantity="many">Doba spánku: %d hodin</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Doba spánku: %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d minuty</item>
+        <item quantity="many">Doba spánku: %d minut</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Abyste zabránili přehřátí, nenahrávejte 8K video déle než %d minut.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Abyste zabránili přehřátí, nenahrávejte 8K video déle než %d minutu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Abyste zabránili přehřátí, nenahrávejte 8K video déle než %d minuty.</item>
+        <item quantity="many">Abyste zabránili přehřátí, nenahrávejte 8K video déle než %d minut.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Abyste zabránili přehřátí, nenahrávejte v režimu %2$s déle než %1$d minut.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Abyste zabránili přehřátí, nenahrávejte v režimu %2$s déle než %1$d minutu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Abyste zabránili přehřátí, nenahrávejte v režimu %2$s déle než %1$d minuty.</item>
+        <item quantity="many">Abyste zabránili přehřátí, nenahrávejte v režimu %2$s déle než %1$d minut.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixelů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d megapixely</item>
+        <item quantity="many">%d megapixelů</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d hodin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d hodin, jedna minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodina, jedna minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hodiny, jedna minuta</item>
+        <item quantity="many">%d hodin, jedna minuta</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d hodin, jedna minuta, jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodina, jedna minuta, jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hodiny, jedna minuta, jedna sekunda</item>
+        <item quantity="many">%d hodin, jedna minuta, jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d hodin, jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodina, jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hodiny, jedna sekunda</item>
+        <item quantity="many">%d hodin, jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minut, jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta, jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty, jedna sekunda</item>
+        <item quantity="many">%d minut, jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Jedna hodina, %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna hodina, %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna hodina, %d minuty</item>
+        <item quantity="many">Jedna hodina, %d minut</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Jedna hodina, %d minut, jedna sekunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna hodina, %d minuta, jedna sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna hodina, %d minuty, jedna sekunda</item>
+        <item quantity="many">Jedna hodina, %d minut, jedna sekunda</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Jedna hodina, %d sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna hodina, %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna hodina, %d sekundy</item>
+        <item quantity="many">Jedna hodina, %d sekund</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Jedna hodina, jedna minuta, %d sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna hodina, jedna minuta, %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna hodina, jedna minuta, %d sekundy</item>
+        <item quantity="many">Jedna hodina, jedna minuta, %d sekund</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Jedna minuta, %d sekund</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna minuta, %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna minuta, %d sekundy</item>
+        <item quantity="many">Jedna minuta, %d sekund</item>
+    </plurals>
+</resources>

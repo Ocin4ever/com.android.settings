@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d cares</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cara</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">No es poden introduir més de %d caràcters.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"No es pot introduir més d'%d caràcter."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">No es poden crear més de %d filtres personalitzats.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"No es pot crear més d'%d filtre personalitzat."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Temps de repòs: %d hores</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Temps de repòs: %d hora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Temps de repòs: %d minuts</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Temps de repòs: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Per evitar sobreescalfaments, no gravis més de %d minuts de vídeo 8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Per evitar sobreescalfaments, no gravis més d'%d minut de vídeo 8K."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Per evitar sobreescalfaments, no gravis més de %1$d minuts de %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Per evitar sobreescalfaments, no gravis més d'%1$d minut de %2$s."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapíxels</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapíxel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d hores i un minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hora i un minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d hores, un minut i un segon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hora, un minut i un segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d hores i un segon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hora i un segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minuts i un segon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut i un segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d segons</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Una hora i %d minuts</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una hora i %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Una hora, %d minuts i un segon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una hora, %d minut i un segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Una hora i %d segons</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una hora i %d segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Una hora, un minut i %d segons</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una hora, un minut i %d segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Un minut i %d segons</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Un minut i %d segon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

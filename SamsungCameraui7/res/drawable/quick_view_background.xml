@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/base_menu_quick_view_border_padding" android:top="@dimen/base_menu_quick_view_border_padding" android:right="@dimen/base_menu_quick_view_border_padding" android:bottom="@dimen/base_menu_quick_view_border_padding">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/base_menu_quick_view_border_width" android:color="@color/base_menu_quick_view_bottom_border_color" />
+        </shape>
+    </item>
+    <item android:left="@dimen/base_menu_quick_view_border_padding" android:top="@dimen/base_menu_quick_view_border_padding" android:right="@dimen/base_menu_quick_view_border_padding" android:bottom="@dimen/base_menu_quick_view_border_padding">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/base_menu_quick_view_border_width" android:color="@color/base_menu_quick_view_top_border_color" />
+        </shape>
+    </item>
+</layer-list>

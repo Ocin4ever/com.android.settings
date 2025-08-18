@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <ripple android:color="?android:colorControlHighlight"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/camera_default_ripple_color" />
+                    <corners android:radius="@dimen/smart_tips_selfie_tone_radio_button_ripple_radius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item android:drawable="@android:color/transparent" />
+</selector>

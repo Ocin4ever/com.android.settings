@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/sec/android/app/camera/engine/interfaces/CallbackManager$LensInfoListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sec/android/app/camera/engine/interfaces/CallbackManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "LensInfoListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onLensApertureChanged(F)V
+.end method
+
+.method public abstract onLensPositionChanged(I)V
+.end method

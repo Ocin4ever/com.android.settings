@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d פנים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d פנים</item>
+        <item quantity="two">%d פנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פנים</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">לא ניתן ליצור יותר מ-%d מסננים מותאמים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן ליצור יותר מ%d מסנן מותאם אחד.</item>
+        <item quantity="two">לא ניתן ליצור יותר מ-%d מסננים מותאמים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן ליצור יותר מ-%d מסננים מותאמים.</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">כדי למנוע התחממות יתר, צלם לכל היותר %d דקות של וידאו ב-8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי למנוע התחממות יתר, צלם לכל היותר %d דקה של וידאו ב-8K.</item>
+        <item quantity="two">כדי למנוע התחממות יתר, צלם לכל היותר %d דקות של וידאו ב-8K.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי למנוע התחממות יתר, צלם לכל היותר %d דקות של וידאו ב-8K.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">כדי למנוע התחממות יתר, צלם לכל היותר %1$d דקות של %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי למנוע התחממות יתר, צלם לכל היותר %1$d דקה של %2$s.</item>
+        <item quantity="two">כדי למנוע התחממות יתר, צלם לכל היותר %1$d דקות של %2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי למנוע התחממות יתר, צלם לכל היותר %1$d דקות של %2$s.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d מגה פיקסל</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d מגה פיקסל</item>
+        <item quantity="two">%d מגה פיקסל</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מגה פיקסל</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שעה</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d שעות ודקה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה %d ודקה אחת</item>
+        <item quantity="two">%d שעות ודקה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות ודקה אחת</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d שעות דקה אחת שנייה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה %d דקה אחת שנייה אחת</item>
+        <item quantity="two">%d שעות דקה אחת שנייה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות דקה אחת שנייה אחת</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d שעות ושנייה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה %d ושנייה אחת</item>
+        <item quantity="two">%d שעות ושנייה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות ושנייה אחת</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d דקות שנייה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דקה %d שנייה אחת</item>
+        <item quantity="two">%d דקות שנייה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות שנייה אחת</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שנייה</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">שעה אחת ו-%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה אחת ודקה %d</item>
+        <item quantity="two">שעה אחת ו-%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שעה אחת ו-%d דקות</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">שעה אחת %d דקות שנייה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה אחת דקה %d שנייה אחת</item>
+        <item quantity="two">שעה אחת %d דקות שנייה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שעה אחת %d דקות שנייה אחת</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">שעה אחת ו-%d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה אחת ושנייה %d</item>
+        <item quantity="two">שעה אחת ו-%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שעה אחת ו-%d שניות</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">שעה אחת דקה אחת %d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה אחת דקה אחת שנייה %d</item>
+        <item quantity="two">שעה אחת דקה אחת %d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שעה אחת דקה אחת %d שניות</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">דקה אחת %d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דקה אחת שנייה %d</item>
+        <item quantity="two">דקה אחת %d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">דקה אחת %d שניות</item>
+    </plurals>
+</resources>

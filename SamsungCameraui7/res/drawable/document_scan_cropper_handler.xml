@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/document_scan_cropper_handler_size" android:width="@dimen/document_scan_cropper_handler_size" />
+    <stroke android:width="@dimen/document_scan_cropper_handler_stroke" android:color="@color/document_scan_round_bitmap_stroke_color" />
+    <padding android:left="@dimen/document_scan_cropper_handler_padding" android:top="@dimen/document_scan_cropper_handler_padding" android:right="@dimen/document_scan_cropper_handler_padding" android:bottom="@dimen/document_scan_cropper_handler_padding" />
+</shape>

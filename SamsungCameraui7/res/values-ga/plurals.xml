@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d aghaidh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aghaidh</item>
+        <item quantity="two">%d aghaidh</item>
+        <item quantity="few">%d aghaidh</item>
+        <item quantity="many">%d n-aghaidh</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Ní féidir níos mó ná %d scagaire saincheaptha a chruthú.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d scagaire saincheaptha a chruthú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d scagaire shaincheaptha a chruthú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d scagaire shaincheaptha a chruthú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d scagaire shaincheaptha a chruthú.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Am codlata: %d uair an chloig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d uair an chloig</item>
+        <item quantity="two">Am codlata: %d uair an chloig</item>
+        <item quantity="few">Am codlata: %d uair an chloig</item>
+        <item quantity="many">Am codlata: %d n-uair an chloig</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Am codlata: %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d nóiméad</item>
+        <item quantity="two">Am codlata: %d nóiméad</item>
+        <item quantity="few">Am codlata: %d nóiméad</item>
+        <item quantity="many">Am codlata: %d nóiméad</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad</item>
+        <item quantity="two">%d nóiméad</item>
+        <item quantity="few">%d nóiméad</item>
+        <item quantity="many">%d nóiméad</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %d nóiméad d'fhíseán 8k."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %d nóiméad d'fhíseán 8k."</item>
+        <item quantity="two">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %d nóiméad d'fhíseán 8k."</item>
+        <item quantity="few">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %d nóiméad d'fhíseán 8k."</item>
+        <item quantity="many">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %d nóiméad d'fhíseán 8k."</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %1$d nóiméad de %2$s."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %1$d nóiméad de %2$s."</item>
+        <item quantity="two">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %1$d nóiméad de %2$s."</item>
+        <item quantity="few">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %1$d nóiméad de %2$s."</item>
+        <item quantity="many">"D'fhonn róthéamh a sheachaint, ná taifead níos mó ná %1$d nóiméad de %2$s."</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad</item>
+        <item quantity="two">%d nóiméad</item>
+        <item quantity="few">%d nóiméad</item>
+        <item quantity="many">%d nóiméad</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d meigi-phicteilín</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mheigi-phicteilín</item>
+        <item quantity="two">%d mheigi-phicteilín</item>
+        <item quantity="few">%d mheigi-phicteilín</item>
+        <item quantity="many">%d meigi-phicteilín</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d uair an chloig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig</item>
+        <item quantity="two">%d uair an chloig</item>
+        <item quantity="few">%d uair an chloig</item>
+        <item quantity="many">%d n-uair an chloig</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d uair an chloig nóiméad amháin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig nóiméad amháin</item>
+        <item quantity="two">%d uair an chloig nóiméad amháin</item>
+        <item quantity="few">%d uair an chloig nóiméad amháin</item>
+        <item quantity="many">%d n-uair an chloig nóiméad amháin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d uair an chloig nóiméad amháin soicind amháin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig nóiméad amháin soicind amháin</item>
+        <item quantity="two">%d uair an chloig nóiméad amháin soicind amháin</item>
+        <item quantity="few">%d uair an chloig nóiméad amháin soicind amháin</item>
+        <item quantity="many">%d n-uair an chloig nóiméad amháin soicind amháin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d uair an chloig soicind amháin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig soicind amháin</item>
+        <item quantity="two">%d uair an chloig soicind amháin</item>
+        <item quantity="few">%d uair an chloig soicind amháin</item>
+        <item quantity="many">%d n-uair an chloig soicind amháin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d nóiméad soicind amháin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad soicind amháin</item>
+        <item quantity="two">%d nóiméad soicind amháin</item>
+        <item quantity="few">%d nóiméad soicind amháin</item>
+        <item quantity="many">%d nóiméad soicind amháin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d soicind</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soicind</item>
+        <item quantity="two">%d shoicind</item>
+        <item quantity="few">%d shoicind</item>
+        <item quantity="many">%d soicind</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Uair an chloig amháin %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uair an chloig amháin %d nóiméad</item>
+        <item quantity="two">Uair an chloig amháin %d nóiméad</item>
+        <item quantity="few">Uair an chloig amháin %d nóiméad</item>
+        <item quantity="many">Uair an chloig amháin %d nóiméad</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Uair an chloig amháin %d nóiméad soicind amháin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uair an chloig amháin %d nóiméad soicind amháin</item>
+        <item quantity="two">Uair an chloig amháin %d nóiméad soicind amháin</item>
+        <item quantity="few">Uair an chloig amháin %d nóiméad soicind amháin</item>
+        <item quantity="many">Uair an chloig amháin %d nóiméad soicind amháin</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Uair an chloig amháin %d soicind</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uair an chloig amháin %d soicind</item>
+        <item quantity="two">Uair an chloig amháin %d shoicind</item>
+        <item quantity="few">Uair an chloig amháin %d shoicind</item>
+        <item quantity="many">Uair an chloig amháin %d soicind</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Uair an chloig amháin nóiméad amháin %d soicind</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uair an chloig amháin nóiméad amháin %d soicind</item>
+        <item quantity="two">Uair an chloig amháin nóiméad amháin %d shoicind</item>
+        <item quantity="few">Uair an chloig amháin nóiméad amháin %d shoicind</item>
+        <item quantity="many">Uair an chloig amháin nóiméad amháin %d soicind</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Nóiméad amháin %d soicind</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nóiméad amháin %d soicind</item>
+        <item quantity="two">Nóiméad amháin %d shoicind</item>
+        <item quantity="few">Nóiméad amháin %d shoicind</item>
+        <item quantity="many">Nóiméad amháin %d soicind</item>
+    </plurals>
+</resources>

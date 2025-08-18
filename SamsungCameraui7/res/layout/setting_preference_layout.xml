@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingVertical="@dimen/sesl_preference_item_padding_vertical">
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" />
+            <LinearLayout android:gravity="center" android:id="@id/badge_layout" android:visibility="gone" android:layout_width="@dimen/setting_preference_badge_layout_size" android:layout_height="@dimen/setting_preference_badge_layout_size">
+                <ImageView android:layout_width="@dimen/setting_preference_badge_layout_size" android:layout_height="@dimen/setting_preference_badge_layout_size" android:src="@drawable/setting_dot_notification" android:scaleType="centerCrop" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="30" android:layout_below="@id/title_layout" android:textDirection="locale" android:layout_alignStart="@id/title_layout" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="30" android:layout_below="@android:id/summary" android:textDirection="locale" android:textAlignment="viewStart" android:paddingEnd="@dimen/setting_text_view_padding_end" android:layout_alignStart="@android:id/summary" />
+    </RelativeLayout>
+</LinearLayout>

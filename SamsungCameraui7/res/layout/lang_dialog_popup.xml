@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/language_select_dialog_layout" android:background="@drawable/language_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/language_dialog_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_layout_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dialog_layout_margin_horizontal">
+        <TextView android:textSize="@dimen/textextraction_dialog_heading_text_size" android:textStyle="bold" android:textColor="@color/textextraction_dialog_heading_text_color" android:ellipsize="end" android:id="@id/lang_select_heading_text" android:layout_width="@dimen/textextraction_dialog_qr_heading_width" android:layout_height="wrap_content" android:minHeight="@dimen/textextraction_dialog_qr_heading_height" android:maxLines="1" android:layout_marginStart="@dimen/dialog_layout_margin_between_component" style="@style/sec_700" />
+        <View android:background="@color/textextraction_dialog_content_action_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/language_dialog_divider_height" android:layout_marginTop="@dimen/language_dialog_divider_margin_top" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/lang_select_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <View android:background="@color/textextraction_dialog_content_action_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/language_dialog_divider_height" android:layout_marginHorizontal="@dimen/dialog_layout_margin_horizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lang_select_add_languages_button" android:background="@drawable/language_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dialog_layout_margin_horizontal" android:paddingVertical="@dimen/language_dialog_padding_vertical">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/lang_select_add_languages_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/tw_list_icon_add_mtrl" app:tint="@color/lang_select_add_button" />
+        <TextView android:textSize="@dimen/language_dialog_add_language_size" android:textColor="@color/textextraction_dialog_content_action_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lang_select_add_languages" android:maxLines="1" android:layout_marginStart="14.0dip" style="@style/sec_400" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dialog_layout_margin_horizontal">
+        <TextView android:textSize="@dimen/dialog_action_text_size" android:textColor="@color/textextraction_dialog_content_action_text_color" android:id="@id/lang_select_cancel_text" android:background="@drawable/language_item_background" android:layout_width="@dimen/language_dialog_cancel_width" android:layout_height="wrap_content" android:text="@string/lang_select_cancel" android:textAlignment="center" android:paddingVertical="@dimen/language_dialog_padding_vertical" style="@style/sec_600" />
+    </LinearLayout>
+</LinearLayout>

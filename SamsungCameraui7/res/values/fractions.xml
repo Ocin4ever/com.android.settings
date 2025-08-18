@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="about_page_margin">4.999995%</fraction>
+    <fraction name="shooting_mode_overlay_floating_shutter_button_default_percent_pos_delta_y">26.499998%</fraction>
+    <fraction name="shooting_mode_overlay_floating_shutter_button_default_percent_pos_x">71.1%</fraction>
+    <fraction name="widget_land_image_layer_width">50.5%</fraction>
+    <fraction name="widget_land_scroll_layer_width">49.5%</fraction>
+</resources>

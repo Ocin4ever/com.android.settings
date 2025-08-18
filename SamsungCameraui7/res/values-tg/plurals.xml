@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d чеҳра</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d чеҳра</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Беш аз %d полои фармоишӣ эҷод кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d полои фармоишӣ эҷод кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Давомнокии хоб: %d соат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d соат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Давомнокии хоб: %d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Барои аз ҳад гарм шудани дастгоҳро пешгирӣ кардан, беш аз %d дақиқаи видеои 8K сабт накунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Барои аз ҳад гарм шудани дастгоҳро пешгирӣ кардан, беш аз %d дақиқаи видеои 8K сабт накунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Барои аз ҳад гарм шудани дастгоҳро пешгирӣ кардан, %2$s-ро беш аз %1$d дақиқа сабт накунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Барои аз ҳад гарм шудани дастгоҳро пешгирӣ кардан, %2$s-ро беш аз %1$d дақиқа сабт накунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d мегапиксел</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мегапиксел</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d соат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d соат як дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат як дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d соат як дақиқа як сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат як дақиқа як сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d соат як сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат як сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d дақиқа як сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа як сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Як соат %d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Як соат %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Як соат %d дақиқа як сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Як соат %d дақиқа як сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Як соат %d сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Як соат %d сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Як соат як дақиқа %d сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Як соат як дақиқа %d сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Як дақиқа %d сония</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Як дақиқа %d сония</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

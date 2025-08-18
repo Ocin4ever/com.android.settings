@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_auto" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_x5" android:maxLevel="11" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_x10" android:maxLevel="12" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_x15" android:maxLevel="13" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_x30" android:maxLevel="14" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_x60" android:maxLevel="15" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_night_15" android:maxLevel="99" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_night_45" android:maxLevel="100" />
+            <item android:drawable="@drawable/camera_indicator_hyper_motion_night_300" android:maxLevel="101" />
+        </level-list>
+    </item>
+</selector>

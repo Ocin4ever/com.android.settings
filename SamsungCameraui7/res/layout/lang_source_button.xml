@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/lang_code_button" android:background="@drawable/lang_code_background" android:layout_width="wrap_content" android:layout_height="@dimen/lang_code_button_size" android:minWidth="@dimen/lang_code_button_size" android:layout_marginStart="@dimen/lang_code_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/lang_source_btn_text_color" android:gravity="center" android:id="@id/lang_code_text" android:layout_width="wrap_content" android:layout_height="@dimen/lang_code_button_text_height" android:textAlignment="center" android:autoSizeTextType="uniform" android:autoSizeStepGranularity="1.0sp" android:autoSizeMinTextSize="@dimen/lang_code_autosize_min_text_size" android:paddingHorizontal="@dimen/lang_code_button_padding" android:autoSizeMaxTextSize="@dimen/lang_code_autosize_max_text_size" style="@style/sec_700" />
+</LinearLayout>

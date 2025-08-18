@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/filter_list_menu_item_size" android:width="@dimen/filter_list_menu_item_size" />
+            <solid android:color="@color/transparent" />
+            <corners android:radius="@dimen/filter_no_image_bg_radius" />
+            <stroke android:width="@dimen/filter_list_create_filter_bg_stroke" android:color="@color/filter_create_my_filter_border_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/filter_thumbnail_list_my_filter_plus" />
+</layer-list>

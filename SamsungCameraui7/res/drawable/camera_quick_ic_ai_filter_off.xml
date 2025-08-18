@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$camera_quick_ic_ai_filter_off__0" android:pathData="M20,12.94c-2.29,0 -4.15,1.86 -4.15,4.15s1.86,4.16 4.15,4.16 4.16,-1.86 4.16,-4.16 -1.86,-4.15 -4.16,-4.15ZM20,11.69c2.98,0 5.4,2.42 5.4,5.4s-2.42,5.4 -5.4,5.4 -5.4,-2.42 -5.4,-5.4 2.42,-5.4 5.4,-5.4Z" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M16.68,22.9m-5.4,0a5.4,5.4 0,1 1,10.8 0a5.4,5.4 0,1 1,-10.8 0" android:strokeAlpha="0.23" android:fillAlpha="0.23" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M15.05,21.27m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M18.32,21.27m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M18.32,24.53m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M15.05,24.53m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M15.37,28.05c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M18,28.05c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M15.37,19.14c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:strokeAlpha="0.9" android:fillAlpha="0.9" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M13.18,26.85c0.24,0 0.44,-0.2 0.44,-0.44s-0.2,-0.44 -0.44,-0.44 -0.44,0.2 -0.44,0.44 0.2,0.44 0.44,0.44Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M12.23,24.91c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M13.18,19.4m-0.44,0a0.44,0.44 0,1 1,0.88 0a0.44,0.44 0,1 1,-0.88 0" android:strokeAlpha="0.9" android:fillAlpha="0.9" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M12.23,22.28c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M20.19,26.85c0.24,0 0.44,-0.2 0.44,-0.44s-0.2,-0.44 -0.44,-0.44 -0.44,0.2 -0.44,0.44 0.2,0.44 0.44,0.44Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M21.14,24.91c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:strokeAlpha="0.8" android:fillAlpha="0.8" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M21.14,22.28c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:strokeAlpha="0.8" android:fillAlpha="0.8" android:fillType="evenOdd" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M20.19,19.4m-0.44,0a0.44,0.44 0,1 1,0.88 0a0.44,0.44 0,1 1,-0.88 0" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M18,19.14c0.38,0 0.69,-0.31 0.69,-0.69s-0.31,-0.69 -0.69,-0.69 -0.69,0.31 -0.69,0.69 0.31,0.69 0.69,0.69Z" android:strokeAlpha="0.9" android:fillAlpha="0.9" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$camera_quick_ic_ai_filter_off__1" android:pathData="M23.32,22.9m-5.4,0a5.4,5.4 0,1 1,10.8 0a5.4,5.4 0,1 1,-10.8 0" android:strokeAlpha="0.75" android:fillAlpha="0.75" />
+</vector>

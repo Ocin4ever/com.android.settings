@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/ic_launcher" android:title="@string/settings" android:key="@string/top_level_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Title_intelligence" android:key="@string/dep_intelligence">
+        <com.sec.android.app.camera.setting.SwitchListPreference android:persistent="false" android:title="@string/Title_document_scan_and_text" android:key="@string/key_additional_scene_document_scan" android:dependency="@string/dep_intelligence" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_QRCode" android:key="@string/key_qr_code_detection" android:dependency="@string/dep_intelligence" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_composition_guide" android:key="@string/key_composition_guide" android:summary="@string/composition_guide_summary" android:dependency="@string/dep_intelligence" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_Advanced_Intelligent_Options" android:key="@string/key_advanced_intelligent_options" android:dependency="@string/dep_intelligence" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_pictures" android:key="@string/dep_pictures">
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_SwipeShutterTo" android:key="@string/key_hold_camera_button_to" android:dependency="@string/dep_pictures" />
+        <com.sec.android.app.camera.setting.SwitchListPreference android:persistent="false" android:title="@string/Title_Watermark" android:key="@string/key_watermark" android:dependency="@string/dep_pictures" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_SaveOptions" android:key="@string/key_save_options" android:dependency="@string/dep_pictures" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Raw_File" android:key="@string/key_picture_format" android:summary="@string/picture_format_summary" android:dependency="@string/dep_pictures" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_selfies" android:key="@string/dep_selfie">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_PicturesAsPreviewed" android:key="@string/key_save_as_flipped" android:summary="@string/pictures_as_previewed_summary" android:dependency="@string/dep_selfie" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Swipe_preview_to_switch_camera" android:key="@string/key_swipe_preview_to_switch_camera" android:dependency="@string/dep_selfie" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_videos" android:key="@string/dep_videos">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Video_Auto_FPS" android:key="@string/key_video_auto_fps" android:summary="@string/video_auto_fps_summary" android:dependency="@string/dep_videos" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_Video_Auto_FPS" android:key="@string/key_video_auto_fps" android:dependency="@string/dep_videos" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_VideoStabilisation" android:key="@string/key_video_stabilisation" android:dependency="@string/dep_videos" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_Advanced_Recording_Options" android:key="@string/key_advanced_recording_options" android:dependency="@string/dep_videos" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_stereo_capture" android:key="@string/dep_stereo_capture">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/stereo_capture_title" android:key="@string/key_stereo_indicator" android:summary="@string/stereo_capture_description" android:dependency="@string/dep_stereo_capture" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_useful_features" android:key="@string/dep_useful_features">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_AutoHDR" android:key="@string/key_hdr_enabled" android:summary="@string/hdr_apply_setting_description" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_TrackingAF" android:key="@string/key_tracking_af" android:summary="@string/tracking_af_summary" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.SwitchListPreference android:persistent="false" android:title="@string/Title_guide_lines" android:key="@string/key_guide_line" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_LocationTag" android:key="@string/key_location_tag" android:summary="@string/location_tag_summary" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_ShootingMethod" android:key="@string/key_shooting_method" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_SettingsToKeep" android:key="@string/key_settings_to_keep" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.SpinnerPreference android:persistent="false" android:entries="@array/storage_list" android:title="@string/Title_Storage" android:key="@string/key_storage" android:dependency="@string/dep_useful_features" android:entryValues="@array/storage_value" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_QuickShot" android:key="@string/key_quick_launch" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_ShutterSound" android:key="@string/key_shutter_sound" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_TouchVibrations" android:key="@string/key_touch_vibrations" android:dependency="@string/dep_useful_features" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Viewmode" android:key="@string/key_view_mode" android:summary="@string/viewmode_tag_summary" android:dependency="@string/dep_useful_features" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_camera_assistant">
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_camera_assistant" android:key="@string/key_camera_assistant" android:dependency="@string/dep_camera_assistant" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_features">
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_features" android:key="@string/key_features" android:dependency="@string/dep_features" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_privacy" android:key="@string/dep_privacy">
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_Permissions" android:key="@string/key_permissions" android:dependency="@string/dep_privacy" />
+        <com.sec.android.app.camera.setting.CustomizationServicePreference android:persistent="false" android:title="@string/Title_Customization_Service" android:key="@string/key_customization_service" android:summary="@string/customization_service_summary" android:dependency="@string/dep_privacy" />
+        <com.sec.android.app.camera.setting.SettingPreference android:title="@string/Title_vivino_privacy_policy" android:key="@string/key_vivino_privacy_policy" android:dependency="@string/dep_privacy" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_etc">
+        <com.sec.android.app.camera.setting.SettingPreference android:id="@id/reset_settings" android:title="@string/reset_title" android:key="@string/key_reset_settings" android:dependency="@string/dep_etc" />
+        <com.sec.android.app.camera.setting.SettingPreference android:id="@id/how_to_use" android:title="@string/Title_how_to_use" android:key="@string/key_how_to_use" android:dependency="@string/dep_etc" />
+        <com.sec.android.app.camera.setting.SettingPreference android:id="@id/about_camera" android:title="@string/Title_About_Camera" android:key="@string/key_about_camera" android:dependency="@string/dep_etc" />
+        <com.sec.android.app.camera.setting.SettingPreference android:id="@id/contact_us" android:title="@string/Title_Contact_us" android:key="@string/key_contact_us" android:dependency="@string/dep_etc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_empty" />
+</PreferenceScreen>

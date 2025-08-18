@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="272.0dip" android:width="272.0dip" android:viewportWidth="272.0" android:viewportHeight="272.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s6" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="camera_main_btn_00__hyperlapse_x4 Outlines">
+        <group android:name="s6pg1" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Group 3">
+            <path android:name="s6pg1p10" android:fillColor="#fffaf9f5" android:pathData="M 0 128 C -70.692 128 -128 70.692 -128 0 C -128 -70.692 -70.692 -128 0 -128 C 70.692 -128 128 -70.692 128 0 C 128 70.692 70.692 128 0 128 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s5" android:pivotX="161.454" android:pivotY="136.0" android:translateX="14.546" aapt:layer_name="camera_main_btn_00__hyperlapse_x4 Outlines 2">
+        <group android:name="s5pg1" android:translateX="161.454" android:translateY="136.0" aapt:layer_name="Group 2">
+            <path android:name="s5pg1p10" android:fillColor="#ffef5a3f" android:pathData="M 0 -40 C 22.091 -40 40 -22.091 40 0 C 40 22.091 22.091 40 0 40 C -22.091 40 -40 22.091 -40 0 C -40 -22.091 -22.091 -40 0 -40 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s4" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="camera_main_btn_00_super_slow_x4 Outlines">
+        <group android:name="s4pg1" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Group 2">
+            <path android:name="s4pg1p10" android:fillColor="#ffef5a3f" android:pathData="M 0 -40 C 22.091 -40 40 -22.091 40 0 C 40 22.091 22.091 40 0 40 C -22.091 40 -40 22.091 -40 0 C -40 -22.091 -22.091 -40 0 -40 Z" android:fillAlpha="0.4" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="null_group" aapt:layer_name="camera_main_btn_00_super_slow_x4 Outlines 3">
+        <clip-path android:name="trk_s2" android:pathData="M544,-544v1088h-1088v-1088zM96,136c0,22.091 17.909,40 40,40c22.091,0 40,-17.909 40,-40c0,-22.091 -17.909,-40 -40,-40c-22.091,0 -40,17.909 -40,40z" />
+        <group android:name="s3" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="camera_main_btn_00_super_slow_x4 Outlines 2">
+            <group android:name="s3pg1" android:translateX="86.002" android:translateY="136.0" aapt:layer_name="Group 1">
+                <path android:name="s3pg1p10" android:fillColor="#ffef5a3f" android:pathData="M 9.998 -40 C 17.285 -40 24.118 -38.051 30.002 -34.646 C 18.042 -27.733 9.998 -14.806 9.998 0 C 9.998 14.804 18.04 27.73 29.994 34.646 C 24.115 38.052 17.284 40 9.998 40 C -12.093 40 -30.002 22.091 -30.002 0 C -30.002 -22.091 -12.093 -40 9.998 -40 Z" android:fillAlpha="0.15" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="s1" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="track">
+        <group android:name="s1pg1" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Group 1">
+            <group android:name="s1pg1pg1" aapt:layer_name="Group 1">
+                <path android:name="s1pg1pg1p10" android:fillColor="@drawable/$avd_shutter_ico_superslowmo_to_hyperlapse__1" android:pathData="M -25.455 -40 C -25.455 -40 25.455 -40 25.455 -40 C 47.546 -40 65.455 -22.091 65.455 0 C 65.455 22.091 47.546 40 25.455 40 C 25.455 40 -25.455 40 -25.455 40 C -47.546 40 -65.455 22.091 -65.455 0 C -65.455 -22.091 -47.546 -40 -25.455 -40 Z" android:fillAlpha="0.0" aapt:layer_name="Path 4" aapt:style_name="Gradient Fill 1" />
+            </group>
+        </group>
+    </group>
+</vector>

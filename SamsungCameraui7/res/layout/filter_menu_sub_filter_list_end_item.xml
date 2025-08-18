@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/filter_item_layout" android:tag="layout/filter_menu_sub_filter_list_end_item_0" android:layout_width="@dimen/filter_list_menu_item_size" android:layout_height="@dimen/filter_list_menu_item_size" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/filter_dot" android:layout_width="@dimen/filter_list_v2_download_dot_width" android:layout_height="@dimen/filter_list_menu_item_size" android:src="@drawable/filter_thumbnail_list_dot" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/download_filter" android:background="@drawable/filter_thumbnail_list_download_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_effect_filter_download_btn" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/filter_dot" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

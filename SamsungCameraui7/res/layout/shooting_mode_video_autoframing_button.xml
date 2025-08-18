@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/icon" android:tag="layout/shooting_mode_video_autoframing_button_0" android:background="@android:color/transparent" android:layout_width="@dimen/shooting_mode_side_button_size" android:layout_height="@dimen/shooting_mode_side_button_size" android:contentDescription="@string/Title_auto_framing" android:tooltipText="@string/Title_auto_framing" />
+</merge>

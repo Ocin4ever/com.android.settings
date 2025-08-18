@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d چهره</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چهره</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">ایجاد بیشتر از %d فیلتر سفارشی ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ایجاد بیشتر از %d فیلتر سفارشی ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">زمان خواب: %d ساعت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زمان خواب: %d ساعت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">زمان خواب: %d دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زمان خواب: %d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">برای جلوگیری از داغ شدن، بیشتر از %d دقیقه از ویدیوی 8K را ضبط نکنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برای جلوگیری از داغ شدن، بیشتر از %d دقیقه از ویدیو 8K را ضبط نکنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">برای جلوگیری از داغ شدن، بیشتر از %1$d دقیقه از %2$s را ضبط نکنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برای جلوگیری از داغ شدن، بیشتر از %1$d دقیقه از %2$s را ضبط نکنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d مگاپیکسل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مگاپیکسل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d ساعت و یک دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت و یک دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d ساعت و یک دقیقه و یک ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت و یک دقیقه و یک ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d ساعت و یک ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت و یک ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d دقیقه و یک ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه و یک ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">یک ساعت و %d دقیقه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک ساعت و %d دقیقه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">یک ساعت و %d دقیقه و یک ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک ساعت و %d دقیقه و یک ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">یک ساعت و %d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک ساعت و %d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">یک ساعت و یک دقیقه و %d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک ساعت و یک دقیقه و %d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">یک دقیقه و %d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک دقیقه و %d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

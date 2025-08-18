@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">Nyuso %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uso %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Haiwezi kuunda zaidi ya vichujio maalum %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuunda zaidi ya kichujio maalum %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Kipima muda wa kulala: Saa %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kipima muda wa kulala: Saa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Muda wa kulala: Dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Muda wa kulala: Dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Ili kuepuka kupata joto kupita kiasi, usirekodi zaidi ya dakika %d ya video ya 8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ili kuepuka kupata joto kupita kiasi, usirekodi zaidi ya dakika %d ya video ya 8K.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Ili kuepuka kupata joto kupita kiasi, usirekodi zaidi ya dakika %1$d ya %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ili kuepuka kupata joto kupita kiasi, usirekodi zaidi ya dakika %1$d ya %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">Megapikseli %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Megapikseli %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">Saa %d dakika moja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d dakika moja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">Saa %d dakika moja sekunde moja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d dakika moja sekunde moja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">Saa %d sekunde moja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d sekunde moja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">Dakika %d sekunde moja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d sekunde moja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sekunde %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Saa moja dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa moja dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Saa moja dakika %d sekunde moja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa moja dakika %d sekunde moja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Saa moja sekunde %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa moja sekunde %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Saa moja dakika moja sekunde %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa moja dakika moja sekunde %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Dakika moja na sekunde %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika moja na sekunde %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

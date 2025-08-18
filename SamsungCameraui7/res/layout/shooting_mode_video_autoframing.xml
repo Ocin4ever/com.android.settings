@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/auto_framing_main" android:tag="layout/shooting_mode_video_autoframing_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.camera.shootingmode.video.autoframing.AutoFramingRectView android:id="@id/auto_framing_rect_view" android:visibility="invisible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/top_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/shutter_area_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/shutter_area_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

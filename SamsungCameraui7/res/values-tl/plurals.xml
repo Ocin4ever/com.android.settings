@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d mukha</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mukha</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Hindi makalikha ng higit sa %d custom na filter.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makalikha ng higit sa %d custom na filter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Oras ng tulog: %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oras ng tulog: %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Oras ng tulog: %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oras ng tulog: %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Para maiwasan ang pag-overheat, huwag mag-record nang higit sa %d minuto ng 8K video.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para maiwasan ang pag-overheat, huwag mag-record nang higit sa %d minuto ng 8K video.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Para maiwasan ang labis na pag-init, huwag mag-record ng higit sa %1$d minuto ng %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para maiwasan ang labis na pag-init, huwag mag-record ng higit sa %1$d minuto ng %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d oras isang minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras isang minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d oras isang minuto isang segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras isang minuto isang segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d oras isang segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras isang segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minuto isang segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto isang segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Isang oras %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Isang oras %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Isang oras %d minuto isang segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Isang oras %d minuto isang segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Isang oras %d segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Isang oras %d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Isang oras isang minuto %d segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Isang oras isang minuto %d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Isang minuto %d segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Isang minuto %d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

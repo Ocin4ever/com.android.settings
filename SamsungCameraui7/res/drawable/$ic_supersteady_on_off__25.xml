@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_on_off__26" android:duration="400" android:valueFrom="4" android:valueTo="3.62" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_on_off__27" android:duration="400" android:valueFrom="4" android:valueTo="3.62" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_on_off__28" android:duration="400" android:pathData="M 60,60 C58.792,60.229 53.958,61.146 52.75,61.375" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_on_off__29" android:duration="400" android:pathData="M 60,60 C58.792,60.229 53.958,61.146 52.75,61.375" android:propertyYName="translateY" />
+    </set>
+</set>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_shutter_ico_singletake_to_slowmo__2" android:duration="200" android:valueFrom="M 0 -92 C 50.81 -92 92 -50.81 92 0 C 92 50.81 50.81 92 0 92 C -50.81 92 -92 50.81 -92 0 C -92 -50.81 -50.81 -92 0 -92 Z" android:valueTo="M 0 -128 C 70.692 -128 128 -70.692 128 0 C 128 70.692 70.692 128 0 128 C -70.692 128 -128 70.692 -128 0 C -128 -70.692 -70.692 -128 0 -128 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="1" android:startOffset="15" android:valueFrom="M 0 -128 C 70.692 -128 128 -70.692 128 0 C 128 70.692 70.692 128 0 128 C -70.692 128 -128 70.692 -128 0 C -128 -70.692 -70.692 -128 0 -128 Z" android:valueTo="M 0 -128 C 70.692 -128 128 -70.692 128 0 C 128 70.692 70.692 128 0 128 C -70.692 128 -128 70.692 -128 0 C -128 -70.692 -70.692 -128 0 -128 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

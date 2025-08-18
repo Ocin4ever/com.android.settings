@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/bokeh_lighting_slider_background_radius" />
+    <solid android:color="@color/bokeh_lighting_slider_progress" />
+    <stroke android:width="0.5dip" android:color="@color/bokeh_lighting_slider_background_stroke" />
+</shape>

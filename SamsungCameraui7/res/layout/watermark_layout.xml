@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/Title_Watermark"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" style="@style/CollapsingToolbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AppCompat.AppbarTheme" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:theme="@style/Theme.AppCompat.DayNight" android:orientation="vertical" android:id="@id/listview" android:background="@color/theme_bg_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/main_switch" />
+                <FrameLayout android:id="@id/image_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/watermark_item_margin" android:layout_marginVertical="@dimen/watermark_vertical_margin">
+                    <ImageView android:id="@id/image" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_image_view_height" android:src="@drawable/watermark_bg" android:scaleType="centerCrop" android:contentDescription="@string/watermark_sample_image" />
+                    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/watermark_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/watermark_text_horizontal_margin" android:layout_marginVertical="@dimen/watermark_text_vertical_margin">
+                        <com.sec.android.app.camera.widget.StrokedTextView android:textAppearance="@style/SecBold" android:textSize="@dimen/watermark_text_size" android:textColor="@color/watermark_text_color" android:id="@id/watermark_model_text" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/watermark_text_height" android:singleLine="true" app:textViewStroke="true" app:textViewStrokeColor="@color/watermark_stroke_color" app:textViewStrokeWidth="@integer/watermark_stroke_width" />
+                        <com.sec.android.app.camera.widget.StrokedTextView android:textAppearance="@style/SecBold" android:textSize="@dimen/watermark_text_size" android:textColor="@color/watermark_text_color" android:id="@id/watermark_time_text" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/watermark_text_height" app:textViewStroke="true" app:textViewStrokeColor="@color/watermark_stroke_color" app:textViewStrokeWidth="@integer/watermark_stroke_width" />
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/fragment_container_layout" android:background="@color/theme_list_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

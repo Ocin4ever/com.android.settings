@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d veidų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d veidas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d veidai</item>
+        <item quantity="many">%d veidų</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolį.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Negalima sukurti daugiau nei %d pasirinktinių filtrų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima sukurti daugiau nei %d pasirinktinio filtro.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima sukurti daugiau nei %d pasirinktinių filtrų.</item>
+        <item quantity="many">Negalima sukurti daugiau nei %d pasirinktinių filtrų.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Miegojimo laikas: %d val.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d val.</item>
+        <item quantity="many">Miegojimo laikas: %d val.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Miegojimo laikas: %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d min.</item>
+        <item quantity="many">Miegojimo laikas: %d min.</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Kad išvengtumėte perkaitimo, 8K raiška nefilmuokite ilgiau nei %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad išvengtumėte perkaitimo, 8K raiška nefilmuokite ilgiau nei %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad išvengtumėte perkaitimo, 8K raiška nefilmuokite ilgiau nei %d min.</item>
+        <item quantity="many">Kad išvengtumėte perkaitimo, 8K raiška nefilmuokite ilgiau nei %d min.</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Kad išvengtumėte perkaitimo, neįrašinėkite %2$s ilgiau nei %1$d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad išvengtumėte perkaitimo, neįrašinėkite %2$s ilgiau nei %1$d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad išvengtumėte perkaitimo, neįrašinėkite %2$s ilgiau nei %1$d min.</item>
+        <item quantity="many">Kad išvengtumėte perkaitimo, neįrašinėkite %2$s ilgiau nei %1$d min.</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapikselių</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapikselis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d megapikseliai</item>
+        <item quantity="many">%d megapikselių</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d val.</item>
+        <item quantity="many">%d val.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d val., viena minutė</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d val., viena minutė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d val., viena minutė</item>
+        <item quantity="many">%d val., viena minutė</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d val., viena minutė ir viena sekundė</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d val., viena minutė ir viena sekundė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d val., viena minutė ir viena sekundė</item>
+        <item quantity="many">%d val., viena minutė ir viena sekundė</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d val., viena sekundė</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d val., viena sekundė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d val., viena sekundė</item>
+        <item quantity="many">%d val., viena sekundė</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d min. ir viena sekundė</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min. ir viena sekundė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min. ir viena sekundė</item>
+        <item quantity="many">%d min. ir viena sekundė</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Viena valanda, %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viena valanda, %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Viena valanda, %d min.</item>
+        <item quantity="many">Viena valanda, %d min.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Viena valanda, %d min. ir viena sekundė</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viena valanda, %d min. ir viena sekundė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Viena valanda, %d min. ir viena sekundė</item>
+        <item quantity="many">Viena valanda, %d min. ir viena sekundė</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Viena valanda, %d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viena valanda, %d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Viena valanda, %d sek.</item>
+        <item quantity="many">Viena valanda, %d sek.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Viena valanda, viena minutė ir %d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viena valanda, viena minutė ir %d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Viena valanda, viena minutė ir %d sek.</item>
+        <item quantity="many">Viena valanda, viena minutė ir %d sek.</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Viena minutė ir %d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viena minutė ir %d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Viena minutė ir %d sek.</item>
+        <item quantity="many">Viena minutė ir %d sek.</item>
+    </plurals>
+</resources>

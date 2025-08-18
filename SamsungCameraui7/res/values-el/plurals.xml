@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d πρόσωπα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πρόσωπο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Δεν μπορείτε να δημιουργήσετε πάνω από %d προσαρμοσμένα φίλτρα.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να δημιουργήσετε πάνω από %d προσαρμοσμένο φίλτρο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Χρόνος ύπνου: %d ώρες</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Χρόνος ύπνου: %d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Για να αποφευχθεί η υπερθέρμανση, μην εγγράφετε βίντεο 8K για πάνω από %d λεπτά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να αποφευχθεί η υπερθέρμανση, μην εγγράφετε βίντεο 8K για πάνω από %d λεπτό.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Για να αποφευχθεί η υπερθέρμανση, μην εγγράφετε για πάνω από %1$d λεπτά στη ρύθμιση %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να αποφευχθεί η υπερθέρμανση, μην εγγράφετε για πάνω από %1$d λεπτό στη ρύθμιση %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d ώρες ένα λεπτό</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ώρα ένα λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d ώρες ένα λεπτό ένα δευτερόλεπτο</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ώρα ένα λεπτό ένα δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d ώρες ένα δευτερόλεπτο</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ώρα ένα δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d λεπτά ένα δευτερόλεπτο</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d λεπτό ένα δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Μία ώρα %d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μία ώρα %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Μία ώρα %d λεπτά ένα δευτερόλεπτο</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μία ώρα %d λεπτό ένα δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Μία ώρα %d δευτερόλεπτα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μία ώρα %d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Μία ώρα ένα λεπτό %d δευτερόλεπτα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μία ώρα ένα λεπτό %d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Ένα λεπτό %d δευτερόλεπτα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ένα λεπτό %d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

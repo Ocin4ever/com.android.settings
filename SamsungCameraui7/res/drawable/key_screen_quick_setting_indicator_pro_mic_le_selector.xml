@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_sound_default_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_sound_front_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_indicator_sound_rear_on" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_indicator_sound_usb_on" android:maxLevel="3" />
+            <item android:drawable="@drawable/camera_indicator_sound_le_audio_on" android:maxLevel="4" />
+            <item android:drawable="@drawable/camera_indicator_sound_bt_mobile_on" android:maxLevel="5" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_sound_default" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_indicator_sound_front" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_indicator_sound_rear" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_indicator_sound_usb" android:maxLevel="3" />
+            <item android:drawable="@drawable/camera_indicator_sound_le_audio" android:maxLevel="4" />
+            <item android:drawable="@drawable/camera_indicator_sound_bt_mobile" android:maxLevel="5" />
+        </level-list>
+    </item>
+</selector>

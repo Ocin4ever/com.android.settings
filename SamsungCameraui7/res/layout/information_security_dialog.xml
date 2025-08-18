@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/information_security_dialog_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/information_security_dialog_margin_top" android:paddingBottom="@dimen/information_security_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/winset_dialog_text_size" android:textColor="@color/dialog_description_color" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/information_security_dialog_message_margin_bottom" android:lineSpacingExtra="@dimen/winset_dialog_text_line_spacing" android:layout_marginStart="@dimen/winset_dialog_text_margin_side" android:layout_marginEnd="@dimen/winset_dialog_text_margin_side" style="@style/SecRegular" />
+        <TextView android:textSize="@dimen/winset_dialog_text_size" android:textColor="@color/dialog_description_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/information_security_dialog_message_margin_bottom" android:text="@string/required" android:layout_marginStart="@dimen/winset_dialog_text_margin_side" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/information_security_dialog_list_margin_start" android:layout_marginEnd="@dimen/winset_dialog_text_margin_side">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_gravity="center" android:background="@drawable/list_dialog_dot" android:layout_width="@dimen/information_security_dialog_list_dot_size" android:layout_height="@dimen/information_security_dialog_list_dot_size" />
+                <TextView android:textSize="@dimen/winset_dialog_text_size" android:textColor="@color/dialog_list_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/list_contents_about_audio_video_image_files" android:layout_marginStart="@dimen/information_security_dialog_list_text_margin_start" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/information_security_dialog_list_line_spacing_height" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_gravity="center" android:background="@drawable/list_dialog_dot" android:layout_width="@dimen/information_security_dialog_list_dot_size" android:layout_height="@dimen/information_security_dialog_list_dot_size" />
+                <TextView android:textSize="@dimen/winset_dialog_text_size" android:textColor="@color/dialog_list_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/list_contents_microphone" android:layout_marginStart="@dimen/information_security_dialog_list_text_margin_start" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/information_security_dialog_list_line_spacing_height" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_gravity="center" android:background="@drawable/list_dialog_dot" android:layout_width="@dimen/information_security_dialog_list_dot_size" android:layout_height="@dimen/information_security_dialog_list_dot_size" />
+                <TextView android:textSize="@dimen/winset_dialog_text_size" android:textColor="@color/dialog_list_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_connection" android:layout_marginStart="@dimen/information_security_dialog_list_text_margin_start" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$indicator_singletake_pre_recording_off_on__2" android:duration="250" android:valueFrom="M 8.113 0 C 8.113 0.497 7.71 0.9 7.213 0.9 C 7.213 0.9 -7.269 0.9 -7.269 0.9 C -7.766 0.9 -8.169 0.497 -8.169 0 C -8.169 -0.497 -7.766 -0.9 -7.269 -0.9 C -7.269 -0.9 7.213 -0.9 7.213 -0.9 C 7.71 -0.9 8.113 -0.497 8.113 0 Z" android:valueTo="M -7.266 0 C -7.266 0.497 -7.669 0.9 -8.166 0.9 C -8.166 0.9 -7.269 0.9 -7.269 0.9 C -7.766 0.9 -8.169 0.497 -8.169 0 C -8.169 -0.497 -7.766 -0.9 -7.269 -0.9 C -7.269 -0.9 -8.166 -0.9 -8.166 -0.9 C -7.669 -0.9 -7.266 -0.497 -7.266 0 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="266" android:valueFrom="M -7.266 0 C -7.266 0.497 -7.669 0.9 -8.166 0.9 C -8.166 0.9 -7.269 0.9 -7.269 0.9 C -7.766 0.9 -8.169 0.497 -8.169 0 C -8.169 -0.497 -7.766 -0.9 -7.269 -0.9 C -7.269 -0.9 -8.166 -0.9 -8.166 -0.9 C -7.669 -0.9 -7.266 -0.497 -7.266 0 Z" android:valueTo="M -7.266 0 C -7.266 0.497 -7.669 0.9 -8.166 0.9 C -8.166 0.9 -7.269 0.9 -7.269 0.9 C -7.766 0.9 -8.169 0.497 -8.169 0 C -8.169 -0.497 -7.766 -0.9 -7.269 -0.9 C -7.269 -0.9 -8.166 -0.9 -8.166 -0.9 C -7.669 -0.9 -7.266 -0.497 -7.266 0 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

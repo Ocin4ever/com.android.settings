@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d դեմք</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d դեմք</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Հնարավոր չէ ստեղծել %d կարգավորելի զտիչից ավելի:</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ստեղծել %d կարգավորելի զտիչից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Քնի տևողությունը՝ %d ժամ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d ժամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Քնի տևողությունը՝ %d րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Գերտաքացումից խուսափելու համար մի տեսագրեք %d րոպեից ավելի տևողությամբ 8K տեսանյութ:</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Գերտաքացումից խուսափելու համար մի տեսագրեք %d րոպեից ավելի տևողությամբ 8K տեսանյութ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Գերտաքացումից խուսափելու համար մի տեսագրեք %1$d րոպեից ավելի %2$s:</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Գերտաքացումից խուսափելու համար մի տեսագրեք %1$d րոպեից ավելի %2$s:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d մեգապիքսել</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d մեգապիքսել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d ժամ մեկ րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ մեկ րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d ժամ մեկ րոպե մեկ վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ մեկ րոպե մեկ վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d ժամ մեկ վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ մեկ վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d րոպե մեկ վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե մեկ վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Մեկ ժամ %d րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեկ ժամ %d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Մեկ ժամ %d րոպե մեկ վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեկ ժամ %d րոպե մեկ վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Մեկ ժամ %d վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեկ ժամ %d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Մեկ ժամ մեկ րոպե %d վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեկ ժամ մեկ րոպե %d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Մեկ րոպե %d վայրկյան</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեկ րոպե %d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

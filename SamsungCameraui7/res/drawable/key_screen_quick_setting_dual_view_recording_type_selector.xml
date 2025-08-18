@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/camera_quick_ic_multi_recording_dual_pip_view" />
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_multi_recording_dual_pip_view_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_multi_recording_dual_split_view_on" android:maxLevel="1" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_multi_recording_dual_pip_view" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_multi_recording_dual_split_view" android:maxLevel="1" />
+        </level-list>
+    </item>
+</selector>

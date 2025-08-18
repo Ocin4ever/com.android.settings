@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.shootingmode.singletake.SingleTakeShutter android:id="@id/single_take_shutter" android:tag="layout/shooting_mode_single_take_shutter_layout_0" android:visibility="invisible" android:clipChildren="false" android:layout_width="@dimen/single_take_shutter_size" android:layout_height="@dimen/single_take_shutter_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

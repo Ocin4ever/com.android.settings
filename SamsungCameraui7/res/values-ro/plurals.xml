@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d fețe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d față</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fețe</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Nu se pot crea mai mult de %d filtre personalizate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate crea mai mult de %d filtru personalizat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot crea mai mult de %d filtre personalizate.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Durată somn: %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Durată somn: %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %d minute de videoclip 8K.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %d minut de videoclip 8K.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %d minute de videoclip 8K.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %1$d minute de %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %1$d minut de %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a evita supraîncălzirea, nu înregistrați mai mult de %1$d minute de %2$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixeli</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d megapixeli</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d ore și un minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră și un minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore și un minut</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d ore, un minut și o secundă</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră, un minut și o secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore, un minut și o secundă</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d ore și o secundă</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră și o secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore și o secundă</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minute și o secundă</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut și o secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute și o secundă</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d secunde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">O oră și %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O oră și %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O oră și %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">O oră, %d minute și o secundă</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O oră, %d minut și o secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O oră, %d minute și o secundă</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">O oră și %d secunde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O oră și %d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O oră și %d secunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">O oră, un minut și %d secunde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O oră, un minut și %d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O oră, un minut și %d secunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Un minut și %d secunde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Un minut și %d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Un minut și %d secunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

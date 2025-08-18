@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_off_on__46" android:duration="300" android:valueFrom="M -8.486 -8.486 C -8.486 -8.486 8.486 8.486 8.486 8.486 " android:valueTo="M -8.486 -8.486 C -8.486 -8.486 -8.437 -8.429 -8.437 -8.429 " android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="316" android:valueFrom="M -8.486 -8.486 C -8.486 -8.486 -8.437 -8.429 -8.437 -8.429 " android:valueTo="M -8.486 -8.486 C -8.486 -8.486 -8.437 -8.429 -8.437 -8.429 " android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

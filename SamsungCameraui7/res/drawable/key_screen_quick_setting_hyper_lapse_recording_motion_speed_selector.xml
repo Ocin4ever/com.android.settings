@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_auto_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x4_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x8_on" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x16_on" android:maxLevel="3" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x32_on" android:maxLevel="4" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x64_on" android:maxLevel="5" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_auto" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x4" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x8" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x16" android:maxLevel="3" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x32" android:maxLevel="4" />
+            <item android:drawable="@drawable/camera_quick_ic_hyper_motion_x64" android:maxLevel="5" />
+        </level-list>
+    </item>
+</selector>

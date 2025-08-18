@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_on_off__8" android:duration="250" android:valueFrom="M -1.934 -0.589 C -1.934 -0.589 1.935 -0.589 1.935 -0.589 C 2.26 -0.589 2.523 -0.324 2.523 0.001 C 2.523 0.326 2.26 0.589 1.935 0.589 C 1.935 0.589 -1.934 0.589 -1.934 0.589 C -2.259 0.589 -2.523 0.326 -2.523 0.001 C -2.523 -0.324 -2.259 -0.589 -1.934 -0.589 Z" android:valueTo="M 1.913 -0.592 C 1.913 -0.592 1.935 -0.589 1.935 -0.589 C 2.26 -0.589 2.523 -0.324 2.523 0.001 C 2.523 0.326 2.26 0.589 1.935 0.589 C 1.935 0.589 1.913 0.585 1.913 0.585 C 1.588 0.585 1.324 0.322 1.324 -0.003 C 1.324 -0.328 1.588 -0.592 1.913 -0.592 Z" android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="266" android:valueFrom="M 1.913 -0.592 C 1.913 -0.592 1.935 -0.589 1.935 -0.589 C 2.26 -0.589 2.523 -0.324 2.523 0.001 C 2.523 0.326 2.26 0.589 1.935 0.589 C 1.935 0.589 1.913 0.585 1.913 0.585 C 1.588 0.585 1.324 0.322 1.324 -0.003 C 1.324 -0.328 1.588 -0.592 1.913 -0.592 Z" android:valueTo="M 1.913 -0.592 C 1.913 -0.592 1.935 -0.589 1.935 -0.589 C 2.26 -0.589 2.523 -0.324 2.523 0.001 C 2.523 0.326 2.26 0.589 1.935 0.589 C 1.935 0.589 1.913 0.585 1.913 0.585 C 1.588 0.585 1.324 0.322 1.324 -0.003 C 1.324 -0.328 1.588 -0.592 1.913 -0.592 Z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

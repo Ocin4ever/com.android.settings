@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/Title_Advanced_Recording_Options"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Title_video_format" android:key="@string/dep_video_format">
+        <com.sec.android.app.camera.setting.CameraRadioButtonSpinnerPreference android:persistent="false" android:title="@string/Title_video_format_hevc" android:key="@string/key_video_format_hevc" android:dependency="@string/dep_video_format" />
+        <com.sec.android.app.camera.setting.CameraRadioButtonPreference android:persistent="false" android:title="@string/Title_video_format_hevc" android:key="@string/key_video_format_hevc" android:dependency="@string/dep_video_format" />
+        <com.sec.android.app.camera.setting.CameraRadioButtonPreference android:persistent="false" android:title="@string/Title_video_format_h264" android:key="@string/key_video_format_h264" android:dependency="@string/dep_video_format" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_advanced_videos">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_high_efficiency_video" android:key="@string/key_hevc" android:summary="@string/camcorder_front_HEVC_summary" android:dependency="@string/dep_advanced_videos" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_high_bitrate_video" android:key="@string/key_high_bitrate_video" android:summary="@string/high_bitrate_video_summary" android:dependency="@string/dep_advanced_videos" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_camcorder_hlg" android:key="@string/key_hlg" android:summary="@string/camcorder_hlg_summary" android:dependency="@string/dep_advanced_videos" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Camcorder_HDR10" android:key="@string/key_hdr10_recording" android:summary="@string/camcorder_HDR10_summary" android:dependency="@string/dep_advanced_videos" />
+        <com.sec.android.app.camera.setting.SwitchListPreference android:persistent="false" android:title="@string/Title_log_video" android:key="@string/key_log_video" android:dependency="@string/dep_advanced_videos" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Title_audio_settings" android:key="@string/key_audio_settings_category">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Camcorder_Zoom_In_Mic" android:key="@string/key_zoom_in_mic" android:summary="@string/camcorder_zoom_in_mic_summary" android:dependency="@string/key_audio_settings_category" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_Recording_360_BT_Mic" android:key="@string/key_recording_360_bt_mic" android:summary="@string/recording_360_BT_mic_summary" android:dependency="@string/key_audio_settings_category" />
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_audio_playback" android:key="@string/key_audio_playback" android:summary="@string/Title_audio_playback" android:dependency="@string/key_audio_settings_category" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_empty" />
+</PreferenceScreen>

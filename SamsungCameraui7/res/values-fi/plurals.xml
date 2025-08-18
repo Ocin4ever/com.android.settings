@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d kasvot</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kasvot</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Yli %d mukautettua suodatinta ei voi luoda.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d mukautettua suodatinta ei voi luoda.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Uniaika: %d tuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uniaika: %d tunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Uniaika: %d minuuttia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uniaika: %d minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">Jotta laite ei ylikuumene, tallenna 8K-videota enintään %d minuuttia.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jotta laite ei ylikuumene, tallenna 8K-videota enintään %d minuutti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">Jotta laite ei ylikuumene, tallenna sisältöä (%2$s) enintään %1$d minuuttia.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jotta laite ei ylikuumene, tallenna sisältöä (%2$s) enintään %1$d minuutti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapikseliä</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapikseli</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d tuntia yksi minuutti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti yksi minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d tuntia yksi minuutti yksi sekunti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti yksi minuutti yksi sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d tuntia yksi sekunti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti yksi sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minuuttia yksi sekunti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuutti yksi sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Yksi tunti %d minuuttia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yksi tunti %d minuutti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Yksi tunti %d minuuttia yksi sekunti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yksi tunti %d minuutti yksi sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Yksi tunti %d sekuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yksi tunti %d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Yksi tunti yksi minuutti %d sekuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yksi tunti yksi minuutti %d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Yksi minuutti %d sekuntia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yksi minuutti %d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

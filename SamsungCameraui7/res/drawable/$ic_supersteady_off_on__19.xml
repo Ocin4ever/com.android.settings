@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="3.62" android:valueTo="3.62" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_off_on__20" android:duration="300" android:valueFrom="3.62" android:valueTo="4" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="3.62" android:valueTo="3.62" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_off_on__21" android:duration="300" android:valueFrom="3.62" android:valueTo="4" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="52.75" android:valueTo="52.75" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_off_on__22" android:duration="300" android:pathData="M 52.75,61.375 C53.958,61.146 58.792,60.229 60,60" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="61.375" android:valueTo="61.375" android:propertyName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$ic_supersteady_off_on__23" android:duration="300" android:pathData="M 52.75,61.375 C53.958,61.146 58.792,60.229 60,60" android:propertyYName="translateY" />
+    </set>
+</set>

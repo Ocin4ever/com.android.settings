@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.layer.previewoverlay.MultiAfView android:id="@id/multi_af_view_main" android:tag="layout/multi_af_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="@integer/num_of_columns_normal_ratio" android:columnCount="@integer/num_of_rows_normal_ratio" app:dynamicSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/level_bg" android:tag="layout/preview_overlay_inclinometer_0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/level_bg" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/vertical_guide_bg" android:tag="layout/preview_overlay_inclinometer_1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/vertical_guideline" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <com.sec.android.app.camera.layer.previewoverlay.guideline.InclinometerBar android:id="@id/guide_bar" android:tag="layout/preview_overlay_inclinometer_2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/tilt_guide_bar" android:tag="layout/preview_overlay_inclinometer_3" android:background="@drawable/tilt_guide_bar" android:visibility="invisible" android:layout_width="@dimen/tilt_guide_bar_level_3_width" android:layout_height="@dimen/tilt_guide_bar_thickness" android:layout_centerInParent="true" android:contentDescription="@null" />
+</merge>

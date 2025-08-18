@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/slider_view" android:tag="layout/multi_recording_preview_list_0" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/wideLensLayout" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginLeft="@dimen/multi_recording_list_side_margin" android:layout_marginRight="@dimen/multi_recording_list_item_space" layout="@layout/multi_recording_preview_list_item" />
+        <include android:id="@id/normalLensLayout" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginRight="@dimen/multi_recording_list_item_space" layout="@layout/multi_recording_preview_list_item" />
+        <include android:id="@id/teleLensLayout" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginRight="@dimen/multi_recording_list_item_space" layout="@layout/multi_recording_preview_list_item" />
+        <include android:id="@id/autoTrackingLayout1" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginLeft="@dimen/multi_recording_list_at_empty_item_space" android:layout_marginRight="@dimen/multi_recording_list_item_space" layout="@layout/multi_recording_preview_list_item" />
+        <include android:id="@id/autoTrackingLayout2" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginRight="@dimen/multi_recording_list_item_space" layout="@layout/multi_recording_preview_list_item" />
+        <include android:id="@id/autoTrackingLayout3" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height" android:layout_marginRight="@dimen/multi_recording_list_side_margin" layout="@layout/multi_recording_preview_list_item" />
+    </LinearLayout>
+</HorizontalScrollView>

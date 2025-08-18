@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.layer.shootingmode.ShootingModeLayerView android:orientation="vertical" android:id="@id/shooting_mode_layer_main" android:tag="layout/layer_shooting_mode_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

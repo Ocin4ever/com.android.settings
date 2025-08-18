@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="@dimen/single_take_customized_option_menu_scroll_bar_size">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:width="@dimen/single_take_customized_option_menu_scroll_bar_thumb_size">
+        <shape>
+            <solid android:color="@color/single_take_customized_option_menu_scroll_bar_color" />
+            <corners android:radius="@dimen/single_take_customized_option_menu_scroll_bar_thumb_size" />
+        </shape>
+    </item>
+</layer-list>

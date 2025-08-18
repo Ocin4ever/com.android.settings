@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/more_shooting_mode_list_top_item_height" />
+            <corners android:radius="@dimen/more_shooting_mode_list_top_item_background_radius" />
+            <solid android:color="@color/more_top_button_background_under_layer_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/more_shooting_mode_list_top_item_height" />
+            <corners android:radius="@dimen/more_shooting_mode_list_top_item_background_radius" />
+            <solid android:color="@color/more_top_button_background_upper_layer_color" />
+        </shape>
+    </item>
+</layer-list>

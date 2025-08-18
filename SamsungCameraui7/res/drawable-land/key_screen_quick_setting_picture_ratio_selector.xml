@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_ratio_4v3_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_16v9_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_1v1_on_l" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_full_l_on" android:maxLevel="3" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_ratio_4v3" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_16v9" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_1v1_l" android:maxLevel="2" />
+            <item android:drawable="@drawable/camera_quick_ic_ratio_full_l" android:maxLevel="3" />
+        </level-list>
+    </item>
+</selector>

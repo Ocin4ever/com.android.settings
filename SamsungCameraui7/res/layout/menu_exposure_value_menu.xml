@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/menu_exposure_value_menu_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <com.sec.android.app.camera.widget.dialer.Dialer android:id="@id/exposure_value_slider" android:visibility="invisible" android:layout_width="@dimen/dialer_width" android:layout_height="@dimen/dialer_height" android:layout_marginTop="@dimen/dialer_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/bottom_guideline" />
+</androidx.constraintlayout.widget.ConstraintLayout>

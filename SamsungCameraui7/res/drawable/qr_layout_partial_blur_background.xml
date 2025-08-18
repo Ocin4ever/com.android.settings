@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/qrcode_popup_single_line_background_radius" />
+    <solid android:color="@color/qrcode_popup_partial_blur_background_corner" />
+</androidx.appcompat.util.SeslShapeDrawable>

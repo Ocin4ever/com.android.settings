@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/pro_manual_setting_background_color" />
+    <corners android:radius="@dimen/pro_manual_setting_background_radius" />
+</androidx.appcompat.util.SeslShapeDrawable>

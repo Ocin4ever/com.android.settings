@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ae_af_sub_view_group" android:tag="layout/ae_af_0" android:layout_width="@dimen/ae_af_group_size" android:layout_height="@dimen/ae_af_group_size">
+        <TextView android:textSize="@dimen/ae_af_lock_text_size" android:textColor="@color/ae_af_text_color_selector" android:layout_gravity="center_horizontal" android:id="@id/ae_af_text" android:layout_width="wrap_content" android:layout_height="@dimen/ae_af_lock_text_height" android:layout_marginTop="@dimen/ae_af_text_top_margin" android:text="@string/af_ae" style="@style/SecRegular" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/ev_slider_stub" android:layout="@layout/ev_slider" android:layout_width="@dimen/touch_ev_slider_width" android:layout_height="@dimen/touch_ev_control_icon_size" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ae_af_circle_group" android:tag="layout/ae_af_1" android:layout_width="@dimen/ae_af_group_size" android:layout_height="@dimen/ae_af_group_size">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/ae_af_lock_btn" android:layout_width="@dimen/ae_af_lock_btn_size" android:layout_height="@dimen/ae_af_lock_btn_size" android:layout_marginTop="@dimen/ae_af_top_margin" app:lottie_rawRes="@raw/lottie_af_ae_lock" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ae_af_circle" android:background="@drawable/ae_af_circle_selector" android:layout_width="@dimen/ae_af_circle_size" android:layout_height="@dimen/ae_af_circle_size" android:layout_marginTop="@dimen/ae_af_top_margin" android:contentDescription="@null" />
+    </FrameLayout>
+</merge>

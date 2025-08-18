@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d სახე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სახე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">%d-ზე მეტი პერსონალური ფილტრის შექმნა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი პერსონალური ფილტრის შექმნა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">ძილის დრო: %d საათი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d საათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">ძილის დრო: %d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">გადახურების ასაცილებლად, არ ჩაწეროთ %d წუთზე მეტი 8K ვიდეო.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადახურების ასაცილებლად, არ ჩაწეროთ %d წუთზე მეტი 8K ვიდეო.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">გადახურების ასაცილებლად, არ ჩაწეროთ %1$d წუთზე მეტი %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადახურების ასაცილებლად, არ ჩაწეროთ %1$d წუთზე მეტი %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d მეგაპიქსელი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მეგაპიქსელი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d საათი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d საათი და ერთი წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათი და ერთი წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d საათი, ერთი წუთი და ერთი წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათი, ერთი წუთი და ერთი წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d საათი და ერთი წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათი და ერთი წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d წუთი და ერთი წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთსა და ერთ წამში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">ერთი საათი და %d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ერთი საათი და %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">ერთი საათი, %d წუთი და ერთი წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ერთი საათი, %d წუთი და ერთი წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">ერთი საათი და %d წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ერთი საათი და %d წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">ერთი საათი, ერთი წუთი და %d წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ერთი საათი, ერთი წუთი და %d წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">ერთი წუთი და %d წამი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ერთ წუთსა და %d წამში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

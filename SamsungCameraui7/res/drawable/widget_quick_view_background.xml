@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/widget_quick_view_button_stroke" android:top="@dimen/widget_quick_view_button_stroke" android:right="@dimen/widget_quick_view_button_stroke" android:bottom="@dimen/widget_quick_view_button_stroke">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/widget_quick_view_button_stroke" android:color="@color/widget_quick_view_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.widget.ProgressCircle android:id="@id/progress_circle_main" android:tag="layout/progress_circle_0" android:layout_width="@dimen/progress_circle_size" android:layout_height="@dimen/progress_circle_size" app:circleDotSize="@dimen/progress_circle_default_dot_size" app:circleDotSrc="@drawable/widget_progress_circle_dot_selected" app:numberOfSteps="@integer/progress_circle_step"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d முகங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d முகம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">%d தனிப்பயன் வடிகட்டிகளை விட அதிகமாக உருவாக்க இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தனிப்பயன் வடிகட்டியை விட அதிகமாக உருவாக்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">உறக்க நேரம்: %d மணிநேரங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உறக்க நேரம்: %d மணிநேரம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">உறக்க நேரம்: %d நிமிடங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உறக்க நேரம்: %d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">அதிக சூடாகுவதைத் தவிர்க்க, 8K நிகழ்படத்தை %d நிமிடங்களுக்கு மேல் பதிவுசெய்ய வேண்டாம்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிக சூடாகுவதைத் தவிர்க்க, 8K நிகழ்படத்தை %d நிமிடத்திற்கு மேல் பதிவுசெய்ய வேண்டாம்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">அதிக சூடாகுவதைத் தவிர்க்க, %2$s-ஐ %1$d நிமிடங்களுக்கு மேல் பதிவுசெய்ய வேண்டாம்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிக சூடாகுவதைத் தவிர்க்க, %2$s-ஐ %1$d நிமிடத்திற்கு மேல் பதிவுசெய்ய வேண்டாம்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d மெகாபிக்சல்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மெகாபிக்சல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d மணிநேரங்கள் ஒரு நிமிடம்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் ஒரு நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d மணிநேரங்கள் ஒரு நிமிடம் ஒரு வினாடி</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் ஒரு நிமிடம் ஒரு வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d மணிநேரங்கள் ஒரு வினாடி</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் ஒரு வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d நிமிடங்கள் ஒரு வினாடி</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம் ஒரு வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d வினாடிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">ஒரு மணிநேரம் %d நிமிடங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரு மணிநேரம் %d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">ஒரு மணிநேரம் %d நிமிடங்கள் ஒரு வினாடி</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரு மணிநேரம் %d நிமிடம் ஒரு வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">ஒரு மணிநேரம் %d வினாடிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரு மணிநேரம் %d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">ஒரு மணிநேரம் ஒரு நிமிடம் %d வினாடிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரு மணிநேரம் ஒரு நிமிடம் %d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">ஒரு நிமிடம் %d வினாடிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரு நிமிடம் %d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

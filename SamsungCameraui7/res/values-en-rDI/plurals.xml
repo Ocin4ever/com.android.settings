@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_FACES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_FACES %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_FACES %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_FACES %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_FACES %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_FACES %d</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">PLURAL_OTHER_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">PLURAL_OTHER_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TPOP_CANT_CREATE_MORE_THAN_PD_CUSTOM_FILTERS %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">PLURAL_OTHER_CAM_OPT_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_OPT_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_OPT_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_OPT_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_OPT_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_OPT_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">PLURAL_OTHER_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TPOP_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_PD_MINUTES_OF_8K_VIDEO %d</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">PLURAL_OTHER_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CAM_BODY_TO_AVOID_OVERHEATING_DONT_RECORD_MORE_THAN_P1SD_MINUTES_OF_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_MEGAPIXELS %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_HOURS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_HOURS_ONE_MINUTE %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_HOURS_ONE_MINUTE_ONE_SECOND %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_HOURS_ONE_SECOND %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_MINUTES_ONE_SECOND %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_PD_SECONDS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_ONE_HOUR_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_ONE_HOUR_PD_MINUTES_ONE_SECOND %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_ONE_HOUR_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_ONE_HOUR_ONE_MINUTE_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">PLURAL_OTHER_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_CAM_TBOPT_ONE_MINUTE_PD_SECONDS %d</item>
+    </plurals>
+</resources>

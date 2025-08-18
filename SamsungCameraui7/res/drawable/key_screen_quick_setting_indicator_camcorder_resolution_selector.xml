@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_indicator_motion_8k_30" android:maxLevel="@integer/camcorder_resolution_list_index_8k_30" />
+            <item android:drawable="@drawable/camera_indicator_motion_8k_24" android:maxLevel="@integer/camcorder_resolution_list_index_8k_24" />
+            <item android:drawable="@drawable/camera_indicator_motion_uhd120" android:maxLevel="@integer/camcorder_resolution_list_index_uhd_120" />
+            <item android:drawable="@drawable/camera_indicator_motion_uhd60" android:maxLevel="@integer/camcorder_resolution_list_index_uhd_60" />
+            <item android:drawable="@drawable/camera_indicator_motion_uhd30" android:maxLevel="@integer/camcorder_resolution_list_index_uhd_30" />
+            <item android:drawable="@drawable/camera_indicator_motion_uhd24" android:maxLevel="@integer/camcorder_resolution_list_index_uhd_24" />
+            <item android:drawable="@drawable/camera_indicator_motion_qhd60" android:maxLevel="@integer/camcorder_resolution_list_index_qhd_60" />
+            <item android:drawable="@drawable/camera_indicator_motion_qhd30" android:maxLevel="@integer/camcorder_resolution_list_index_qhd_30" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhdauto" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_auto" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhd240" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_240" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhd120" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_120" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhd60" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_60" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhd30" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_30" />
+            <item android:drawable="@drawable/camera_indicator_motion_fhd24" android:maxLevel="@integer/camcorder_resolution_list_index_fhd_24" />
+            <item android:drawable="@drawable/camera_indicator_motion_hd30" android:maxLevel="@integer/camcorder_resolution_list_index_hd_30" />
+        </level-list>
+    </item>
+</selector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_appbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:scrollIndicators="top">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:orientation="vertical" android:id="@id/top_empty_view" android:layout_width="fill_parent" android:layout_height="@dimen/about_page_margin_bottom" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/SecBold" android:textSize="@dimen/about_page_app_title_text_size" android:textColor="?android:textColorPrimary" android:id="@id/about_page_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textAlignment="center" />
+                <View android:orientation="vertical" android:id="@id/version_text_top_margin_view" android:layout_width="fill_parent" android:layout_height="@dimen/about_page_app_version_text_top_margin" />
+                <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/about_page_app_version_text_size" android:textColor="?android:textColorSecondary" android:id="@id/about_page_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/version_name" android:textAlignment="center" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/about_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/about_page_update_text_top_margin">
+                        <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/about_page_app_version_text_size" android:textColor="?android:textColorSecondary" android:id="@id/about_page_available" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+                        <com.sec.android.app.camera.widget.BodyContainedButton android:textAppearance="@style/SecSemiBold" android:textSize="@dimen/about_page_button_text_size" android:textColor="@color/about_page_button_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/about_page_update_button" android:background="@drawable/about_page_update_button_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_update_button_top_margin" android:minWidth="@dimen/about_page_button_width" android:minHeight="@dimen/about_page_button_height" android:text="@string/about_page_update_button" android:maxLines="2" android:paddingHorizontal="@dimen/widget_start_margin" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <View android:orientation="vertical" android:id="@id/mid_empty_view" android:layout_width="fill_parent" android:layout_height="@dimen/about_page_margin_land" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="start|bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.sec.android.app.camera.widget.BodyContainedButton android:textSize="@dimen/about_page_button_text_size" android:textColor="@color/about_page_msg_popup_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/about_page_button_open_source" android:background="@drawable/about_page_button_bg" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_button_top_margin" android:minWidth="@dimen/about_page_button_width" android:minHeight="@dimen/about_page_button_height" android:text="@string/about_page_open_source_licences" android:maxLines="2" android:paddingHorizontal="@dimen/widget_start_margin" style="@style/SecSemiBold" />
+                    <View android:gravity="start|bottom" android:orientation="vertical" android:id="@id/bottom_empty_view" android:layout_width="fill_parent" android:layout_height="@dimen/about_page_margin_bottom" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

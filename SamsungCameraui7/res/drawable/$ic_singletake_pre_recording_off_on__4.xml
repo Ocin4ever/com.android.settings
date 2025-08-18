@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_singletake_pre_recording_off_on__5" android:duration="250" android:valueFrom="M -5.54 -5.508 C -5.54 -5.508 5.54 5.508 5.54 5.508 " android:valueTo="M -5.54 -5.508 C -5.54 -5.508 -5.523 -5.492 -5.523 -5.492 " android:valueType="pathType" android:propertyName="pathData" />
+        <objectAnimator android:duration="266" android:valueFrom="M -5.54 -5.508 C -5.54 -5.508 -5.523 -5.492 -5.523 -5.492 " android:valueTo="M -5.54 -5.508 C -5.54 -5.508 -5.523 -5.492 -5.523 -5.492 " android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+</set>

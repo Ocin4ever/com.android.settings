@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/qr_code_popup" android:tag="layout/popup_qr_code_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center|bottom" android:id="@id/popup_layout" android:tag="binding_1" android:layout_width="@dimen/qrcode_popup_drag_area" android:layout_height="wrap_content">
+        <include android:id="@id/qr_layout" layout="@layout/popup_qr_code_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

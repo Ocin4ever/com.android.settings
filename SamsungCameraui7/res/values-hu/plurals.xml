@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d arc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">Legfeljebb %d egyéni szűrő hozható létre.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d egyéni szűrő hozható létre.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Alvásidő: %d óra</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alvásidő: %d óra</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Alvásidő: %d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alvásidő: %d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">A túlmelegedés elkerülése érdekében legfeljebb %d percig készítsen 8K-s videófelvételt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A túlmelegedés elkerülése érdekében legfeljebb %d percig készítsen 8K-s videófelvételt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">A túlmelegedés elkerülése érdekében legfeljebb %1$d percig készítsen felvételt %2$s módban.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A túlmelegedés elkerülése érdekében legfeljebb %1$d percig készítsen felvételt %2$s módban.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d megapixel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d óra</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d óra egy perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d óra egy perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d óra egy perc egy másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d óra egy perc egy másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%d óra egy másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d óra egy másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d perc egy másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perc egy másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">Egy óra %d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egy óra %d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">Egy óra %d perc egy másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egy óra %d perc egy másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">Egy óra %d másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egy óra %d másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">Egy óra egy perc %d másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egy óra egy perc %d másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">Egy perc %d másodperc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egy perc %d másodperc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

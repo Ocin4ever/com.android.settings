@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="272.0dip" android:width="272.0dip" android:viewportWidth="272.0" android:viewportHeight="272.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s3" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="camera_main_btn_00_slow_motion_x4 Outlines">
+        <group android:name="s3pg1" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Group 3">
+            <path android:name="s3pg1p10" android:fillColor="#fffaf9f5" android:pathData="M 0 128 C -70.692 128 -128 70.692 -128 0 C -128 -70.692 -70.692 -128 0 -128 C 70.692 -128 128 -70.692 128 0 C 128 70.692 70.692 128 0 128 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s2" android:translateX="156.0" android:translateY="136.0" aapt:layer_name="Shape Layer 1">
+        <group android:name="s2pg1" aapt:layer_name="Group 1">
+            <path android:name="s2pg1p10" android:fillColor="#ffef5a3f" android:pathData="M 0 -40 C 22.091 -40 40 -22.091 40 0 C 40 22.091 22.091 40 0 40 C -22.091 40 -40 22.091 -40 0 C -40 -22.091 -22.091 -40 0 -40 Z" android:fillAlpha="1.0" aapt:layer_name="Ellipse Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s1" android:pivotX="136.0" android:pivotY="136.0" aapt:layer_name="camera_main_btn_00_slow_motion_x4 Outlines 2">
+        <group android:name="s1pg1" android:translateX="116.0" android:translateY="136.0" aapt:layer_name="Group 1">
+            <path android:name="s1pg1p10" android:fillColor="#ffef5a3f" android:pathData="M 0 -40 C 22.091 -40 40 -22.091 40 0 C 40 22.091 22.091 40 0 40 C -22.091 40 -40 22.091 -40 0 C -40 -22.091 -22.091 -40 0 -40 Z" android:fillAlpha="0.35" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+</vector>

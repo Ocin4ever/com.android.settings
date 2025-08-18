@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/qr_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_layout_padding_bottom">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_layout_margin_top" android:paddingBottom="@dimen/dialog_layout_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dialog_layout_margin_horizontal">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layoutQRHeading" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imgQRIcon" android:layout_width="@dimen/textextraction_dialog_qr_image_height_width" android:layout_height="@dimen/textextraction_dialog_qr_image_height_width" android:src="@drawable/qr_code_scanner" android:tint="@color/textextraction_dialog_qr_icon_bg_color" />
+                <TextView android:textSize="@dimen/textextraction_dialog_heading_text_size" android:textStyle="bold" android:textColor="@color/textextraction_dialog_heading_text_color" android:id="@id/txtQRHeading" android:layout_width="@dimen/textextraction_dialog_qr_heading_width" android:layout_height="wrap_content" android:minHeight="@dimen/textextraction_dialog_qr_heading_height" android:layout_marginStart="@dimen/dialog_layout_margin_between_component" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/textextraction_dialog_content_text_size" android:textColor="@color/textextraction_dialog_content_text_color" android:id="@id/txtQRContent" android:layout_width="@dimen/textextraction_dialog_qr_content_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_layout_margin_between_component" android:maxHeight="@dimen/textextraction_dialog_qr_content_height" android:maxLines="2" />
+            <View android:id="@id/viewActionDivider" android:background="@color/textextraction_dialog_content_action_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/textextraction_dialog_content_action_divider_height" android:layout_marginTop="@dimen/dialog_layout_divider_margin_top" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutQRActions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
