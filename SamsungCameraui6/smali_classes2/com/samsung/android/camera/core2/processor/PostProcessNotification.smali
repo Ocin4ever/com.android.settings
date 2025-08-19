@@ -89,7 +89,7 @@
 
     invoke-virtual {v1, p0}, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
-    sget p0, Lcom/samsung/android/camera/core2/R$drawable;->b:I
+    sget p0, Lcom/samsung/android/camera/core2/R$drawable;->a:I
 
     invoke-virtual {v1, p0}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 

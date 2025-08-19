@@ -15,9 +15,13 @@
 
 
 # static fields
-.field public static final qr_scanner:I = 0x7f100000
+.field public static final ic_camera_bg:I = 0x7f100000
 
-.field public static final tw30_icon_camera:I = 0x7f100001
+.field public static final ic_camera_fg:I = 0x7f100001
+
+.field public static final ic_qr_bg:I = 0x7f100002
+
+.field public static final ic_qr_fg:I = 0x7f100003
 
 
 # direct methods

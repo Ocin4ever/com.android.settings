@@ -1380,7 +1380,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/samsung/android/camera/core2/R$drawable;->a:I
+    const v1, 0x7f0804a9
 
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 

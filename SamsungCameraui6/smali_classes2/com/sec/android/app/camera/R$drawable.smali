@@ -963,6 +963,8 @@
 
 .field public static final hyperlapse:I = 0x7f0804a4
 
+.field public static final ic_launcher:I = 0x7f0804a9
+
 .field public static final icon_arrow_button_dark:I = 0x7f0804b6
 
 .field public static final indicator_item_background:I = 0x7f0804b7
@@ -1582,6 +1584,10 @@
 .field public static final zoom_rocker_slider_minus:I = 0x7f08073a
 
 .field public static final zoom_rocker_slider_plus:I = 0x7f08073b
+
+.field public static final qr_scanner:I = 0x7f08073d
+
+.field public static final qr_scanner_color_theme:I = 0x7f08073e
 
 
 # direct methods

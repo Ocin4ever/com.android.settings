@@ -6904,6 +6904,9 @@
     <public type="drawable" name="zoom_rocker_slide_bt" id="0x7f080739" />
     <public type="drawable" name="zoom_rocker_slider_minus" id="0x7f08073a" />
     <public type="drawable" name="zoom_rocker_slider_plus" id="0x7f08073b" />
+    <public type="drawable" name="$ic_camera_mono__0" id="0x7f08073c" />
+    <public type="drawable" name="qr_scanner" id="0x7f08073d" />
+    <public type="drawable" name="qr_scanner_color_theme" id="0x7f08073e" />
     <public type="fraction" name="about_page_margin" id="0x7f090000" />
     <public type="fraction" name="shooting_mode_overlay_floating_shutter_button_default_percent_pos_delta_y" id="0x7f090001" />
     <public type="fraction" name="shooting_mode_overlay_floating_shutter_button_default_percent_pos_x" id="0x7f090002" />
@@ -9103,8 +9106,10 @@
     <public type="layout" name="zoom_tick_slider" id="0x7f0d0151" />
     <public type="menu" name="attach_button_menu" id="0x7f0f0000" />
     <public type="menu" name="nv_dummy_overflow_menu_icon" id="0x7f0f0001" />
-    <public type="mipmap" name="qr_scanner" id="0x7f100000" />
-    <public type="mipmap" name="tw30_icon_camera" id="0x7f100001" />
+    <public type="mipmap" name="ic_camera_bg" id="0x7f100000" />
+    <public type="mipmap" name="ic_camera_fg" id="0x7f100001" />
+    <public type="mipmap" name="ic_qr_bg" id="0x7f100002" />
+    <public type="mipmap" name="ic_qr_fg" id="0x7f100003" />
     <public type="plurals" name="face_detected" id="0x7f110000" />
     <public type="plurals" name="more_than_limit" id="0x7f110001" />
     <public type="plurals" name="mtrl_badge_content_description" id="0x7f110002" />

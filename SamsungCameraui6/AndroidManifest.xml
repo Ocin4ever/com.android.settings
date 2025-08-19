@@ -167,6 +167,7 @@
         <meta-data android:name="SamsungBasicInteraction" android:value="SEP10"/>
         <meta-data android:name="com.samsung.android.supports_pop_over" android:value="false"/>
         <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        <meta-data android:name="com.samsung.android.hasZippedOverlays" android:value="true"/>
         <meta-data android:name="theming-meta" android:resource="@xml/metadata_colorpalette"/>
         <receiver android:exported="true" android:name="com.sec.android.app.camera.receiver.LazyBootCompleteReceiver">
             <intent-filter>
