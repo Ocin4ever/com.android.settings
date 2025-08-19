@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/zoom_rocker_slider_thumb_ripple_color" android:radius="@dimen/pro_zoom_rocker_slider_thumb_ripple_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

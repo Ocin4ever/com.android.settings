@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$avd_mode_edit_overlay_help__14" android:duration="200" android:startOffset="950" android:valueFrom="M-46.22 -66.22 C-46.22,-66.22 46.22,-66.22 46.22,-66.22 C57.27,-66.22 66.22,-57.27 66.22,-46.22 C66.22,-46.22 66.22,46.22 66.22,46.22 C66.22,57.27 57.27,66.22 46.22,66.22 C46.22,66.22 -46.22,66.22 -46.22,66.22 C-57.27,66.22 -66.22,57.27 -66.22,46.22 C-66.22,46.22 -66.22,-46.22 -66.22,-46.22 C-66.22,-57.27 -57.27,-66.22 -46.22,-66.22c " android:valueTo="M-61.82 -19.11 C-61.82,-19.11 67.63,-19.1 67.63,-19.1 C78.67,-19.1 87.63,-8.45 87.63,2.59 C87.63,2.59 87.57,2.85 87.57,2.85 C87.57,13.89 78.86,25.72 67.82,25.72 C67.82,25.72 -61.62,25.71 -61.62,25.71 C-72.67,25.71 -81.81,14.5 -81.81,3.46 C-81.81,3.46 -81.82,3.33 -81.82,3.33 C-81.82,-7.72 -72.86,-19.11 -61.82,-19.11c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/focus_enhancer_button" android:tag="layout/shooting_mode_common_focus_enhancer_0" android:visibility="invisible" android:layout_width="@dimen/shooting_mode_side_button_size" android:layout_height="@dimen/shooting_mode_side_button_size" android:scaleType="centerCrop" />
+</merge>

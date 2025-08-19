@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_title" android:key="@string/key_widget_settings_custom_camera_title" />
+    <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_starting_mode" android:key="@string/key_widget_settings_custom_camera_starting_mode" />
+    <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_save_to" android:key="@string/key_widget_settings_custom_camera_save_to" />
+    <com.sec.android.app.camera.setting.SettingPreference android:title="@string/widget_setting_custom_camera_background" android:key="@string/key_widget_settings_custom_camera_background" />
+</PreferenceScreen>

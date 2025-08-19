@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/shooting_mode_single_take_shutter_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/shutter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" app:lottie_rawRes="@raw/lottie_singletake_shutter_start_inside" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/progress_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" app:lottie_rawRes="@raw/lottie_singletake_shutter_start_outside" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" app:lottie_rawRes="@raw/singletake_progress" app:lottie_renderMode="software" />
+</RelativeLayout>

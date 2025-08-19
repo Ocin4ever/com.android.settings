@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/thumbnail_button_image_stroke" android:top="@dimen/thumbnail_button_image_stroke" android:right="@dimen/thumbnail_button_image_stroke" android:bottom="@dimen/thumbnail_button_image_stroke">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/thumbnail_button_image_stroke" android:color="@color/base_menu_quick_view_border_color" />
+        </shape>
+    </item>
+</layer-list>

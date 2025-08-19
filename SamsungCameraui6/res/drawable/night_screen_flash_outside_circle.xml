@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/night_screen_flash_outside_circle_size" android:width="@dimen/night_screen_flash_outside_circle_size" />
+            <solid android:color="#0dffeabe" />
+        </shape>
+    </item>
+</selector>

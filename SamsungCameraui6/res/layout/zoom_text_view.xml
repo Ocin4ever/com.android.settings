@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/zoom_text_layout" android:tag="layout/zoom_text_view_0" android:background="@drawable/camera_lens_text_bg_light" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_layout_zoom_group_text_background_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.camera.widget.StrokedTextView android:textSize="@dimen/overlay_layout_zoom_group_text_size" android:textColor="@color/zoom_main_text_color" android:gravity="center" android:id="@id/zoom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:importantForAccessibility="no" android:textDirection="ltr" android:textAlignment="center" app:textViewStroke="true" app:textViewStrokeColor="@color/zoom_text_stroke_color" app:textViewStrokeWidth="@integer/default_stroke_width" style="@style/SecNumFixedBold" />
+    <ImageView android:id="@id/zoom_button_x" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/camera_lens_ic_focused_x_yellow" />
+</LinearLayout>

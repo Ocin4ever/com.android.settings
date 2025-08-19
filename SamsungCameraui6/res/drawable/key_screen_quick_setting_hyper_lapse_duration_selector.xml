@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_hyper_duration_infinite_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_10_on" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_30_on" android:maxLevel="30" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_60_on" android:maxLevel="60" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_120_on" android:maxLevel="120" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_180_on" android:maxLevel="180" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_300_on" android:maxLevel="300" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_hyper_duration_infinite_off" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_10_off" android:maxLevel="10" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_30_off" android:maxLevel="30" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_60_off" android:maxLevel="60" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_120_off" android:maxLevel="120" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_180_off" android:maxLevel="180" />
+            <item android:drawable="@drawable/camera_quick_hyper_duration_300_off" android:maxLevel="300" />
+        </level-list>
+    </item>
+</selector>

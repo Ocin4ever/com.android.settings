@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__2" android:duration="100" android:pathData="M 20.71,34.532 C20.675,34.532 20.5,34.532 20.5,34.532" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__3" android:duration="200" android:pathData="M 20.5,34.532 C20.5,34.532 20.675,34.532 20.71,34.532" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__4" android:duration="100" android:pathData="M 20.71,34.532 C20.675,34.532 20.5,34.532 20.5,34.532" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__5" android:duration="200" android:pathData="M 20.5,34.532 C20.5,34.532 20.675,34.532 20.71,34.532" android:propertyYName="translateY" />
+    </set>
+</set>

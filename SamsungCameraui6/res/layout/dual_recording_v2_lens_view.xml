@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dual_recording_v2_lens_view_0" android:layout_width="@dimen/dual_recording_v2_lens_select_view_lens_view_width" android:layout_height="@dimen/dual_recording_v2_lens_select_view_lens_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/lens_preview_layout" android:layout_width="@dimen/dual_recording_v2_lens_select_view_lens_view_height" android:layout_height="@dimen/dual_recording_v2_lens_select_view_lens_view_width"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@id/lens_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+    </FrameLayout>
+    <ImageView android:id="@id/selected_rect" android:background="@drawable/dual_recording_v2_lens_selector_background_round_rect" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="right" android:id="@id/badge" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dual_recording_v2_lens_select_view_lens_view_type_padding" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/dual_recording_v2_lens_select_view_lens_view_text_size" android:textColor="@color/dual_recording_v2_lens_select_view_lens_text_color" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/title" android:background="@drawable/dual_recording_v2_lens_preview_text_background" android:layout_width="wrap_content" android:layout_height="@dimen/dual_recording_v2_lens_select_view_lens_view_text_height" android:layout_marginBottom="@dimen/dual_recording_v2_lens_select_view_lens_view_text_bottom_margin" android:maxLines="1" android:textAlignment="center" android:layout_marginHorizontal="@dimen/dual_recording_v2_lens_select_view_lens_view_text_horizontal_margin" android:paddingHorizontal="@dimen/dual_recording_v2_lens_select_view_lens_view_text_horizontal_padding" />
+</FrameLayout>

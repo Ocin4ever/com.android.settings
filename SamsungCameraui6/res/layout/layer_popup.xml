@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.layer.popup.PopupLayerView android:orientation="vertical" android:id="@id/popup_layer_main" android:tag="layout/layer_popup_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/top_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/top_guideline_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/top_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/bottom_guideline_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/shutter_area_guideline_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/shutter_area_guideline_percent" />
+</com.sec.android.app.camera.layer.popup.PopupLayerView>

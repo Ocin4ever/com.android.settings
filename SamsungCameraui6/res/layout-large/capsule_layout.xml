@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.samsung.android.app.sdk.deepsky.textextraction.selectionui.CapsuleScrollView android:layout_gravity="left|center" android:id="@id/capsule_scroll_view" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="horizontal" android:paddingStart="@dimen/capsule_layout_margin_start_end">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/capsule_parent" android:paddingBottom="@dimen/capsule_layout_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.samsung.android.app.sdk.deepsky.textextraction.selectionui.CapsuleScrollView>
+        <include android:layout_gravity="right|center" android:id="@id/capsule_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/capsule_layout_margin_start_end" layout="@layout/capsule_more" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

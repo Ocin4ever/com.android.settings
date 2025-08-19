@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="create_my_filter_name_top_margin">105.0dip</dimen>
+    <dimen name="single_take_customized_option_menu_item_padding_end">22.799988dip</dimen>
+    <dimen name="single_take_customized_option_menu_item_padding_start">16.0dip</dimen>
+    <dimen name="single_take_customized_option_menu_item_text_margin_start">2.2999878dip</dimen>
+    <dimen name="single_take_customized_option_menu_list_height">178.1dip</dimen>
+    <dimen name="single_take_customized_option_menu_list_padding_vertical">18.299988dip</dimen>
+    <dimen name="single_take_customized_option_menu_padding_bottom">27.399994dip</dimen>
+    <dimen name="single_take_customized_option_menu_padding_top">41.099976dip</dimen>
+    <dimen name="single_take_customized_option_menu_title_height">36.5dip</dimen>
+    <dimen name="single_take_customized_option_menu_title_margin_bottom">27.399994dip</dimen>
+    <dimen name="video_resolution_chooser_layout_start_margin">13.699982dip</dimen>
+    <dimen name="video_resolution_chooser_layout_top_margin">36.5dip</dimen>
+    <dimen name="video_resolution_chooser_layout_top_margin_front_video">78.79999dip</dimen>
+    <dimen name="video_resolution_chooser_layout_top_margin_pro">52.5dip</dimen>
+    <dimen name="video_resolution_chooser_layout_top_margin_slow_motion">11.399994dip</dimen>
+</resources>

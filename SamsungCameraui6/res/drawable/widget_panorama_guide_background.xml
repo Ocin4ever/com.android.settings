@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/panorama_guide_background_stroke_thickness" android:color="@color/panorama_guide_background_stroke_color" />
+    <solid android:color="@color/panorama_guide_background_color" />
+</shape>

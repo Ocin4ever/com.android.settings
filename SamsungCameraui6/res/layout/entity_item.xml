@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/entity_item_layout" android:background="@drawable/capsule_icon_background" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/entity_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/qr_code_scanner" app:tint="@color/capsule_more_dialog_icon_tint_color" />
+    <TextView android:textSize="@dimen/capsule_text_size" android:textColor="@color/capsule_more_dialog_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/entity_title" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="Example" android:maxLines="1" android:layout_marginStart="8.0dip" style="@style/sec_600" />
+</LinearLayout>

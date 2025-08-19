@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/animation_main" android:tag="layout/layer_preview_animation_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/blur_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/blur_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" android:adjustViewBounds="false" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/normal_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:transitionName="shared_element_image_view" />
+    <com.sec.android.app.camera.layer.previewanimation.PreviewBlackArea android:id="@id/black_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/shutter_bg" android:background="@color/default_black_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

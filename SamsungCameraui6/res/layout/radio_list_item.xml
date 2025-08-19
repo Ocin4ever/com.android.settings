@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_top_padding" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/winset_list_item_start_padding" android:layout_alignParentStart="true" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/winset_list_checked_text_view_width" android:layout_marginEnd="@dimen/winset_list_item_end_padding">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+</RelativeLayout>

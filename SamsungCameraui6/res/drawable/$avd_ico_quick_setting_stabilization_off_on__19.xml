@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="-7.5" android:valueTo="-7.5" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_stabilization_off_on__20" android:duration="200" android:pathData="M -7.5,0 C-6.25,0 -1.25,0 0,0" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="200" android:valueFrom="0" android:valueTo="0" android:propertyName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_stabilization_off_on__21" android:duration="200" android:pathData="M -7.5,0 C-6.25,0 -1.25,0 0,0" android:propertyYName="translateY" />
+    </set>
+</set>

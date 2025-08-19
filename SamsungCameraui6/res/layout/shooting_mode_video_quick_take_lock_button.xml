@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/quick_take_lock_bg" android:tag="layout/shooting_mode_video_quick_take_lock_button_0" android:layout_width="@dimen/quick_take_lock_image_bg_size" android:layout_height="@dimen/quick_take_lock_image_bg_size" android:layout_centerInParent="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/quick_take_lock_lottie_animation" android:tag="layout/shooting_mode_video_quick_take_lock_button_1" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</merge>

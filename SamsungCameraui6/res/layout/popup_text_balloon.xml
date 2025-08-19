@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/text_balloon_view_group" android:tag="layout/popup_text_balloon_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/text_balloon_sub_view_group" android:padding="@dimen/text_balloon_group_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/text_balloon_description_font_size" android:textColor="@color/white" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecRegular" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/button" android:paddingTop="@dimen/text_balloon_link_gap" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_on" android:layout_below="@id/description" android:contentDescription="@string/okay" android:layout_alignParentEnd="true" style="@style/SecSemiBold" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

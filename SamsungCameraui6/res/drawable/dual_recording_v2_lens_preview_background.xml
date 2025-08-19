@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/multi_recording_list_item_thumbnail_rect_border_thickness" android:color="@color/multi_preview_thumbnail_border_color" />
+</shape>

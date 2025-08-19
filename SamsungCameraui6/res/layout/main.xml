@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.camera.MainLayout android:id="@id/base_layout" android:tag="layout/main_0" android:background="@color/default_black_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextureView android:id="@id/camera_preview_texture_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/layer_manager" android:layout="@layout/layer_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:orientation="horizontal" android:id="@id/CameraPausingView" android:background="@color/default_black_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_main_btn_02_capture" android:scaleType="center" android:contentDescription="@null" />
+    <FrameLayout android:orientation="vertical" android:id="@id/fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+</com.sec.android.app.camera.MainLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/shooting_mode_pro_zoom_rocker_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <View android:id="@id/pro_control_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/pro_item_group_height" app:layout_constraintBottom_toTopOf="@id/bottom_guideline" />
+    <com.sec.android.app.camera.shootingmode.pro.widget.ZoomRockerSlider android:orientation="horizontal" android:id="@id/zoom_rocker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pro_zoom_rocker_slider_top_margin" app:layout_constraintTop_toBottomOf="@id/bottom_guideline" />
+    <com.sec.android.app.camera.shootingmode.pro.widget.ZoomRockerTextView android:gravity="center" android:orientation="horizontal" android:id="@id/zoom_text_layout" android:layout_width="wrap_content" android:layout_height="@dimen/pro_zoom_rocker_text_height" android:layout_marginBottom="@dimen/pro_zoom_rocker_text_bottom_margin" app:layout_constraintBottom_toTopOf="@id/pro_control_panel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.sec.android.app.camera.widget.StrokedTextView android:id="@id/zoom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textDirection="ltr" android:textAlignment="center" app:textViewStroke="true" app:textViewStrokeColor="@color/pro_text_stroke_color" app:textViewStrokeWidth="@integer/default_stroke_width" style="@style/ZoomRockerText" />
+        <ImageView android:id="@id/zoom_button_x" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lens_x" />
+    </com.sec.android.app.camera.shootingmode.pro.widget.ZoomRockerTextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

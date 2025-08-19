@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/Title_Watermark"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/watermark_info">
+        <com.sec.android.app.camera.setting.CameraEditTextCheckBoxPreference android:persistent="false" android:title="@string/watermark_model_name" android:key="@string/key_watermark_model_name" />
+        <com.sec.android.app.camera.setting.CameraCheckBoxSpinnerPreference android:persistent="false" android:title="@string/watermark_date" android:key="@string/key_watermark_date" />
+        <com.sec.android.app.camera.setting.CameraCheckBoxSpinnerPreference android:persistent="false" android:title="@string/watermark_time" android:key="@string/key_watermark_time" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/watermark_style">
+        <com.sec.android.app.camera.setting.SpinnerPreference android:persistent="false" android:entries="@array/watermark_font_list" android:title="@string/watermark_font" android:key="@string/key_watermark_font" android:entryValues="@array/watermark_font_value" />
+        <com.sec.android.app.camera.setting.WatermarkAlignmentPreference android:persistent="false" android:entries="@array/watermark_alignment_list" android:title="@string/watermark_alignment" android:key="@string/key_watermark_alignment" android:entryValues="@array/watermark_alignment_value" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_empty" />
+</PreferenceScreen>

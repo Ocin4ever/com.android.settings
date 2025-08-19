@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:interpolator="@anim/shooting_mode_photo_intelligent_document_scan_activity_enter" android:duration="@integer/animation_duration_document_scan_activity_enter" android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds />
+    <changeImageTransform />
+</transitionSet>

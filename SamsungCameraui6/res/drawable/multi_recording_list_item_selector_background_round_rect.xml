@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/multi_recording_list_item_thumbnail_selected_rect_radius" />
+    <stroke android:width="@dimen/multi_recording_list_item_thumbnail_selected_rect_border_thickness" android:color="@color/white" />
+</shape>

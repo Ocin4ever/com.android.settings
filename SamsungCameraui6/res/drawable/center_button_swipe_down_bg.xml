@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="@dimen/base_menu_center_button_inset_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <size android:height="@dimen/base_menu_center_button_size" android:width="@dimen/base_menu_center_button_size" />
+        <solid android:color="@android:color/transparent" />
+        <stroke android:width="@dimen/base_menu_center_button_stroke" android:color="@color/base_menu_center_button_color" />
+    </shape>
+</inset>

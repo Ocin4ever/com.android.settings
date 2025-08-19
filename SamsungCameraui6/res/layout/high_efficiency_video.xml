@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/Title_high_efficiency_video"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" style="@style/CollapsingToolbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AppCompat.AppbarTheme" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:theme="@style/Theme.AppCompat.DayNight" android:orientation="vertical" android:id="@id/switch_item_layout" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/main_switch" />
+                <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/sub_activity_description_text_size" android:textColor="@color/setting_description_text_color" android:ellipsize="end" android:id="@android:id/summary" android:paddingTop="@dimen/sub_activity_description_line_padding" android:paddingBottom="@dimen/sub_activity_description_line_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" android:paddingStart="@dimen/sub_activity_description_side_padding" android:paddingEnd="@dimen/sub_activity_description_side_padding" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/dragList" android:background="@color/theme_list_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/sub_activity_description_text_size" android:textColor="@color/setting_description_text_color" android:ellipsize="end" android:id="@id/sub_summary" android:paddingTop="@dimen/sub_activity_description_line_padding" android:paddingBottom="@dimen/sub_activity_description_line_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/high_efficiency_video_sub_description" android:textDirection="locale" android:paddingStart="@dimen/sub_activity_description_side_padding" android:paddingEnd="@dimen/sub_activity_description_side_padding" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

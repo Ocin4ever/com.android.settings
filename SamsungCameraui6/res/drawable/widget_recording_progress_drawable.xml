@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/recording_progressbar_background_color" />
+            <stroke android:width="@dimen/recording_progressbar_stroke" android:color="@color/recording_progressbar_stroke_color" />
+        </shape>
+    </item>
+    <item android:id="@id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/recording_progressbar_progress_color" />
+                <stroke android:width="@dimen/recording_progressbar_stroke" android:color="@color/recording_progressbar_stroke_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

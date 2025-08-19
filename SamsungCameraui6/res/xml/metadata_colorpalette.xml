@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeMetaData>
+    <AppMetaData Name="Camera" TargetPackageName="com.sec.android.app.camera">
+        <Include RefName="SESL" />
+        <Property DestAttribName="theme_bg_color" UID="49-1-1" ValueRef="1-1-1" ValueType="BgColor" />
+        <Property DestAttribName="about_page_button_background_color" UID="49-53-3" ValueRef="1-A" ValueType="Color" />
+        <Property DestAttribName="about_page_button_text_color" UID="49-53-5" ValueRef="1-E" ValueType="Color" />
+        <Property DestAttribName="watermark_date_time_list_color" UID="49-1-5" ValueRef="24-E" ValueType="Color" />
+    </AppMetaData>
+</ThemeMetaData>

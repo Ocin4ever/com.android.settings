@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:theme="@style/Theme.AppCompat.DayNight" android:orientation="vertical" android:id="@id/listview" android:background="@color/theme_bg_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_setting_button_height" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_title_height" android:layout_marginHorizontal="@dimen/winset_list_item_end_padding">
+            <TextView android:textSize="@dimen/widget_setting_title_text_size" android:textColor="@color/widget_text_color_normal" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_setting_title" android:maxLines="1" style="@style/SecSemiBold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:orientation="vertical" android:id="@id/setting_image_layer" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_background_image_height" android:layout_marginBottom="@dimen/widget_setting_image_bottom_margin">
+                <ImageView android:id="@id/image_background" android:background="@drawable/widget_background_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:clipToOutline="true" />
+                <include android:layout_gravity="center" android:id="@id/widget_image_layout" android:layout_width="@dimen/widget_sample_image_width" android:layout_height="@dimen/widget_sample_image_height" layout="@layout/camera_widget_setting_preview" />
+            </FrameLayout>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_container_layout" android:background="@color/theme_list_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/widget_button_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_button_height" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent">
+        <Button android:textSize="@dimen/widget_setting_button_text_size" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/widget_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" android:textAlignment="center" android:paddingEnd="0.0dip" android:layout_marginStart="@dimen/winset_list_item_end_padding" android:layout_marginVertical="@dimen/widget_setting_button_vertical_margin" style="@style/SecSemiBold" />
+        <Button android:textSize="@dimen/widget_setting_button_text_size" android:gravity="center" android:id="@id/btn_save" android:background="@drawable/widget_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/save" android:layout_weight="1.0" android:textAllCaps="false" android:textAlignment="center" android:paddingStart="0.0dip" android:layout_marginEnd="@dimen/winset_list_item_end_padding" android:layout_marginVertical="@dimen/widget_setting_button_vertical_margin" style="@style/SecSemiBold" />
+    </LinearLayout>
+</RelativeLayout>

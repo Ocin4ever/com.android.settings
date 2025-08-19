@@ -1,4 +1,4 @@
-.class public final Lkotlin/jvm/internal/B;
+.class public final Lkotlin/jvm/internal/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,19 +6,19 @@
 .implements Ljava/io/Serializable;
 
 
-# instance fields
-.field public a:F
+# static fields
+.field public static final a:Lkotlin/jvm/internal/b;
 
 
-# virtual methods
-.method public final toString()Ljava/lang/String;
-    .locals 0
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
 
-    iget p0, p0, Lkotlin/jvm/internal/B;->a:F
+    new-instance v0, Lkotlin/jvm/internal/b;
 
-    invoke-static {p0}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    sput-object v0, Lkotlin/jvm/internal/b;->a:Lkotlin/jvm/internal/b;
 
-    return-object p0
+    return-void
 .end method

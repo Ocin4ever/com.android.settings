@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/default_focused_selector" />
+    <item android:drawable="@drawable/center_button_swipe_down_bg" />
+</selector>

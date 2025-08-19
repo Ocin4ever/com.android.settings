@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/crop_button_inset_size" android:insetBottom="@dimen/crop_button_inset_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="@color/crop_button_ripple_color">
+        <item android:id="@android:id/mask">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/crop_button_background_color" />
+                <corners android:radius="@dimen/crop_button_background_radius" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

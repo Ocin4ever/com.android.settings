@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/level_meter_target" android:tag="layout/preview_overlay_level_meter_0" android:background="@drawable/camera_grid_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/level_meter_guide" android:tag="layout/preview_overlay_level_meter_1" android:background="@drawable/camera_grid_point_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/level_meter_success_circle" android:tag="layout/preview_overlay_level_meter_2" android:background="@drawable/camera_grid_point_complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</merge>

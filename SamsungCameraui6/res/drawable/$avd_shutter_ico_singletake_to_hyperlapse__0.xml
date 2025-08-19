@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="272.0dip" android:width="272.0dip" android:viewportWidth="272.0" android:viewportHeight="272.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s5" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Shape Layer 3">
+        <path android:name="s5p10" android:fillColor="#ff000000" android:pathData="M 0 -124 C 68.483 -124 124 -68.483 124 0 C 124 68.483 68.483 124 0 124 C -68.483 124 -124 68.483 -124 0 C -124 -68.483 -68.483 -124 0 -124 Z" android:fillAlpha="0.2" aapt:layer_name="Ellipse Path 1" aapt:style_name="Fill 1" />
+    </group>
+    <group android:name="s4" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Shape Layer 2">
+        <path android:name="s4p10" android:pathData="M 0 -124 C 68.483 -124 124 -68.483 124 0 C 124 68.483 68.483 124 0 124 C -68.483 124 -124 68.483 -124 0 C -124 -68.483 -68.483 -124 0 -124 Z" android:strokeColor="#fffaf9f5" android:strokeWidth="16.0" android:strokeLineCap="butt" android:strokeLineJoin="miter" android:strokeMiterLimit="4.0" android:strokeAlpha="1.0" aapt:layer_name="Ellipse Path 1" aapt:style_name="Stroke 1" />
+    </group>
+    <group android:name="s3" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="136.0" android:translateY="136.0" aapt:layer_name="Shape Layer 1">
+        <path android:name="s3p10" android:fillColor="#fffaf9f5" android:pathData="M 0 -96 C 53.019 -96 96 -53.019 96 0 C 96 53.019 53.019 96 0 96 C -53.019 96 -96 53.019 -96 0 C -96 -53.019 -53.019 -96 0 -96 Z" android:fillAlpha="1.0" aapt:layer_name="Ellipse Path 1" aapt:style_name="Fill 1" />
+    </group>
+    <group android:name="s2" android:pivotX="37.0" android:pivotY="37.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="95.5" android:translateY="99.0" aapt:layer_name="dot 2">
+        <group android:name="s2pg1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="42.5" android:translateY="37.0" aapt:layer_name="Group 1">
+            <path android:name="s2pg1p10" android:fillColor="#ffef5a40" android:pathData="M 0 -44 C 24.301 -44 44 -24.301 44 0 C 44 24.301 24.301 44 0 44 C -24.301 44 -44 24.301 -44 0 C -44 -24.301 -24.301 -44 0 -44 Z" android:fillAlpha="0.0" aapt:layer_name="Ellipse Path 1" aapt:style_name="Fill 1" />
+        </group>
+    </group>
+    <group android:name="s1" android:pivotX="37.0" android:pivotY="37.0" android:scaleX="0.7" android:scaleY="1.0" android:rotation="0.0" android:translateX="99.0" android:translateY="99.0" aapt:layer_name="track 3">
+        <group android:name="s1pg1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="37.0" android:translateY="37.0" aapt:layer_name="Group 2">
+            <group android:name="s1pg1pg1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="0.0" android:translateY="0.0" aapt:layer_name="Group 1">
+                <path android:name="s1pg1pg1p10" android:fillColor="@drawable/$avd_shutter_ico_singletake_to_hyperlapse__1" android:pathData="M 72 0 C 72 24.301 72 -24.301 72 0 C 72 24.301 52.301 44 28 44 C 3.699 44 -3.699 44 -28 44 C -52.301 44 -72 24.301 -72 0 C -72 -24.301 -72 24.301 -72 0 C -72 -24.301 -52.301 -44 -28 -44 C -3.699 -44 3.699 -44 28 -44 C 52.301 -44 72 -24.301 72 0 Z" android:fillAlpha="0.0" aapt:layer_name="Rectangle Path 1" aapt:style_name="Gradient Fill 1" />
+            </group>
+        </group>
+    </group>
+</vector>

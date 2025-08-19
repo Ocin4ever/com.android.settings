@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/permissions_page_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:title="@string/Title_Permissions" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+        <include layout="@layout/app_permissions_layout" />
+    </ScrollView>
+</LinearLayout>

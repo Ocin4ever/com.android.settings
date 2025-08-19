@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/about_page_app_info" android:background="?actionBarItemBackground" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/about_page_action_bar_icon_size" android:layout_height="@dimen/about_page_action_bar_icon_size" android:src="@drawable/tw_ic_ab_app_info_mtrl" android:scaleType="centerCrop" android:tint="@color/theme_title_color" android:contentDescription="@null" android:layout_marginEnd="@dimen/about_page_app_info_button_padding_right" android:tooltipText="@string/app_info_button" />
+</LinearLayout>

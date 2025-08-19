@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@anim/bounce_touch_effect_interpolator" android:duration="@integer/animation_duration_button_bounce_effect_scale_down" android:valueTo="0.9" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/bounce_touch_effect_interpolator" android:duration="@integer/animation_duration_button_bounce_effect_scale_down" android:valueTo="0.9" android:propertyName="scaleY" />
+        </set>
+    </item>
+    <item android:state_pressed="false">
+        <set>
+            <objectAnimator android:interpolator="@anim/bounce_touch_effect_interpolator" android:duration="@integer/animation_duration_button_bounce_effect_scale_up" android:valueTo="1" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@anim/bounce_touch_effect_interpolator" android:duration="@integer/animation_duration_button_bounce_effect_scale_up" android:valueTo="1" android:propertyName="scaleY" />
+        </set>
+    </item>
+</selector>

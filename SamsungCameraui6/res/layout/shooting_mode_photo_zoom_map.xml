@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zoom_map" android:tag="layout/shooting_mode_photo_zoom_map_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/zoom_map_preview_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:id="@id/zoom_map_lock_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_zoom_map_lock_icon_selector" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    <View android:id="@id/out_rect" android:background="@drawable/photo_zoom_map_out_rect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <View android:id="@id/centre_guide_rect" android:background="@drawable/photo_zoom_map_centre_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <View android:background="@color/photo_zoom_map_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_map_view_line_thickness" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_toStartOf="@id/centre_guide_rect" />
+    <View android:background="@color/photo_zoom_map_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_map_view_line_thickness" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_toEndOf="@id/centre_guide_rect" />
+    <View android:background="@color/photo_zoom_map_line_color" android:layout_width="@dimen/zoom_map_view_line_thickness" android:layout_height="fill_parent" android:layout_above="@id/centre_guide_rect" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <View android:background="@color/photo_zoom_map_line_color" android:layout_width="@dimen/zoom_map_view_line_thickness" android:layout_height="fill_parent" android:layout_below="@id/centre_guide_rect" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+</RelativeLayout>

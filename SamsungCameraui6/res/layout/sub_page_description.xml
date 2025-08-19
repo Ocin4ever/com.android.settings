@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/winset_list_item_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/winset_list_item_end_padding" android:layout_marginEnd="@dimen/winset_list_item_end_padding">
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/swipe_shutter_button_to_description_text_size" android:textColor="@color/setting_description_text_color" android:ellipsize="marquee" android:id="@id/description" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_shutter_button_to_description" android:lineSpacingExtra="@dimen/camcorder_description_line_spacing" />
+    </LinearLayout>
+</LinearLayout>

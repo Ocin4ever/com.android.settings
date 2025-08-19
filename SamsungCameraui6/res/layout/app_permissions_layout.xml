@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/permission_layout_padding_side_and_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/permission_layout_padding_side_and_bottom" android:paddingEnd="@dimen/permission_layout_padding_side_and_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/permission_sub_title_text_size" android:textColor="@color/permission_sub_title_text_color" android:id="@id/required_permissions" android:paddingBottom="@dimen/permission_sub_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/required_permissions_china" android:lineHeight="@dimen/permission_sub_title_line_height" style="@style/SecRegular" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_title_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_camera" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/camera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_camera_title" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/camera_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_camera_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_microphone" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/microphone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_microphone_title" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/microphone_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_microphone_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_nearby_devices" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/nearby_devices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_nearby_device_title" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/nearby_devices_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_nearby_device_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_notifications" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/notification" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/notification_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_notification_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_photos_and_videos" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/storage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_storage_title" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/storage_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_photo_and_video_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/permission_sub_title_text_size" android:textColor="@color/permission_sub_title_text_color" android:id="@id/optional_permissions" android:paddingTop="@dimen/permission_notice_middle_line_padding_top" android:paddingBottom="@dimen/permission_sub_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/optional_permissions_china" android:lineHeight="@dimen/permission_sub_title_line_height" style="@style/SecRegular" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/permission_item_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/permission_item_image_layout_size" android:layout_height="@dimen/permission_item_image_layout_size" android:layout_marginEnd="@dimen/permission_item_image_margin_right">
+            <ImageView android:background="@drawable/perm_group_location" android:layout_width="@dimen/permission_item_image_size" android:layout_height="@dimen/permission_item_image_size" android:backgroundTint="@color/permission_item_description_text_color" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_location_title" style="@style/SecRegular" />
+            <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/location_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_location_description" style="@style/SecRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/appear_on_top_layout" android:paddingTop="@dimen/permission_notice_middle_line_padding_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/permission_item_text_size" android:textColor="@color/permission_item_name_text_color" android:id="@id/appear_on_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_system_alert_window_title" style="@style/SecRegular" />
+        <TextView android:textSize="@dimen/permission_item_description_text_size" android:textColor="@color/permission_item_name_description_text_color" android:id="@id/appear_on_top_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_system_alert_window_description" style="@style/SecRegular" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/permission_sub_title_text_size" android:textColor="@color/permission_sub_title_text_color" android:id="@id/optional_permissions_description" android:paddingTop="@dimen/permission_notice_middle_line_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/permission_optional_permissions_description" style="@style/SecRegular" />
+</LinearLayout>

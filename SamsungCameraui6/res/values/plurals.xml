@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_detected">
+        <item quantity="other">%d faces</item>
+        <item quantity="zero">%d faces</item>
+        <item quantity="one">%d face</item>
+        <item quantity="two">%d faces</item>
+        <item quantity="few">%d faces</item>
+        <item quantity="many">%d faces</item>
+    </plurals>
+    <plurals name="more_than_limit">
+        <item quantity="other">"Can't enter more than %d character."</item>
+        <item quantity="zero">"Can't enter more than %d character."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d character."</item>
+        <item quantity="few">"Can't enter more than %d character."</item>
+        <item quantity="many">"Can't enter more than %d character."</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="my_filter_reached_max_count">
+        <item quantity="other">"Can't create more than %d custom filters."</item>
+        <item quantity="zero">"Can't create more than %d custom filters."</item>
+        <item quantity="one">"Can't create more than %d custom filters."</item>
+        <item quantity="two">"Can't create more than %d custom filters."</item>
+        <item quantity="few">"Can't create more than %d custom filters."</item>
+        <item quantity="many">"Can't create more than %d custom filters."</item>
+    </plurals>
+    <plurals name="toast_hyperlaplse_duration_minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="zero">%1$d minute</item>
+        <item quantity="one">%1$d minute</item>
+        <item quantity="two">%1$d minutes</item>
+        <item quantity="few">%1$d minutes</item>
+        <item quantity="many">%1$d minutes</item>
+    </plurals>
+    <plurals name="toast_super_resolution_torch_high_temperature_warning">
+        <item quantity="other">"To avoid overheating, don't record more than %d minutes of 8K video."</item>
+        <item quantity="zero">"To avoid overheating, don't record more than %d minutes of 8K video."</item>
+        <item quantity="one">"To avoid overheating, don't record more than %d minute of 8K video."</item>
+        <item quantity="two">"To avoid overheating, don't record more than %d minutes of 8K video."</item>
+        <item quantity="few">"To avoid overheating, don't record more than %d minutes of 8K video."</item>
+        <item quantity="many">"To avoid overheating, don't record more than %d minutes of 8K video."</item>
+    </plurals>
+    <plurals name="toast_torch_high_temperature_warning">
+        <item quantity="other">"To avoid overheating, don't record more than %1$d minutes of %2$s."</item>
+        <item quantity="zero">"To avoid overheating, don't record more than %1$d minutes of %2$s."</item>
+        <item quantity="one">"To avoid overheating, don't record more than %1$d minute of %2$s."</item>
+        <item quantity="two">"To avoid overheating, don't record more than %1$d minutes of %2$s."</item>
+        <item quantity="few">"To avoid overheating, don't record more than %1$d minutes of %2$s."</item>
+        <item quantity="many">"To avoid overheating, don't record more than %1$d minutes of %2$s."</item>
+    </plurals>
+    <plurals name="tts_hyperlaplse_duration_minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="zero">%1$d minute</item>
+        <item quantity="one">%1$d minute</item>
+        <item quantity="two">%1$d minutes</item>
+        <item quantity="few">%1$d minutes</item>
+        <item quantity="many">%1$d minutes</item>
+    </plurals>
+    <plurals name="tts_photo_size">
+        <item quantity="other">%d megapixels</item>
+        <item quantity="zero">%d megapixels</item>
+        <item quantity="one">%d megapixels</item>
+        <item quantity="two">%d megapixels</item>
+        <item quantity="few">%d megapixels</item>
+        <item quantity="many">%d megapixels</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute">
+        <item quantity="other">%d hours one minute</item>
+        <item quantity="zero">%d hours one minute</item>
+        <item quantity="one">%d hour one minute</item>
+        <item quantity="two">%d hours one minute</item>
+        <item quantity="few">%d hours one minute</item>
+        <item quantity="many">%d hours one minute</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_minute_one_second">
+        <item quantity="other">%d hours one minute one second</item>
+        <item quantity="zero">%d hours one minute one second</item>
+        <item quantity="one">%d hour one minute one second</item>
+        <item quantity="two">%d hours one minute one second</item>
+        <item quantity="few">%d hours one minute one second</item>
+        <item quantity="many">%d hours one minute one second</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_hours_one_second">
+        <item quantity="other">%1$d hours one second</item>
+        <item quantity="zero">%1$d hours one second</item>
+        <item quantity="one">%1$d hour one second</item>
+        <item quantity="two">%1$d hours one second</item>
+        <item quantity="few">%1$d hours one second</item>
+        <item quantity="many">%1$d hours one second</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="zero">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_minutes_one_second">
+        <item quantity="other">%d minutes one second</item>
+        <item quantity="zero">%d minutes one second</item>
+        <item quantity="one">%d minute one second</item>
+        <item quantity="two">%d minutes one second</item>
+        <item quantity="few">%d minutes one second</item>
+        <item quantity="many">%d minutes one second</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_n_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="zero">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes">
+        <item quantity="other">One hour %d minutes</item>
+        <item quantity="zero">One hour %d minutes</item>
+        <item quantity="one">One hour %d minute</item>
+        <item quantity="two">One hour %d minutes</item>
+        <item quantity="few">One hour %d minutes</item>
+        <item quantity="many">One hour %d minutes</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_minutes_one_second">
+        <item quantity="other">One hour %d minutes one second</item>
+        <item quantity="zero">One hour %d minutes one second</item>
+        <item quantity="one">One hour %d minute one second</item>
+        <item quantity="two">One hour %d minutes one second</item>
+        <item quantity="few">One hour %d minutes one second</item>
+        <item quantity="many">One hour %d minutes one second</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_n_seconds">
+        <item quantity="other">One hour %d seconds</item>
+        <item quantity="zero">One hour %d seconds</item>
+        <item quantity="one">One hour %d second</item>
+        <item quantity="two">One hour %d seconds</item>
+        <item quantity="few">One hour %d seconds</item>
+        <item quantity="many">One hour %d seconds</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_hour_one_minute_n_seconds">
+        <item quantity="other">One hour one minute %d seconds</item>
+        <item quantity="zero">One hour one minute %d seconds</item>
+        <item quantity="one">One hour one minute %d second</item>
+        <item quantity="two">One hour one minute %d seconds</item>
+        <item quantity="few">One hour one minute %d seconds</item>
+        <item quantity="many">One hour one minute %d seconds</item>
+    </plurals>
+    <plurals name="tts_recording_elapsed_time_one_minute_n_seconds">
+        <item quantity="other">One minute %d seconds</item>
+        <item quantity="zero">One minute %d seconds</item>
+        <item quantity="one">One minute %d second</item>
+        <item quantity="two">One minute %d seconds</item>
+        <item quantity="few">One minute %d seconds</item>
+        <item quantity="many">One minute %d seconds</item>
+    </plurals>
+</resources>

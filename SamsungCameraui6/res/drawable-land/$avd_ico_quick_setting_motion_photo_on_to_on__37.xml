@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__38" android:duration="100" android:valueFrom="1" android:valueTo="1.2" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__39" android:duration="200" android:valueFrom="1.2" android:valueTo="1" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__40" android:duration="100" android:valueFrom="1" android:valueTo="1.2" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__41" android:duration="200" android:valueFrom="1.2" android:valueTo="1" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__42" android:duration="100" android:pathData="M 43.701,43.62 C41.364,43.62 29.682,43.62 29.682,43.62" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__43" android:duration="200" android:pathData="M 29.682,43.62 C29.682,43.62 41.364,43.62 43.701,43.62" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__44" android:duration="100" android:pathData="M 43.701,43.62 C41.364,43.62 29.682,43.62 29.682,43.62" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$avd_ico_quick_setting_motion_photo_on_to_on__45" android:duration="200" android:pathData="M 29.682,43.62 C29.682,43.62 41.364,43.62 43.701,43.62" android:propertyYName="translateY" />
+    </set>
+</set>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/right_button_bg" android:tag="layout/key_screen_right_button_0" android:layout_width="@dimen/base_menu_side_button_size" android:layout_height="@dimen/base_menu_side_button_size" android:scaleType="fitXY" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton android:id="@id/switch_camera_button" android:tag="layout/key_screen_right_button_1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_main_btn_02_switch" android:scaleType="center" android:contentDescription="@string/switch_to_front_camera_title" />
+    <ImageButton android:id="@id/snapshot_button" android:tag="layout/key_screen_right_button_2" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_main_btn_02_capture" android:scaleType="center" android:soundEffectsEnabled="false" android:contentDescription="@string/capture_tts" />
+</merge>

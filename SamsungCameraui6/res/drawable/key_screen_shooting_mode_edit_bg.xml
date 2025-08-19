@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/shooting_mode_shortcut_edit_button_background_stroke_width" android:width="@dimen/shooting_mode_shortcut_edit_button_background_stroke_width" />
+    <solid android:color="@color/shooting_mode_edit_background" />
+</shape>

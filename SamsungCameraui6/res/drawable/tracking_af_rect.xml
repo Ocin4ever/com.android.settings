@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/tracking_af_rect_radius" />
+    <stroke android:width="@dimen/tracking_af_rect_stroke" android:color="@color/tracking_af_rect_stroke_color" />
+</shape>

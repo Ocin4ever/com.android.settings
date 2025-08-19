@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_image_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/widget_image" android:background="@drawable/widget_preview_image_border" android:layout_width="fill_parent" android:layout_height="@dimen/widget_preview_image_max_height" android:src="@drawable/widget_sample_images" android:scaleType="centerCrop" android:adjustViewBounds="true" android:clipToOutline="true" />
+    <LinearLayout android:layout_gravity="start|bottom" android:orientation="vertical" android:id="@id/text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_preview_text_vertical_margin">
+        <ImageView android:id="@id/camera_icon" android:background="@drawable/widget_ic_camera" android:layout_width="@dimen/widget_preview_camera_icon_size" android:layout_height="@dimen/widget_preview_camera_icon_size" android:layout_marginHorizontal="@dimen/widget_preview_icon_side_margin" />
+        <TextView android:textSize="@dimen/widget_preview_title_text_size" android:textColor="@color/widget_text_color" android:ellipsize="end" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_title_text_top_margin" android:text="@string/widget_title" android:maxLines="2" android:layout_marginHorizontal="@dimen/widget_preview_text_side_margin" style="@style/SecSemiBold" />
+        <TextView android:textSize="@dimen/widget_preview_mode_text_size" android:textColor="@color/widget_text_color" android:ellipsize="end" android:id="@id/widget_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_mode_text_top_margin" android:text="@string/SM_PHOTO" android:maxLines="2" android:layout_marginHorizontal="@dimen/widget_preview_text_side_margin" style="@style/SecRegular" />
+    </LinearLayout>
+</FrameLayout>

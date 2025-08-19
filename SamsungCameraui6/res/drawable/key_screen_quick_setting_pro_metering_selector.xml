@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_metering_01_on" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_metering_03_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_metering_02_on" android:maxLevel="2" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/camera_quick_ic_metering_01" android:maxLevel="0" />
+            <item android:drawable="@drawable/camera_quick_ic_metering_03" android:maxLevel="1" />
+            <item android:drawable="@drawable/camera_quick_ic_metering_02" android:maxLevel="2" />
+        </level-list>
+    </item>
+</selector>

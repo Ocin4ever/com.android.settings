@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="350" android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@anim/physics_back_interpolator" android:fromXDelta="179.99878%" android:toXDelta="0.0" />
+    <alpha android:interpolator="@anim/physics_back_interpolator" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <scale android:interpolator="@anim/physics_back_interpolator" android:pivotX="50.0%" android:pivotY="50.0%" android:fromXScale="79.99999%" android:toXScale="100.0%" android:fromYScale="79.99999%" android:toYScale="100.0%" />
+</set>

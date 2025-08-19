@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toast_view_group" android:tag="layout/popup_toast_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/overlay_layout_toast_text_side_margin" android:paddingVertical="@dimen/overlay_layout_toast_text_inside_top_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/overlay_layout_toast_text_size" android:textColor="@color/default_text_color" android:gravity="center_vertical" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/overlay_layout_toast_max_width" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SecRegular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

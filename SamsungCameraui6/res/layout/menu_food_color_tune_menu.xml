@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/menu_food_color_tune_menu_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <com.sec.android.app.camera.widget.Slider android:id="@id/food_color_tune_slider" android:visibility="gone" android:layout_width="@dimen/slidermenu_food_color_tune_slider_width" android:layout_height="@dimen/slidermenu_background_view_height" android:layout_marginTop="@dimen/slidermenu_food_color_tune_slider_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/bottom_guideline" />
+</androidx.constraintlayout.widget.ConstraintLayout>

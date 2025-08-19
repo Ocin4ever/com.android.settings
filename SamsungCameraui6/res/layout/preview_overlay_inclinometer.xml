@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.camera.layer.previewoverlay.guideline.InclinometerBar android:id="@id/meter_bar" android:tag="layout/preview_overlay_inclinometer_0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.sec.android.app.camera.layer.previewoverlay.guideline.InclinometerBar android:id="@id/guide_bar" android:tag="layout/preview_overlay_inclinometer_1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

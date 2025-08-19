@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/overlay_layout_zoom_group_lens_button_background_radius" />
+    <solid android:color="@color/zoom_button_background_dark" />
+</shape>

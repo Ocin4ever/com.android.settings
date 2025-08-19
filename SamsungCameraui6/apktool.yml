@@ -1,0 +1,24 @@
+version: 2.12.0
+apkFileName: SamsungCameraui6.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 34
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 1410117000
+  versionName: 14.1.01.17
+doNotCompress:
+- arsc
+- dex
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw/keep.xml
+- res/raw/keep_arcore.xml

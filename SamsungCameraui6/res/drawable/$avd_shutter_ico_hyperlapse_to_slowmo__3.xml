@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$avd_shutter_ico_hyperlapse_to_slowmo__4" android:duration="150" android:valueFrom="121.5" android:valueTo="117.5" android:propertyName="translateX" />
+    </set>
+</set>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="0.0dip" />
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="@dimen/zoom_map_view_guide_rect_thickness" android:color="@color/photo_zoom_map_line_color" />
+</shape>

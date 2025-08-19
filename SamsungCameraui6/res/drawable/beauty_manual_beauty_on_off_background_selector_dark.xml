@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/beauty_manual_beauty_item_on_off_text_background_color" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/beauty_manual_beauty_item_background_selector_dark" />
+</selector>

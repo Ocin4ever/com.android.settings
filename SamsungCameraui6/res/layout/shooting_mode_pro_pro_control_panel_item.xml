@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pro_item" android:tag="layout/shooting_mode_pro_pro_control_panel_item_0" android:clipChildren="false" android:layout_width="@dimen/pro_item_size" android:layout_height="@dimen/pro_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:layout_gravity="center_horizontal" android:id="@id/pro_item_button" android:layout_width="@dimen/pro_item_size" android:layout_height="@dimen/pro_item_size" />
+    <FrameLayout android:orientation="vertical" android:id="@id/pro_item_text_wrapper" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/pro_item_text_area_height" android:layout_marginTop="@dimen/pro_item_text_pos_y">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sec.android.app.camera.widget.StrokedTextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/pro_item_text" android:layout_width="fill_parent" android:layout_height="@dimen/pro_item_text_area_height" android:importantForAccessibility="no" app:textViewStroke="true" app:textViewStrokeColor="@color/pro_text_stroke_color" app:textViewStrokeWidth="@integer/default_stroke_width" style="@style/ProControlPanelItemButtonText" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/reset_rotation_animation" android:visibility="gone" android:layout_width="@dimen/pro_item_size" android:layout_height="@dimen/pro_item_size" app:lottie_rawRes="@raw/lottie_pro_reset_ic_light" />
+</FrameLayout>

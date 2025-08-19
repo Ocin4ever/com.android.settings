@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/shooting_mode_slow_motion_main" android:tag="layout/shooting_mode_slow_motion_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/quick_setting_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/quick_setting_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/top_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/shutter_area_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/shutter_area_guideline_percent" />
+    <com.sec.android.app.camera.widget.RecordingTimeIndicator android:id="@id/recording_time_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/quick_setting_guideline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

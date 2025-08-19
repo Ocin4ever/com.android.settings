@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/Title_Advanced_Intelligent_Options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/Title_quality_optimization" android:key="@string/dep_quality_optimization">
+        <com.sec.android.app.camera.setting.CameraRadioButtonPreference android:persistent="false" android:title="@string/Title_quality_optimization_max" android:key="@string/key_quality_optimization_max" android:dependency="@string/dep_quality_optimization" />
+        <com.sec.android.app.camera.setting.CameraRadioButtonPreference android:persistent="false" android:title="@string/Title_quality_optimization_mid" android:key="@string/key_quality_optimization_mid" android:summary="@string/quality_optimization_mid_summary" android:dependency="@string/dep_quality_optimization" />
+        <com.sec.android.app.camera.setting.CameraRadioButtonPreference android:persistent="false" android:title="@string/Title_quality_optimization_min" android:key="@string/key_quality_optimization_min" android:summary="@string/quality_optimization_min_summary" android:dependency="@string/dep_quality_optimization" />
+        <com.sec.android.app.camera.setting.SummaryPreference android:key="@string/key_advanced_intelligent_summary" android:summary="@string/advanced_intelligent_description" android:dependency="@string/dep_quality_optimization" app:allowDividerAbove="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_advanced_intelligent_options">
+        <com.sec.android.app.camera.setting.CameraSwitchPreference android:persistent="false" android:title="@string/Title_SceneOptimizer" android:key="@string/key_scene_optimizer" android:dependency="@string/dep_advanced_intelligent_options" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="@string/dep_empty" />
+</PreferenceScreen>

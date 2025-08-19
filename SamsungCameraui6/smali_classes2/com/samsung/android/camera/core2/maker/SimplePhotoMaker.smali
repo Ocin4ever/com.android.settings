@@ -1,0 +1,271 @@
+.class Lcom/samsung/android/camera/core2/maker/SimplePhotoMaker;
+.super Lcom/samsung/android/camera/core2/maker/PhotoMakerBase;
+.source "SourceFile"
+
+
+# static fields
+.field public static final s1:Lcom/samsung/android/camera/core2/util/CLog$Tag;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/samsung/android/camera/core2/util/CLog$Tag;
+
+    const-string v1, "SimplePhotoMaker"
+
+    invoke-direct {v0, v1}, Lcom/samsung/android/camera/core2/util/CLog$Tag;-><init>(Ljava/lang/String;)V
+
+    sput-object v0, Lcom/samsung/android/camera/core2/maker/SimplePhotoMaker;->s1:Lcom/samsung/android/camera/core2/util/CLog$Tag;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Class;Landroid/content/Context;Landroid/os/Handler;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p2, p3}, Lcom/samsung/android/camera/core2/maker/PhotoMakerBase;-><init>(Ljava/lang/Class;Landroid/content/Context;Landroid/os/Handler;)V
+
+    const/16 p1, 0x100
+
+    iput p1, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->x0:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public D()I
+    .locals 0
+
+    const/4 p0, 0x1
+
+    return p0
+.end method
+
+.method public declared-synchronized n0(Lcom/samsung/android/camera/core2/container/DynamicShotInfo;Lcom/samsung/android/camera/core2/util/WatermarkGenerator;I)I
+    .locals 3
+
+    monitor-enter p0
+
+    :try_start_0
+    sget-object p2, Lcom/samsung/android/camera/core2/maker/SimplePhotoMaker;->s1:Lcom/samsung/android/camera/core2/util/CLog$Tag;
+
+    const-string p3, "takePicture - dynamicShotInfo %s, DFovStreamType %s"
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/4 v1, 0x0
+
+    aput-object p1, v0, v1
+
+    iget-object v1, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->n0:Ljava/lang/Integer;
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    invoke-static {p2, p3, v0}, Lcom/samsung/android/camera/core2/util/CLog;->l(Lcom/samsung/android/camera/core2/util/CLog$Tag;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    const-string p2, "dynamicShotInfo"
+
+    invoke-static {p1, p2}, Lcom/samsung/android/camera/core2/util/ConditionChecker;->m(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    iget-object p2, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->w:Lcom/samsung/android/camera/core2/CamDevice;
+
+    invoke-virtual {p2}, Lcom/samsung/android/camera/core2/CamDevice;->k()Lcom/samsung/android/camera/core2/CamCapability;
+
+    move-result-object p2
+
+    invoke-virtual {p0, p1, p2}, Lcom/samsung/android/camera/core2/maker/MakerBase;->f2(Lcom/samsung/android/camera/core2/container/DynamicShotInfo;Lcom/samsung/android/camera/core2/CamCapability;)V
+
+    invoke-virtual {p0}, Lcom/samsung/android/camera/core2/maker/MakerBase;->j1()Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;
+
+    move-result-object p3
+
+    sget-object v0, Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;->e:Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;
+
+    invoke-virtual {p3, v0}, Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;->m(Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;)Lcom/samsung/android/camera/core2/maker/MakerUtils$CamDeviceSessionState;
+
+    invoke-static {}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions;->k()Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;
+
+    move-result-object p3
+
+    invoke-virtual {p2}, Lcom/samsung/android/camera/core2/CamCapability;->i0()Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    sget-object v0, Lcom/samsung/android/camera/core2/local/vendorkey/SemCaptureRequest;->x:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    invoke-virtual {p1}, Lcom/samsung/android/camera/core2/container/DynamicShotInfo;->a()I
+
+    move-result v1
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p3, v0, v1}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->c(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)V
+
+    sget-object v0, Lcom/samsung/android/camera/core2/local/vendorkey/SemCaptureRequest;->w:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    invoke-virtual {p1}, Lcom/samsung/android/camera/core2/container/DynamicShotInfo;->c()I
+
+    move-result v1
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p3, v0, v1}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->c(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)V
+
+    invoke-virtual {p2}, Lcom/samsung/android/camera/core2/CamCapability;->h0()Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    sget-object p2, Lcom/samsung/android/camera/core2/local/vendorkey/SemCaptureRequest;->v:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    invoke-virtual {p1}, Lcom/samsung/android/camera/core2/container/DynamicShotInfo;->b()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-virtual {p3, p2, v0}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->c(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)V
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/samsung/android/camera/core2/container/DynamicShotInfo;->c()I
+
+    move-result p2
+
+    invoke-static {p2}, Lcom/samsung/android/camera/core2/util/DynamicShotUtils;->d(I)Z
+
+    move-result p2
+
+    invoke-virtual {p3, p2}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->g(Z)V
+
+    sget-object p2, Lcom/samsung/android/camera/core2/local/vendorkey/SemCaptureRequest;->p:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    iget v0, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->m0:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {p3, p2, v0}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->c(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)V
+
+    :cond_1
+    sget-object p2, Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicFormat;->a:Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicFormat;
+
+    iget-object v0, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->n0:Ljava/lang/Integer;
+
+    invoke-virtual {p0, p2, p1, v0}, Lcom/samsung/android/camera/core2/maker/MakerBase;->v1(Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicFormat;Lcom/samsung/android/camera/core2/container/DynamicShotInfo;Ljava/lang/Integer;)Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicType;
+
+    move-result-object p1
+
+    invoke-virtual {p3, p1, p2, v2}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->f(Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicType;Lcom/samsung/android/camera/core2/container/PictureDataInfo$PicFormat;Z)V
+
+    iget-object p1, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->e:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {p1}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    :try_start_1
+    iget-object p1, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->w:Lcom/samsung/android/camera/core2/CamDevice;
+
+    invoke-virtual {p3}, Lcom/samsung/android/camera/core2/CamDeviceRequestOptions$Builder;->a()Lcom/samsung/android/camera/core2/CamDeviceRequestOptions;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lcom/samsung/android/camera/core2/CamDevice;->X(Lcom/samsung/android/camera/core2/CamDeviceRequestOptions;)I
+
+    move-result p1
+    :try_end_1
+    .catch Lcom/samsung/android/camera/core2/exception/CamDeviceException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :try_start_2
+    iget-object p2, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->e:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {p2}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    monitor-exit p0
+
+    return p1
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    :try_start_3
+    new-instance p2, Lcom/samsung/android/camera/core2/exception/InvalidOperationException;
+
+    const-string p3, "takePicture fail"
+
+    invoke-direct {p2, p3, p1}, Lcom/samsung/android/camera/core2/exception/InvalidOperationException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw p2
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    :goto_0
+    :try_start_4
+    iget-object p2, p0, Lcom/samsung/android/camera/core2/maker/MakerBase;->e:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {p2}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw p1
+    :try_end_4
+    .catchall {:try_start_4 .. :try_end_4} :catchall_1
+
+    :catchall_1
+    move-exception p1
+
+    monitor-exit p0
+
+    throw p1
+.end method
+
+.method public o0(Lcom/samsung/android/camera/core2/callback/PreviewCallback;Landroid/os/Handler;)I
+    .locals 0
+
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string p1, "SimplePhotoMaker does not support setMainPreviewCallback"
+
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public t1()Lcom/samsung/android/camera/core2/util/CLog$Tag;
+    .locals 0
+
+    sget-object p0, Lcom/samsung/android/camera/core2/maker/SimplePhotoMaker;->s1:Lcom/samsung/android/camera/core2/util/CLog$Tag;
+
+    return-object p0
+.end method

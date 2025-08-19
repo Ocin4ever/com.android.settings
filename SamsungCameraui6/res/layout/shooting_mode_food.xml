@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/shooting_mode_food_main" android:tag="layout/shooting_mode_food_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/wrapper_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.sec.android.app.camera.widget.ResizableRect android:id="@id/effect_guide" android:background="@drawable/food_roi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:touchVertexAreaWidth="@dimen/food_vertex_area_width" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/bottom_guideline_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="@integer/top_guideline_percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

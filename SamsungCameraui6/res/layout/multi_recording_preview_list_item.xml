@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/multi_preview_item_layout" android:tag="layout/multi_recording_preview_list_item_0" android:layout_width="@dimen/multi_recording_list_item_width" android:layout_height="@dimen/multi_recording_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/multi_preview_item" android:background="@drawable/multi_preview_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/multi_preview_stroke" android:background="@drawable/multi_preview_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/selected_rect" android:background="@drawable/multi_recording_list_item_selector_background_round_rect" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/more_shooting_mode_list_top_item_height" android:width="@dimen/more_shooting_mode_list_top_item_width" />
+    <corners android:radius="@dimen/more_shooting_mode_list_top_item_background_radius" />
+    <solid android:color="#2b000000" />
+</shape>

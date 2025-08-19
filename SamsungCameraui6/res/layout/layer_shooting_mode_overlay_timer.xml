@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/progress_wheel_guide_line" android:tag="layout/layer_shooting_mode_overlay_timer_0" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintGuide_percent="0.14" />
+    <com.sec.android.app.camera.layer.shootingmodeoverlay.timer.TimerIntervalProgressDot android:id="@id/progress_dot" android:tag="layout/layer_shooting_mode_overlay_timer_1" android:background="@drawable/timer_interval_dot_process_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/timer_interval_progress_dot_layer_height" android:layout_marginTop="@dimen/timer_interval_progress_dot_layer_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageSwitcher android:id="@id/timer_number" android:tag="layout/layer_shooting_mode_overlay_timer_2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timer_number_top_margin" android:scaleType="centerCrop" android:inAnimation="@anim/layer_shooting_mode_overlay_timer_number_in_animation" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/progress_wheel_guide_line" app:layout_constraintVertical_bias="0.0">
+        <ImageView android:layout_width="@dimen/timer_number_size" android:layout_height="@dimen/timer_number_size" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <ImageView android:layout_width="@dimen/timer_number_size" android:layout_height="@dimen/timer_number_size" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </ImageSwitcher>
+</merge>

@@ -1,34 +1,23 @@
-.class public final synthetic LM2/b;
+.class public final LM2/B;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-
 
 # instance fields
-.field public final synthetic a:Lcom/sec/android/app/camera/widget/dialer/DialerScrollView;
+.field public final a:I
+
+.field public final b:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/sec/android/app/camera/widget/dialer/DialerScrollView;)V
+.method public constructor <init>(II)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LM2/b;->a:Lcom/sec/android/app/camera/widget/dialer/DialerScrollView;
+    iput p1, p0, LM2/B;->a:I
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 0
-
-    iget-object p0, p0, LM2/b;->a:Lcom/sec/android/app/camera/widget/dialer/DialerScrollView;
-
-    invoke-virtual {p0}, Landroid/view/View;->semRequestAccessibilityFocus()Z
+    iput p2, p0, LM2/B;->b:I
 
     return-void
 .end method

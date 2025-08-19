@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/bokeh_effect_list_item_size" android:width="@dimen/bokeh_effect_list_item_size" />
+    <stroke android:width="@dimen/bokeh_effect_list_select_stroke_width" android:color="@color/bokeh_guide_font_color" />
+</shape>

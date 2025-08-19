@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="160.0dip" android:width="160.0dip" android:viewportWidth="160.0" android:viewportHeight="160.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="null_group" aapt:layer_name="Layer 3 Outlines 4">
+        <clip-path android:name="trk_s4" android:pathData="M320,-320v640h-640v-640zM114.152,117.043c1.31,-1.281 1.333,-3.379 0.053,-4.688l-62.769,-64.186c-1.281,-1.309 -3.379,-1.331 -4.688,-0.053c-1.309,1.281 -1.332,3.379 -0.053,4.688l62.77,64.186c0.649,0.664 1.51,0.998 2.37,0.998c0.836,0 1.673,-0.314 2.317,-0.945z" />
+        <group android:name="s5" android:pivotX="27.981" android:pivotY="76.875" android:translateX="52.006" android:translateY="41.115" aapt:layer_name="Layer 1 Outlines 8">
+            <clip-path android:name="s5m1" android:pathData="M -212.006 -201.115 H 640 V 640 H -640 V -640M 28.369 13.934 C 28.369 13.934 27.14 15.325 27.14 15.325 C 19.357 24.256 14.398 32.428 11.715 39.705 C 10.685 42.498 10.074 44.948 9.791 47.026 C 9.791 47.026 9.721 47.6 9.721 47.6 C 9.721 47.6 9.639 48.557 9.639 48.557 C 9.623 48.83 9.619 49.057 9.623 49.233 C 9.623 49.233 9.644 49.768 9.644 49.768 C 9.644 60.682 17.267 68.19 28.375 68.19 C 39.166 68.19 46.666 61.092 47.08 50.58 C 47.08 50.58 47.096 49.67 47.096 49.67 C 47.096 49.67 47.111 49.245 47.111 49.245 C 47.111 49.245 47.096 48.721 47.096 48.721 C 47.096 48.721 47.033 47.971 47.033 47.971 C 47.033 47.971 46.916 47.018 46.916 47.018 C 46.611 44.913 45.978 42.44 44.939 39.629 C 42.221 32.313 37.283 24.151 29.576 15.297 C 29.576 15.297 28.369 13.934 28.369 13.934 Z" />
+            <group android:name="s5pg1" android:translateX="27.995" android:translateY="38.442" aapt:layer_name="Group 2">
+                <path android:name="s5pg1p10" android:fillColor="#ff000000" android:pathData="M -3.34 -34.966 C -3.34 -34.966 0.006 -38.443 0.006 -38.443 C 0.006 -38.443 3.352 -34.964 3.352 -34.964 C 14.313 -23.558 21.281 -12.89 25.02 -3.193 C 26.391 0.368 27.246 3.598 27.68 6.473 C 27.93 8.141 28.012 9.505 27.992 10.466 C 27.992 10.466 27.977 10.915 27.977 10.915 C 27.93 26.497 16.605 37.958 1.008 38.427 C 1.008 38.427 0.006 38.442 0.006 38.442 C 0.006 38.442 -0.996 38.427 -0.996 38.427 C -16.27 37.966 -27.447 26.981 -27.955 12.005 C -27.955 12.005 -27.973 11.024 -27.973 11.024 C -28.035 9.95 -27.969 8.419 -27.678 6.473 C -27.244 3.598 -26.391 0.37 -25.018 -3.193 C -21.447 -12.45 -14.934 -22.591 -4.811 -33.415 C -4.811 -33.415 -3.34 -34.966 -3.34 -34.966 Z" android:fillAlpha="0.3" aapt:layer_name="Path 2" aapt:style_name="Fill 1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="null_group" aapt:layer_name="Layer 3 Outlines 3">
+        <clip-path android:name="trk_s2" android:pathData="M320,-320v640h-640v-640zM114.152,117.043c1.31,-1.281 1.333,-3.379 0.053,-4.688l-62.769,-64.186c-1.281,-1.309 -3.379,-1.331 -4.688,-0.053c-1.309,1.281 -1.332,3.379 -0.053,4.688l62.77,64.186c0.649,0.664 1.51,0.998 2.37,0.998c0.836,0 1.673,-0.314 2.317,-0.945z" />
+        <group android:name="s3" android:pivotX="28.002" android:pivotY="76.9" android:translateX="52.006" android:translateY="41.1" aapt:layer_name="Layer 1 Outlines 7">
+            <clip-path android:name="s3m1" android:pathData="M -212.006 -201.1 H 640 V 640 H -640 V -640M 28.248 10.993 C 6.486 34.509 7.496 49.425 7.51 49.573 C 7.51 49.573 7.52 49.8 7.52 49.8 C 7.52 61.823 16.043 70.222 28.25 70.222 C 40.447 70.222 48.971 61.823 48.971 49.8 C 48.971 49.8 48.979 49.573 48.979 49.573 C 48.986 49.44 49.775 34.278 28.248 10.993 Z" />
+            <group android:name="s3pg1" android:translateX="27.995" android:translateY="38.885" aapt:layer_name="Group 1">
+                <path android:name="s3pg1p10" android:fillColor="#fffcfcfc" android:pathData="M 0.005 36 C -15.022 36 -25.934 25.266 -25.977 10.469 C -26.083 8.652 -26.362 -8.574 -1.899 -34.021 C -1.899 -34.021 0.005 -36 0.005 -36 C 0.005 -36 1.907 -34.02 1.907 -34.02 C 26.362 -8.576 26.081 8.648 25.976 10.469 C 25.933 25.266 15.023 36 0.005 36 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="s1" android:pivotX="34.7" android:pivotY="35.408" android:translateX="45.75" android:translateY="47.172" aapt:layer_name="Layer 3 Outlines 2">
+        <group android:name="s1pg1" android:pivotX="8.889" android:pivotY="9.014" aapt:layer_name="Group 1">
+            <group android:name="s1pg1pg2" android:translateX="34.7" android:translateY="35.408" aapt:layer_name="Group 2">
+                <path android:name="s1pg1pg2p10" android:fillColor="#ff000000" android:pathData="M 31.385 35.408 C 30.525 35.408 29.664 35.074 29.015 34.41 C 29.015 34.41 -33.755 -29.776 -33.755 -29.776 C -35.034 -31.085 -35.011 -33.183 -33.702 -34.464 C -32.393 -35.742 -30.295 -35.72 -29.014 -34.411 C -29.014 -34.411 33.755 29.775 33.755 29.775 C 35.035 31.084 35.012 33.182 33.702 34.463 C 33.058 35.094 32.221 35.408 31.385 35.408 Z" android:fillAlpha="0.3" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+            </group>
+            <group android:name="s1pg1pg1" android:translateX="34.699" android:translateY="35.341" aapt:layer_name="Group 1">
+                <path android:name="s1pg1pg1p10" android:fillColor="#fffbfbfb" android:pathData="M 31.385 33.478 C 31.043 33.478 30.7 33.345 30.443 33.082 C 30.443 33.082 -32.327 -31.105 -32.327 -31.105 C -32.836 -31.626 -32.826 -32.46 -32.306 -32.969 C -31.786 -33.478 -30.951 -33.468 -30.442 -32.948 C -30.442 -32.948 32.327 31.238 32.327 31.238 C 32.836 31.758 32.827 32.593 32.307 33.102 C 32.05 33.353 31.717 33.478 31.385 33.478 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 1" />
+            </group>
+        </group>
+    </group>
+</vector>
